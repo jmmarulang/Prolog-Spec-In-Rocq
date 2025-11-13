@@ -1,0 +1,975 @@
+DIGEST 54c77cf6e09bf1456f789d0b91861d41
+FTop.SafetyProof
+R29:37 mathcomp.ssreflect.ssreflect <> <> lib
+R39:49 mathcomp.algebra.all_algebra <> <> lib
+R51:55 mathcomp.ssreflect.order <> <> lib
+R57:61 mathcomp.reals.reals <> <> lib
+R63:65 mathcomp.algebra_tactics.lra <> <> lib
+R67:73 mathcomp.ssreflect.ssrbool <> <> lib
+R76:80 mathcomp.ssreflect.tuple <> <> lib
+R82:84 mathcomp.ssreflect.seq <> <> lib
+R115:120 vehicle.tensor <> <> lib
+R130:139 mathcomp.algebra.archimedean Num.Theory <> mod
+R141:152 mathcomp.algebra.ssralg GRing.Theory <> mod
+R154:171 mathcomp.ssreflect.order Order.POrderTheory <> mod
+R214:231 Top.WindControllerSpec <> <> lib
+abbrev 245:245 <> R
+R250:269 Top.WindControllerSpec <> R defax
+def 349:356 <> toTensor
+R363:363 Top.SafetyProof <> R abbrev
+binder 359:359 <> x:1
+R371:371 Top.SafetyProof <> R abbrev
+binder 367:367 <> y:2
+R377:392 vehicle.tensor <> ntensor_of_tuple def
+R394:400 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_';'_'..'_';'_x_']' not
+R402:404 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_';'_'..'_';'_x_']' not
+R406:406 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_';'_'..'_';'_x_']' not
+R401:401 Top.SafetyProof <> x:1 var
+R405:405 Top.SafetyProof <> y:2 var
+def 421:429 <> roadWidth
+R433:433 Top.SafetyProof <> R abbrev
+def 452:463 <> maxWindShift
+R467:467 Top.SafetyProof <> R abbrev
+def 486:499 <> maxSensorError
+R503:503 Top.SafetyProof <> R abbrev
+R509:509 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+rec 591:595 <> state
+proj 610:618 <> windSpeed
+proj 628:635 <> position
+proj 645:652 <> velocity
+proj 662:667 <> sensor
+R622:622 Top.SafetyProof <> R abbrev
+R639:639 Top.SafetyProof <> R abbrev
+R656:656 Top.SafetyProof <> R abbrev
+R671:671 Top.SafetyProof <> R abbrev
+rec 686:696 <> observation
+proj 717:725 <> windShift
+proj 735:745 <> sensorError
+R729:729 Top.SafetyProof <> R abbrev
+R749:749 Top.SafetyProof <> R abbrev
+def 845:856 <> initialState
+R866:874 Top.SafetyProof <> windSpeed proj
+R866:874 Top.SafetyProof <> windSpeed proj
+R866:874 Top.SafetyProof <> windSpeed proj
+R885:892 Top.SafetyProof <> position proj
+R885:892 Top.SafetyProof <> position proj
+R903:910 Top.SafetyProof <> velocity proj
+R903:910 Top.SafetyProof <> velocity proj
+R921:926 Top.SafetyProof <> sensor proj
+R921:926 Top.SafetyProof <> sensor proj
+def 951:960 <> controller
+binder 962:962 <> x:11
+binder 964:964 <> y:12
+R971:971 vehicle.tensor <> :::x_'^^='_x not
+R1009:1012 vehicle.tensor <> :::x_'^^='_x not
+R972:981 Top.WindControllerSpec <> controller defax
+R984:992 Top.WindControllerSpec <> normalise def
+R995:1002 Top.SafetyProof <> toTensor def
+R1004:1004 Top.SafetyProof <> x:11 var
+R1006:1006 Top.SafetyProof <> y:12 var
+def 1028:1036 <> nextState
+binder 1038:1038 <> o:13
+binder 1040:1040 <> s:14
+R1080:1082 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1070:1078 Top.SafetyProof <> windSpeed proj
+R1067:1067 Top.SafetyProof <> s:14 var
+R1086:1094 Top.SafetyProof <> windShift proj
+R1083:1083 Top.SafetyProof <> o:13 var
+binder 1051:1062 <> newWindSpeed:15
+R1148:1150 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1133:1135 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1124:1131 Top.SafetyProof <> position proj
+R1121:1121 Top.SafetyProof <> s:14 var
+R1139:1146 Top.SafetyProof <> velocity proj
+R1136:1136 Top.SafetyProof <> s:14 var
+R1151:1162 Top.SafetyProof <> newWindSpeed:15 var
+binder 1106:1116 <> newPosition:16
+R1197:1199 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1186:1196 Top.SafetyProof <> newPosition:16 var
+R1203:1213 Top.SafetyProof <> sensorError proj
+R1200:1200 Top.SafetyProof <> o:13 var
+binder 1173:1181 <> newSensor:17
+R1252:1254 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1243:1250 Top.SafetyProof <> velocity proj
+R1240:1240 Top.SafetyProof <> s:14 var
+R1255:1264 Top.SafetyProof <> controller def
+R1266:1274 Top.SafetyProof <> newSensor:17 var
+R1279:1284 Top.SafetyProof <> sensor proj
+R1276:1276 Top.SafetyProof <> s:14 var
+binder 1225:1235 <> newVelocity:18
+R1295:1303 Top.SafetyProof <> windSpeed proj
+R1295:1303 Top.SafetyProof <> windSpeed proj
+R1295:1303 Top.SafetyProof <> windSpeed proj
+R1325:1332 Top.SafetyProof <> position proj
+R1325:1332 Top.SafetyProof <> position proj
+R1353:1360 Top.SafetyProof <> velocity proj
+R1353:1360 Top.SafetyProof <> velocity proj
+R1381:1386 Top.SafetyProof <> sensor proj
+R1381:1386 Top.SafetyProof <> sensor proj
+R1308:1319 Top.SafetyProof <> newWindSpeed:15 var
+R1337:1347 Top.SafetyProof <> newPosition:16 var
+R1365:1375 Top.SafetyProof <> newVelocity:18 var
+R1391:1399 Top.SafetyProof <> newSensor:17 var
+def 1419:1428 <> finalState
+binder 1430:1431 <> xs:19
+R1436:1440 mathcomp.ssreflect.seq <> foldr def
+R1465:1466 Top.SafetyProof <> xs:19 var
+R1452:1463 Top.SafetyProof <> initialState def
+R1442:1450 Top.SafetyProof <> nextState def
+def 1566:1587 <> nextPosition_windShift
+binder 1589:1589 <> s:20
+R1593:1593 Top.SafetyProof <> R abbrev
+R1627:1629 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1612:1614 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1603:1610 Top.SafetyProof <> position proj
+R1600:1600 Top.SafetyProof <> s:20 var
+R1618:1625 Top.SafetyProof <> velocity proj
+R1615:1615 Top.SafetyProof <> s:20 var
+R1633:1641 Top.SafetyProof <> windSpeed proj
+R1630:1630 Top.SafetyProof <> s:20 var
+def 1657:1662 <> onRoad
+binder 1664:1664 <> s:21
+R1686:1689 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R1669:1671 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1684:1685 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1675:1682 Top.SafetyProof <> position proj
+R1672:1672 Top.SafetyProof <> s:21 var
+R1690:1698 Top.SafetyProof <> roadWidth def
+def 1713:1732 <> safeDistanceFromEdge
+binder 1734:1734 <> s:22
+R1770:1772 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<'_x not
+R1741:1743 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1768:1769 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1744:1765 Top.SafetyProof <> nextPosition_windShift def
+R1767:1767 Top.SafetyProof <> s:22 var
+R1782:1784 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R1773:1781 Top.SafetyProof <> roadWidth def
+R1785:1796 Top.SafetyProof <> maxWindShift def
+def 1811:1831 <> accurateSensorReading
+binder 1833:1833 <> s:23
+R1870:1873 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R1840:1842 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1868:1869 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1855:1857 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R1846:1853 Top.SafetyProof <> position proj
+R1843:1843 Top.SafetyProof <> s:23 var
+R1861:1866 Top.SafetyProof <> sensor proj
+R1858:1858 Top.SafetyProof <> s:23 var
+R1874:1887 Top.SafetyProof <> maxSensorError def
+def 1902:1924 <> sensorReadingNotOffRoad
+binder 1926:1926 <> s:24
+R1948:1951 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R1933:1935 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1946:1947 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R1939:1944 Top.SafetyProof <> sensor proj
+R1936:1936 Top.SafetyProof <> s:24 var
+R1961:1963 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R1952:1960 Top.SafetyProof <> roadWidth def
+R1964:1977 Top.SafetyProof <> maxSensorError def
+def 1992:2000 <> safeState
+binder 2002:2002 <> s:25
+R2009:2012 Corelib.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R2035:2039 Corelib.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R2063:2067 Corelib.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R2093:2096 Corelib.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R2013:2032 Top.SafetyProof <> safeDistanceFromEdge def
+R2034:2034 Top.SafetyProof <> s:25 var
+R2040:2060 Top.SafetyProof <> accurateSensorReading def
+R2062:2062 Top.SafetyProof <> s:25 var
+R2068:2090 Top.SafetyProof <> sensorReadingNotOffRoad def
+R2092:2092 Top.SafetyProof <> s:25 var
+def 2111:2126 <> validObservation
+binder 2128:2128 <> o:26
+R2135:2135 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2174:2181 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2216:2216 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2156:2159 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R2136:2138 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2154:2155 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2142:2152 Top.SafetyProof <> sensorError proj
+R2139:2139 Top.SafetyProof <> o:26 var
+R2160:2173 Top.SafetyProof <> maxSensorError def
+R2200:2203 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R2182:2184 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2198:2199 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2188:2196 Top.SafetyProof <> windShift proj
+R2185:2185 Top.SafetyProof <> o:26 var
+R2204:2215 Top.SafetyProof <> maxWindShift def
+prf 2306:2324 <> initialState_onRoad
+R2328:2333 Top.SafetyProof <> onRoad def
+R2335:2346 Top.SafetyProof <> initialState def
+R2368:2373 Top.SafetyProof <> onRoad def
+R2375:2380 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2368:2373 Top.SafetyProof <> onRoad def
+R2368:2373 Top.SafetyProof <> onRoad def
+R2375:2380 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2375:2380 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+prf 2395:2411 <> initialState_safe
+R2415:2423 Top.SafetyProof <> safeState def
+R2425:2436 Top.SafetyProof <> initialState def
+R2452:2456 Corelib.ssr.ssrbool <> and3P thm
+R2452:2456 Corelib.ssr.ssrbool <> and3P thm
+R2477:2496 Top.SafetyProof <> safeDistanceFromEdge def
+R2498:2519 Top.SafetyProof <> nextPosition_windShift def
+R2477:2496 Top.SafetyProof <> safeDistanceFromEdge def
+R2477:2496 Top.SafetyProof <> safeDistanceFromEdge def
+R2498:2519 Top.SafetyProof <> nextPosition_windShift def
+R2498:2519 Top.SafetyProof <> nextPosition_windShift def
+R2536:2540 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R2542:2547 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2550:2558 Top.SafetyProof <> roadWidth def
+R2561:2572 Top.SafetyProof <> maxWindShift def
+R2536:2540 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R2536:2540 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R2536:2540 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R2536:2540 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R2542:2547 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2542:2547 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2550:2558 Top.SafetyProof <> roadWidth def
+R2550:2558 Top.SafetyProof <> roadWidth def
+R2561:2572 Top.SafetyProof <> maxWindShift def
+R2561:2572 Top.SafetyProof <> maxWindShift def
+R2591:2611 Top.SafetyProof <> accurateSensorReading def
+R2614:2635 Top.SafetyProof <> nextPosition_windShift def
+R2591:2611 Top.SafetyProof <> accurateSensorReading def
+R2591:2611 Top.SafetyProof <> accurateSensorReading def
+R2614:2635 Top.SafetyProof <> nextPosition_windShift def
+R2614:2635 Top.SafetyProof <> nextPosition_windShift def
+R2651:2655 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R2657:2662 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2665:2678 Top.SafetyProof <> maxSensorError def
+R2651:2655 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R2651:2655 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R2657:2662 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2657:2662 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2665:2678 Top.SafetyProof <> maxSensorError def
+R2665:2678 Top.SafetyProof <> maxSensorError def
+R2700:2722 Top.SafetyProof <> sensorReadingNotOffRoad def
+R2724:2729 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2732:2740 Top.SafetyProof <> roadWidth def
+R2743:2756 Top.SafetyProof <> maxSensorError def
+R2700:2722 Top.SafetyProof <> sensorReadingNotOffRoad def
+R2700:2722 Top.SafetyProof <> sensorReadingNotOffRoad def
+R2724:2729 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2724:2729 mathcomp.algebra.ssrnum Num.Theory normr0 thm
+R2732:2740 Top.SafetyProof <> roadWidth def
+R2732:2740 Top.SafetyProof <> roadWidth def
+R2743:2756 Top.SafetyProof <> maxSensorError def
+R2743:2756 Top.SafetyProof <> maxSensorError def
+prf 2776:2789 <> controller_lem
+binder 2800:2800 <> x:27
+binder 2802:2802 <> y:28
+R2841:2846 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2811:2814 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R2807:2808 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2810:2810 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2809:2809 Top.SafetyProof <> x:27 var
+R2824:2826 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R2815:2823 Top.SafetyProof <> roadWidth def
+R2827:2840 Top.SafetyProof <> maxSensorError def
+R2881:2886 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2851:2854 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R2847:2848 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2850:2850 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2849:2849 Top.SafetyProof <> y:28 var
+R2864:2866 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R2855:2863 Top.SafetyProof <> roadWidth def
+R2867:2880 Top.SafetyProof <> maxSensorError def
+R2916:2918 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<'_x not
+R2887:2888 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2915:2915 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R2911:2913 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R2903:2905 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R2889:2898 Top.SafetyProof <> controller def
+R2900:2900 Top.SafetyProof <> x:27 var
+R2902:2902 Top.SafetyProof <> y:28 var
+R2907:2909 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R2910:2910 Top.SafetyProof <> x:27 var
+R2914:2914 Top.SafetyProof <> y:28 var
+R2943:2945 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R2928:2930 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R2919:2927 Top.SafetyProof <> roadWidth def
+R2931:2942 Top.SafetyProof <> maxWindShift def
+R2947:2949 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R2950:2963 Top.SafetyProof <> maxSensorError def
+R3000:3009 Top.SafetyProof <> controller def
+R3000:3009 Top.SafetyProof <> controller def
+R3000:3009 Top.SafetyProof <> controller def
+R3070:3073 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3077:3077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3049:3051 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R3034:3036 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R3025:3033 Top.SafetyProof <> roadWidth def
+R3037:3048 Top.SafetyProof <> maxWindShift def
+R3053:3055 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R3056:3069 Top.SafetyProof <> maxSensorError def
+R3075:3075 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3102:3110 Top.SafetyProof <> roadWidth def
+R3113:3124 Top.SafetyProof <> maxWindShift def
+R3127:3140 Top.SafetyProof <> maxSensorError def
+R3070:3073 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3077:3077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3049:3051 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R3034:3036 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R3025:3033 Top.SafetyProof <> roadWidth def
+R3037:3048 Top.SafetyProof <> maxWindShift def
+R3053:3055 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R3056:3069 Top.SafetyProof <> maxSensorError def
+R3075:3075 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3070:3073 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3077:3077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3049:3051 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R3034:3036 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R3025:3033 Top.SafetyProof <> roadWidth def
+R3037:3048 Top.SafetyProof <> maxWindShift def
+R3053:3055 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R3056:3069 Top.SafetyProof <> maxSensorError def
+R3075:3075 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3102:3110 Top.SafetyProof <> roadWidth def
+R3102:3110 Top.SafetyProof <> roadWidth def
+R3113:3124 Top.SafetyProof <> maxWindShift def
+R3113:3124 Top.SafetyProof <> maxWindShift def
+R3127:3140 Top.SafetyProof <> maxSensorError def
+R3127:3140 Top.SafetyProof <> maxSensorError def
+R3156:3170 mathcomp.algebra.ssrnum Num.Theory real_lter_norml def
+R3156:3170 mathcomp.algebra.ssrnum Num.Theory real_lter_norml def
+R3156:3170 mathcomp.algebra.ssrnum Num.Theory real_lter_norml def
+R3195:3197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3198:3198 vehicle.tensor <> :::x_'^^='_x not
+R3211:3214 vehicle.tensor <> :::x_'^^='_x not
+R3199:3206 Top.SafetyProof <> toTensor def
+R3215:3227 Top.WindControllerSpec <> currentSensor def
+R3249:3265 vehicle.tensor <> ntensor_of_tupleE thm
+R3195:3197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3198:3198 vehicle.tensor <> :::x_'^^='_x not
+R3211:3214 vehicle.tensor <> :::x_'^^='_x not
+R3199:3206 Top.SafetyProof <> toTensor def
+R3215:3227 Top.WindControllerSpec <> currentSensor def
+R3195:3197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3198:3198 vehicle.tensor <> :::x_'^^='_x not
+R3211:3214 vehicle.tensor <> :::x_'^^='_x not
+R3199:3206 Top.SafetyProof <> toTensor def
+R3215:3227 Top.WindControllerSpec <> currentSensor def
+R3249:3265 vehicle.tensor <> ntensor_of_tupleE thm
+R3249:3265 vehicle.tensor <> ntensor_of_tupleE thm
+R3287:3289 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3290:3290 vehicle.tensor <> :::x_'^^='_x not
+R3303:3306 vehicle.tensor <> :::x_'^^='_x not
+R3291:3298 Top.SafetyProof <> toTensor def
+R3307:3320 Top.WindControllerSpec <> previousSensor def
+R3342:3358 vehicle.tensor <> ntensor_of_tupleE thm
+R3287:3289 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3290:3290 vehicle.tensor <> :::x_'^^='_x not
+R3303:3306 vehicle.tensor <> :::x_'^^='_x not
+R3291:3298 Top.SafetyProof <> toTensor def
+R3307:3320 Top.WindControllerSpec <> previousSensor def
+R3287:3289 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3290:3290 vehicle.tensor <> :::x_'^^='_x not
+R3303:3306 vehicle.tensor <> :::x_'^^='_x not
+R3291:3298 Top.SafetyProof <> toTensor def
+R3307:3320 Top.WindControllerSpec <> previousSensor def
+R3342:3358 vehicle.tensor <> ntensor_of_tupleE thm
+R3342:3358 vehicle.tensor <> ntensor_of_tupleE thm
+R3371:3378 vehicle.tensor <> const_tK def
+R3382:3384 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3391:3398 vehicle.tensor <> const_tK def
+R3402:3404 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R3410:3420 vehicle.tensor <> tensor_nilN thm
+R3371:3378 vehicle.tensor <> const_tK def
+R3382:3384 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3371:3378 vehicle.tensor <> const_tK def
+R3382:3384 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3391:3398 vehicle.tensor <> const_tK def
+R3402:3404 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R3391:3398 vehicle.tensor <> const_tK def
+R3402:3404 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R3410:3420 vehicle.tensor <> tensor_nilN thm
+R3410:3420 vehicle.tensor <> tensor_nilN thm
+R3429:3432 Corelib.ssr.ssrbool <> andP thm
+R3429:3432 Corelib.ssr.ssrbool <> andP thm
+R3444:3457 vehicle.tensor <> tensor_nil_ltP thm
+R3460:3467 vehicle.tensor <> const_tD thm
+R3470:3477 vehicle.tensor <> const_tN thm
+R3484:3486 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R3490:3497 vehicle.tensor <> const_tM thm
+R3500:3510 vehicle.tensor <> tensor_nilK def
+R3444:3457 vehicle.tensor <> tensor_nil_ltP thm
+R3444:3457 vehicle.tensor <> tensor_nil_ltP thm
+R3444:3457 vehicle.tensor <> tensor_nil_ltP thm
+R3444:3457 vehicle.tensor <> tensor_nil_ltP thm
+R3460:3467 vehicle.tensor <> const_tD thm
+R3460:3467 vehicle.tensor <> const_tD thm
+R3460:3467 vehicle.tensor <> const_tD thm
+R3460:3467 vehicle.tensor <> const_tD thm
+R3470:3477 vehicle.tensor <> const_tN thm
+R3470:3477 vehicle.tensor <> const_tN thm
+R3470:3477 vehicle.tensor <> const_tN thm
+R3490:3497 vehicle.tensor <> const_tM thm
+R3484:3486 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R3484:3486 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R3490:3497 vehicle.tensor <> const_tM thm
+R3500:3510 vehicle.tensor <> tensor_nilK def
+R3500:3510 vehicle.tensor <> tensor_nilK def
+R3500:3510 vehicle.tensor <> tensor_nilK def
+R3500:3510 vehicle.tensor <> tensor_nilK def
+R3500:3510 vehicle.tensor <> tensor_nilK def
+R3519:3541 Top.WindControllerSpec <> safe prfax
+R3519:3541 Top.WindControllerSpec <> safe prfax
+R3553:3561 Top.WindControllerSpec <> safeInput def
+R3572:3574 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3570:3570 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3584:3586 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R3575:3583 Top.SafetyProof <> roadWidth def
+R3587:3600 Top.SafetyProof <> maxSensorError def
+R3623:3631 Top.SafetyProof <> roadWidth def
+R3634:3647 Top.SafetyProof <> maxSensorError def
+R3553:3561 Top.WindControllerSpec <> safeInput def
+R3553:3561 Top.WindControllerSpec <> safeInput def
+R3572:3574 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3570:3570 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3584:3586 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R3575:3583 Top.SafetyProof <> roadWidth def
+R3587:3600 Top.SafetyProof <> maxSensorError def
+R3572:3574 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3570:3570 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R3584:3586 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R3575:3583 Top.SafetyProof <> roadWidth def
+R3587:3600 Top.SafetyProof <> maxSensorError def
+R3623:3631 Top.SafetyProof <> roadWidth def
+R3623:3631 Top.SafetyProof <> roadWidth def
+R3634:3647 Top.SafetyProof <> maxSensorError def
+R3634:3647 Top.SafetyProof <> maxSensorError def
+R3675:3688 vehicle.tensor <> tensor_nil_leP thm
+R3690:3700 vehicle.tensor <> tensor_nilN thm
+R3702:3709 vehicle.tensor <> const_tK def
+R3718:3721 Corelib.ssr.ssrbool <> andP thm
+R3675:3688 vehicle.tensor <> tensor_nil_leP thm
+R3675:3688 vehicle.tensor <> tensor_nil_leP thm
+R3675:3688 vehicle.tensor <> tensor_nil_leP thm
+R3675:3688 vehicle.tensor <> tensor_nil_leP thm
+R3690:3700 vehicle.tensor <> tensor_nilN thm
+R3690:3700 vehicle.tensor <> tensor_nilN thm
+R3702:3709 vehicle.tensor <> const_tK def
+R3702:3709 vehicle.tensor <> const_tK def
+R3718:3721 Corelib.ssr.ssrbool <> andP thm
+R3733:3747 mathcomp.algebra.ssrnum Num.Theory real_lter_norml def
+R3764:3771 mathcomp.algebra.ssrnum Num.Theory num_real thm
+R3733:3747 mathcomp.algebra.ssrnum Num.Theory real_lter_norml def
+R3733:3747 mathcomp.algebra.ssrnum Num.Theory real_lter_norml def
+R3764:3771 mathcomp.algebra.ssrnum Num.Theory num_real thm
+R3810:3817 Top.SafetyProof <> toTensor def
+R3819:3835 vehicle.tensor <> ntensor_of_tupleE thm
+R3810:3817 Top.SafetyProof <> toTensor def
+R3810:3817 Top.SafetyProof <> toTensor def
+R3819:3835 vehicle.tensor <> ntensor_of_tupleE thm
+R3819:3835 vehicle.tensor <> ntensor_of_tupleE thm
+R3810:3817 Top.SafetyProof <> toTensor def
+R3810:3817 Top.SafetyProof <> toTensor def
+R3819:3835 vehicle.tensor <> ntensor_of_tupleE thm
+R3819:3835 vehicle.tensor <> ntensor_of_tupleE thm
+prf 3850:3883 <> valid_imp_nextState_accurateSensor
+binder 3896:3896 <> o:29
+R3917:3922 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3899:3914 Top.SafetyProof <> validObservation def
+R3916:3916 Top.SafetyProof <> o:29 var
+binder 3930:3930 <> s:30
+R3933:3953 Top.SafetyProof <> accurateSensorReading def
+R3956:3964 Top.SafetyProof <> nextState def
+R3966:3966 Top.SafetyProof <> o:29 var
+R3968:3968 Top.SafetyProof <> s:30 var
+R3989:3992 Corelib.ssr.ssrbool <> andP thm
+R4022:4042 Top.SafetyProof <> accurateSensorReading def
+R4022:4042 Top.SafetyProof <> accurateSensorReading def
+R4022:4042 Top.SafetyProof <> accurateSensorReading def
+R4064:4067 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4073:4073 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4060:4062 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4069:4071 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4064:4067 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4073:4073 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4060:4062 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4069:4071 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4064:4067 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4073:4073 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4060:4062 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4069:4071 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4088:4092 mathcomp.algebra.ssralg GRing.Theory opprD def
+R4094:4098 mathcomp.algebra.ssralg GRing.Theory addrA def
+R4100:4104 mathcomp.algebra.ssralg GRing.Theory addrN def
+R4106:4110 mathcomp.algebra.ssralg GRing.Theory sub0r def
+R4112:4117 mathcomp.algebra.ssrnum Num.Theory normrN def
+R4088:4092 mathcomp.algebra.ssralg GRing.Theory opprD def
+R4088:4092 mathcomp.algebra.ssralg GRing.Theory opprD def
+R4094:4098 mathcomp.algebra.ssralg GRing.Theory addrA def
+R4094:4098 mathcomp.algebra.ssralg GRing.Theory addrA def
+R4100:4104 mathcomp.algebra.ssralg GRing.Theory addrN def
+R4100:4104 mathcomp.algebra.ssralg GRing.Theory addrN def
+R4106:4110 mathcomp.algebra.ssralg GRing.Theory sub0r def
+R4106:4110 mathcomp.algebra.ssralg GRing.Theory sub0r def
+R4112:4117 mathcomp.algebra.ssrnum Num.Theory normrN def
+R4112:4117 mathcomp.algebra.ssrnum Num.Theory normrN def
+prf 4132:4166 <> valid_and_safe_imp_nextState_onRoad
+binder 4179:4179 <> o:31
+R4200:4205 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4182:4197 Top.SafetyProof <> validObservation def
+R4199:4199 Top.SafetyProof <> o:31 var
+binder 4213:4213 <> s:32
+R4227:4232 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4216:4224 Top.SafetyProof <> safeState def
+R4226:4226 Top.SafetyProof <> s:32 var
+R4233:4238 Top.SafetyProof <> onRoad def
+R4241:4249 Top.SafetyProof <> nextState def
+R4251:4251 Top.SafetyProof <> o:31 var
+R4253:4253 Top.SafetyProof <> s:32 var
+R4274:4277 Corelib.ssr.ssrbool <> andP thm
+R4287:4291 Corelib.ssr.ssrbool <> and3P thm
+R4318:4323 Top.SafetyProof <> onRoad def
+R4327:4331 mathcomp.algebra.ssralg GRing.Theory addrA def
+R4318:4323 Top.SafetyProof <> onRoad def
+R4318:4323 Top.SafetyProof <> onRoad def
+R4327:4331 mathcomp.algebra.ssralg GRing.Theory addrA def
+R4327:4331 mathcomp.algebra.ssralg GRing.Theory addrA def
+R4341:4348 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R4366:4374 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R4341:4348 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R4366:4374 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R4386:4392 mathcomp.algebra.ssrnum Num.Theory lerBrDr thm
+R4386:4392 mathcomp.algebra.ssrnum Num.Theory lerBrDr thm
+R4386:4392 mathcomp.algebra.ssrnum Num.Theory lerBrDr thm
+R4402:4409 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R4424:4426 mathcomp.ssreflect.order Order.POrderTheory ltW thm
+R4402:4409 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R4424:4426 mathcomp.ssreflect.order Order.POrderTheory ltW thm
+R4465:4468 mathcomp.algebra.ssrnum Num.Theory lerB thm
+R4465:4468 mathcomp.algebra.ssrnum Num.Theory lerB thm
+prf 4483:4537 <> valid_and_safe_imp_nextState_sensorReading_not_off_road
+binder 4550:4550 <> s:33
+R4564:4569 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4553:4561 Top.SafetyProof <> safeState def
+R4563:4563 Top.SafetyProof <> s:33 var
+binder 4577:4577 <> o:34
+R4598:4603 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4580:4595 Top.SafetyProof <> validObservation def
+R4597:4597 Top.SafetyProof <> o:34 var
+R4604:4626 Top.SafetyProof <> sensorReadingNotOffRoad def
+R4629:4637 Top.SafetyProof <> nextState def
+R4639:4639 Top.SafetyProof <> o:34 var
+R4641:4641 Top.SafetyProof <> s:33 var
+R4688:4722 Top.SafetyProof <> valid_and_safe_imp_nextState_onRoad thm
+R4688:4722 Top.SafetyProof <> valid_and_safe_imp_nextState_onRoad thm
+R4688:4722 Top.SafetyProof <> valid_and_safe_imp_nextState_onRoad thm
+R4743:4746 Corelib.ssr.ssrbool <> andP thm
+R4765:4787 Top.SafetyProof <> sensorReadingNotOffRoad def
+R4765:4787 Top.SafetyProof <> sensorReadingNotOffRoad def
+R4765:4787 Top.SafetyProof <> sensorReadingNotOffRoad def
+R4797:4804 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R4822:4830 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R4797:4804 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R4822:4830 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R4842:4845 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R4842:4845 mathcomp.algebra.ssrnum Num.Theory lerD thm
+prf 4860:4908 <> valid_and_safe_imp_nextState_safeDistanceFromEdge
+binder 4921:4921 <> o:35
+R4942:4947 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4924:4939 Top.SafetyProof <> validObservation def
+R4941:4941 Top.SafetyProof <> o:35 var
+binder 4955:4955 <> s:36
+R4969:4974 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4958:4966 Top.SafetyProof <> safeState def
+R4968:4968 Top.SafetyProof <> s:36 var
+R4975:4994 Top.SafetyProof <> safeDistanceFromEdge def
+R4997:5005 Top.SafetyProof <> nextState def
+R5007:5007 Top.SafetyProof <> o:35 var
+R5009:5009 Top.SafetyProof <> s:36 var
+R5063:5117 Top.SafetyProof <> valid_and_safe_imp_nextState_sensorReading_not_off_road thm
+R5063:5117 Top.SafetyProof <> valid_and_safe_imp_nextState_sensorReading_not_off_road thm
+R5063:5117 Top.SafetyProof <> valid_and_safe_imp_nextState_sensorReading_not_off_road thm
+R5141:5144 Corelib.ssr.ssrbool <> andP thm
+R5152:5156 Corelib.ssr.ssrbool <> and3P thm
+R5187:5206 Top.SafetyProof <> safeDistanceFromEdge def
+R5209:5230 Top.SafetyProof <> nextPosition_windShift def
+R5187:5206 Top.SafetyProof <> safeDistanceFromEdge def
+R5187:5206 Top.SafetyProof <> safeDistanceFromEdge def
+R5209:5230 Top.SafetyProof <> nextPosition_windShift def
+R5209:5230 Top.SafetyProof <> nextPosition_windShift def
+R5298:5300 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5268:5271 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5297:5297 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5255:5257 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5245:5252 Top.SafetyProof <> position proj
+R5258:5265 Top.SafetyProof <> velocity proj
+R5283:5285 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5272:5280 Top.SafetyProof <> windSpeed proj
+R5286:5294 Top.SafetyProof <> windShift proj
+R5301:5311 Top.SafetyProof <> sensorError proj
+R5298:5300 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5268:5271 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5297:5297 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5255:5257 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5245:5252 Top.SafetyProof <> position proj
+R5258:5265 Top.SafetyProof <> velocity proj
+R5283:5285 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5272:5280 Top.SafetyProof <> windSpeed proj
+R5286:5294 Top.SafetyProof <> windShift proj
+R5301:5311 Top.SafetyProof <> sensorError proj
+R5333:5337 mathcomp.algebra.ssralg GRing.Theory addrA def
+R5333:5337 mathcomp.algebra.ssralg GRing.Theory addrA def
+R5333:5337 mathcomp.algebra.ssralg GRing.Theory addrA def
+R5333:5337 mathcomp.algebra.ssralg GRing.Theory addrA def
+R5333:5337 mathcomp.algebra.ssralg GRing.Theory addrA def
+R5333:5337 mathcomp.algebra.ssralg GRing.Theory addrA def
+R5477:5481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5463:5465 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5449:5451 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5419:5425 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5406:5408 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5392:5394 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5378:5380 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5365:5367 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5355:5362 Top.SafetyProof <> position proj
+R5368:5375 Top.SafetyProof <> velocity proj
+R5381:5389 Top.SafetyProof <> windSpeed proj
+R5395:5403 Top.SafetyProof <> windShift proj
+R5409:5416 Top.SafetyProof <> velocity proj
+R5426:5435 Top.SafetyProof <> controller def
+R5440:5445 Top.SafetyProof <> sensor proj
+R5452:5460 Top.SafetyProof <> windSpeed proj
+R5466:5474 Top.SafetyProof <> windShift proj
+R5482:5482 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5525:5533 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5587:5587 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5514:5516 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5506:5508 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5483:5492 Top.SafetyProof <> controller def
+R5497:5502 Top.SafetyProof <> sensor proj
+R5510:5512 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R5517:5522 Top.SafetyProof <> sensor proj
+R5571:5573 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5555:5557 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5542:5544 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5534:5539 Top.SafetyProof <> sensor proj
+R5545:5552 Top.SafetyProof <> position proj
+R5558:5568 Top.SafetyProof <> sensorError proj
+R5574:5584 Top.SafetyProof <> sensorError proj
+R5477:5481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5463:5465 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5449:5451 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5419:5425 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5406:5408 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5392:5394 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5378:5380 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5365:5367 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5355:5362 Top.SafetyProof <> position proj
+R5368:5375 Top.SafetyProof <> velocity proj
+R5381:5389 Top.SafetyProof <> windSpeed proj
+R5395:5403 Top.SafetyProof <> windShift proj
+R5409:5416 Top.SafetyProof <> velocity proj
+R5426:5435 Top.SafetyProof <> controller def
+R5440:5445 Top.SafetyProof <> sensor proj
+R5452:5460 Top.SafetyProof <> windSpeed proj
+R5466:5474 Top.SafetyProof <> windShift proj
+R5482:5482 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5525:5533 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5587:5587 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5514:5516 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5506:5508 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5483:5492 Top.SafetyProof <> controller def
+R5497:5502 Top.SafetyProof <> sensor proj
+R5510:5512 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R5517:5522 Top.SafetyProof <> sensor proj
+R5571:5573 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5555:5557 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5542:5544 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5534:5539 Top.SafetyProof <> sensor proj
+R5545:5552 Top.SafetyProof <> position proj
+R5558:5568 Top.SafetyProof <> sensorError proj
+R5574:5584 Top.SafetyProof <> sensorError proj
+R5477:5481 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5463:5465 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5449:5451 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5419:5425 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5406:5408 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5392:5394 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5378:5380 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5365:5367 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5355:5362 Top.SafetyProof <> position proj
+R5368:5375 Top.SafetyProof <> velocity proj
+R5381:5389 Top.SafetyProof <> windSpeed proj
+R5395:5403 Top.SafetyProof <> windShift proj
+R5409:5416 Top.SafetyProof <> velocity proj
+R5426:5435 Top.SafetyProof <> controller def
+R5440:5445 Top.SafetyProof <> sensor proj
+R5452:5460 Top.SafetyProof <> windSpeed proj
+R5466:5474 Top.SafetyProof <> windShift proj
+R5482:5482 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5525:5533 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5587:5587 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5514:5516 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5506:5508 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5483:5492 Top.SafetyProof <> controller def
+R5497:5502 Top.SafetyProof <> sensor proj
+R5510:5512 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R5517:5522 Top.SafetyProof <> sensor proj
+R5571:5573 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5555:5557 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5542:5544 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5534:5539 Top.SafetyProof <> sensor proj
+R5545:5552 Top.SafetyProof <> position proj
+R5558:5568 Top.SafetyProof <> sensorError proj
+R5574:5584 Top.SafetyProof <> sensorError proj
+R5613:5623 mathcomp.ssreflect.order Order.POrderTheory le_lt_trans thm
+R5641:5649 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R5613:5623 mathcomp.ssreflect.order Order.POrderTheory le_lt_trans thm
+R5641:5649 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R5661:5671 mathcomp.ssreflect.order Order.POrderTheory le_lt_trans thm
+R5726:5731 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5780:5780 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5681:5682 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R5725:5725 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R5714:5716 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5706:5708 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5683:5692 Top.SafetyProof <> controller def
+R5697:5702 Top.SafetyProof <> sensor proj
+R5710:5712 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R5717:5722 Top.SafetyProof <> sensor proj
+R5763:5765 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5746:5748 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5732:5745 Top.SafetyProof <> maxSensorError def
+R5749:5762 Top.SafetyProof <> maxSensorError def
+R5766:5779 Top.SafetyProof <> maxSensorError def
+R5661:5671 mathcomp.ssreflect.order Order.POrderTheory le_lt_trans thm
+R5726:5731 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5780:5780 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5681:5682 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R5725:5725 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R5714:5716 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5706:5708 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5683:5692 Top.SafetyProof <> controller def
+R5697:5702 Top.SafetyProof <> sensor proj
+R5710:5712 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R5717:5722 Top.SafetyProof <> sensor proj
+R5763:5765 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5746:5748 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R5732:5745 Top.SafetyProof <> maxSensorError def
+R5749:5762 Top.SafetyProof <> maxSensorError def
+R5766:5779 Top.SafetyProof <> maxSensorError def
+R5797:5800 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R5797:5800 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R5816:5823 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R5841:5849 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R5816:5823 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R5841:5849 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R5861:5864 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R5883:5888 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5861:5864 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R5883:5888 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5883:5888 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5900:5907 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R5925:5933 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R5900:5907 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R5925:5933 mathcomp.algebra.ssrnum Num.Theory ler_normD def
+R5945:5948 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R5967:5972 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5945:5948 mathcomp.algebra.ssrnum Num.Theory lerD thm
+R5967:5972 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5967:5972 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5989:5994 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5996:6000 mathcomp.algebra.ssralg GRing.Theory opprD def
+R6002:6006 mathcomp.algebra.ssralg GRing.Theory opprK def
+R6008:6012 mathcomp.algebra.ssralg GRing.Theory addrC def
+R5989:5994 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5989:5994 mathcomp.algebra.ssrnum Num.Theory normrN def
+R5996:6000 mathcomp.algebra.ssralg GRing.Theory opprD def
+R5996:6000 mathcomp.algebra.ssralg GRing.Theory opprD def
+R6002:6006 mathcomp.algebra.ssralg GRing.Theory opprK def
+R6002:6006 mathcomp.algebra.ssralg GRing.Theory opprK def
+R6008:6012 mathcomp.algebra.ssralg GRing.Theory addrC def
+R6008:6012 mathcomp.algebra.ssralg GRing.Theory addrC def
+R6024:6030 mathcomp.algebra.ssrnum Num.Theory ltrBrDr thm
+R6087:6089 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6070:6072 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6053:6055 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6039:6052 Top.SafetyProof <> maxSensorError def
+R6056:6069 Top.SafetyProof <> maxSensorError def
+R6073:6086 Top.SafetyProof <> maxSensorError def
+R6091:6093 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R6094:6107 Top.SafetyProof <> maxSensorError def
+R6024:6030 mathcomp.algebra.ssrnum Num.Theory ltrBrDr thm
+R6024:6030 mathcomp.algebra.ssrnum Num.Theory ltrBrDr thm
+R6087:6089 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6070:6072 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6053:6055 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6039:6052 Top.SafetyProof <> maxSensorError def
+R6056:6069 Top.SafetyProof <> maxSensorError def
+R6073:6086 Top.SafetyProof <> maxSensorError def
+R6091:6093 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R6094:6107 Top.SafetyProof <> maxSensorError def
+R6087:6089 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6070:6072 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6053:6055 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6039:6052 Top.SafetyProof <> maxSensorError def
+R6056:6069 Top.SafetyProof <> maxSensorError def
+R6073:6086 Top.SafetyProof <> maxSensorError def
+R6091:6093 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R6094:6107 Top.SafetyProof <> maxSensorError def
+R6134:6147 Top.SafetyProof <> controller_lem thm
+R6134:6147 Top.SafetyProof <> controller_lem thm
+prf 6196:6218 <> safe_imp_nextState_safe
+binder 6231:6231 <> s:37
+R6245:6250 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6234:6242 Top.SafetyProof <> safeState def
+R6244:6244 Top.SafetyProof <> s:37 var
+binder 6258:6258 <> o:38
+R6279:6284 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6261:6276 Top.SafetyProof <> validObservation def
+R6278:6278 Top.SafetyProof <> o:38 var
+R6285:6293 Top.SafetyProof <> safeState def
+R6296:6304 Top.SafetyProof <> nextState def
+R6306:6306 Top.SafetyProof <> o:38 var
+R6308:6308 Top.SafetyProof <> s:37 var
+R6348:6352 Corelib.ssr.ssrbool <> and3P thm
+R6348:6352 Corelib.ssr.ssrbool <> and3P thm
+R6373:6421 Top.SafetyProof <> valid_and_safe_imp_nextState_safeDistanceFromEdge thm
+R6373:6421 Top.SafetyProof <> valid_and_safe_imp_nextState_safeDistanceFromEdge thm
+R6435:6468 Top.SafetyProof <> valid_imp_nextState_accurateSensor thm
+R6435:6468 Top.SafetyProof <> valid_imp_nextState_accurateSensor thm
+R6482:6536 Top.SafetyProof <> valid_and_safe_imp_nextState_sensorReading_not_off_road thm
+R6482:6536 Top.SafetyProof <> valid_and_safe_imp_nextState_sensorReading_not_off_road thm
+prf 6551:6565 <> finalState_safe
+binder 6578:6579 <> xs:39
+R6582:6582 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6627:6633 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6590:6590 <> x:40
+R6605:6608 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6593:6599 Stdlib.Lists.List <> In def
+R6603:6604 Top.SafetyProof <> xs:39 var
+R6601:6601 Top.SafetyProof <> x:40 var
+R6609:6624 Top.SafetyProof <> validObservation def
+R6626:6626 Top.SafetyProof <> x:40 var
+R6634:6642 Top.SafetyProof <> safeState def
+R6645:6654 Top.SafetyProof <> finalState def
+R6656:6657 Top.SafetyProof <> xs:39 var
+R6713:6729 Top.SafetyProof <> initialState_safe thm
+R6713:6729 Top.SafetyProof <> initialState_safe thm
+R6738:6760 Top.SafetyProof <> safe_imp_nextState_safe thm
+R6738:6760 Top.SafetyProof <> safe_imp_nextState_safe thm
+prf 6848:6864 <> finalState_onRoad
+binder 6877:6878 <> xs:41
+R6881:6881 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6926:6932 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6889:6889 <> x:42
+R6904:6907 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6892:6898 Stdlib.Lists.List <> In def
+R6902:6903 Top.SafetyProof <> xs:41 var
+R6900:6900 Top.SafetyProof <> x:42 var
+R6908:6923 Top.SafetyProof <> validObservation def
+R6925:6925 Top.SafetyProof <> x:42 var
+R6933:6938 Top.SafetyProof <> onRoad def
+R6940:6949 Top.SafetyProof <> finalState def
+R6951:6952 Top.SafetyProof <> xs:41 var
+R7008:7026 Top.SafetyProof <> initialState_onRoad thm
+R7008:7026 Top.SafetyProof <> initialState_onRoad thm
+R7035:7069 Top.SafetyProof <> valid_and_safe_imp_nextState_onRoad thm
+R7035:7069 Top.SafetyProof <> valid_and_safe_imp_nextState_onRoad thm
+R7109:7123 Top.SafetyProof <> finalState_safe thm
+R7109:7123 Top.SafetyProof <> finalState_safe thm
+ind 7172:7186 <> CollisitonState
+constr 7201:7204 <> safe
+constr 7236:7244 <> collision
+R7213:7216 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7208:7212 Top.SafetyProof <> state rec
+R7217:7231 Top.SafetyProof <> CollisitonState:43 ind
+R7253:7256 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7248:7252 Top.SafetyProof <> state rec
+R7257:7271 Top.SafetyProof <> CollisitonState:43 ind
+scheme 7172:7186 <> CollisitonState_ind
+scheme 7172:7186 <> CollisitonState_sind
+ind 7286:7295 <> Transition
+constr 7361:7371 <> trans_r_s_s
+constr 7456:7466 <> trans_r_s_c
+constr 7556:7566 <> trans_r_c_s
+constr 7656:7666 <> trans_r_c_c
+constr 7756:7767 <> trans_nr_c_s
+constr 7857:7868 <> trans_nr_c_c
+R7303:7306 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7299:7302 Corelib.Init.Datatypes <> bool ind
+R7322:7325 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7307:7321 Top.SafetyProof <> CollisitonState ind
+R7341:7344 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7326:7340 Top.SafetyProof <> CollisitonState ind
+R7346:7349 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7345:7345 Top.SafetyProof <> R abbrev
+binder 7383:7383 <> s:47
+binder 7387:7387 <> o:48
+R7391:7400 Top.SafetyProof <> Transition:45 ind
+R7447:7447 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R7423:7426 Top.SafetyProof <> safe constr
+R7429:7437 Top.SafetyProof <> nextState def
+R7439:7439 Top.SafetyProof <> o:48 var
+R7441:7441 Top.SafetyProof <> s:47 var
+R7414:7417 Top.SafetyProof <> safe constr
+R7419:7419 Top.SafetyProof <> s:47 var
+R7403:7408 Top.SafetyProof <> onRoad def
+R7410:7410 Top.SafetyProof <> s:47 var
+binder 7478:7478 <> s:49
+binder 7482:7482 <> o:50
+R7486:7495 Top.SafetyProof <> Transition:45 ind
+R7547:7547 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R7518:7526 Top.SafetyProof <> collision constr
+R7529:7537 Top.SafetyProof <> nextState def
+R7539:7539 Top.SafetyProof <> o:50 var
+R7541:7541 Top.SafetyProof <> s:49 var
+R7509:7512 Top.SafetyProof <> safe constr
+R7514:7514 Top.SafetyProof <> s:49 var
+R7498:7503 Top.SafetyProof <> onRoad def
+R7505:7505 Top.SafetyProof <> s:49 var
+binder 7578:7578 <> s:51
+binder 7582:7582 <> o:52
+R7586:7595 Top.SafetyProof <> Transition:45 ind
+R7647:7647 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R7623:7626 Top.SafetyProof <> safe constr
+R7629:7637 Top.SafetyProof <> nextState def
+R7639:7639 Top.SafetyProof <> o:52 var
+R7641:7641 Top.SafetyProof <> s:51 var
+R7609:7617 Top.SafetyProof <> collision constr
+R7619:7619 Top.SafetyProof <> s:51 var
+R7598:7603 Top.SafetyProof <> onRoad def
+R7605:7605 Top.SafetyProof <> s:51 var
+binder 7678:7678 <> s:53
+binder 7682:7682 <> o:54
+R7686:7695 Top.SafetyProof <> Transition:45 ind
+R7747:7747 mathcomp.algebra.ssralg <> ::ring_scope:x_'/'_x not
+R7723:7726 Top.SafetyProof <> safe constr
+R7729:7737 Top.SafetyProof <> nextState def
+R7739:7739 Top.SafetyProof <> o:54 var
+R7741:7741 Top.SafetyProof <> s:53 var
+R7709:7717 Top.SafetyProof <> collision constr
+R7719:7719 Top.SafetyProof <> s:53 var
+R7698:7703 Top.SafetyProof <> onRoad def
+R7705:7705 Top.SafetyProof <> s:53 var
+binder 7779:7779 <> s:55
+binder 7783:7783 <> o:56
+R7787:7796 Top.SafetyProof <> Transition:45 ind
+R7827:7830 Top.SafetyProof <> safe constr
+R7833:7841 Top.SafetyProof <> nextState def
+R7843:7843 Top.SafetyProof <> o:56 var
+R7845:7845 Top.SafetyProof <> s:55 var
+R7813:7821 Top.SafetyProof <> collision constr
+R7823:7823 Top.SafetyProof <> s:55 var
+R7799:7801 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R7802:7807 Top.SafetyProof <> onRoad def
+R7809:7809 Top.SafetyProof <> s:55 var
+binder 7880:7880 <> s:57
+binder 7884:7884 <> o:58
+R7888:7897 Top.SafetyProof <> Transition:45 ind
+R7928:7936 Top.SafetyProof <> collision constr
+R7939:7947 Top.SafetyProof <> nextState def
+R7949:7949 Top.SafetyProof <> o:58 var
+R7951:7951 Top.SafetyProof <> s:57 var
+R7914:7922 Top.SafetyProof <> collision constr
+R7924:7924 Top.SafetyProof <> s:57 var
+R7900:7902 Corelib.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R7903:7908 Top.SafetyProof <> onRoad def
+R7910:7910 Top.SafetyProof <> s:57 var
+scheme 7286:7295 <> Transition_ind
+scheme 7286:7295 <> Transition_sind

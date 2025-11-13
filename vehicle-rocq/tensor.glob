@@ -1,0 +1,2850 @@
+DIGEST 67b5cc34601f2d994e6d59d64fd38335
+Fvehicle.tensor
+R23:32 HB.structures <> <> lib
+R64:72 mathcomp.ssreflect.ssreflect <> <> lib
+R74:76 mathcomp.ssreflect.seq <> <> lib
+R78:83 mathcomp.algebra.matrix <> <> lib
+R85:89 mathcomp.ssreflect.bigop <> <> lib
+R91:97 mathcomp.ssreflect.ssrbool <> <> lib
+R99:104 mathcomp.ssreflect.eqtype <> <> lib
+R106:111 mathcomp.ssreflect.choice <> <> lib
+R143:149 mathcomp.ssreflect.fintype <> <> lib
+R151:156 mathcomp.algebra.ssralg <> <> lib
+R158:163 mathcomp.ssreflect.ssrnat <> <> lib
+R165:170 mathcomp.ssreflect.ssrfun <> <> lib
+R172:176 mathcomp.ssreflect.order <> <> lib
+R178:183 mathcomp.ssreflect.finfun <> <> lib
+R185:189 mathcomp.ssreflect.tuple <> <> lib
+rec 7002:7005 <> pseq
+proj 7026:7030 <> psval
+R7035:7037 mathcomp.ssreflect.seq <> seq abbrev
+R7039:7041 Corelib.Init.Datatypes <> nat ind
+R7051:7053 mathcomp.ssreflect.seq <> all def
+R7073:7077 vehicle.tensor <> psval:2 meth
+R7055:7060 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R7062:7064 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R7071:7071 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 7061:7061 <> x:3
+R7066:7069 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R7065:7065 vehicle.tensor <> x:3 var
+R7113:7123 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R7129:7129 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'isSub'_'for'_x_']' not
+R7124:7128 vehicle.tensor <> psval proj
+def 7085:7130 <> HB_unnamed_factory_1
+def 7085:7130 <> tensor_pseq__canonical__eqtype_SubType
+def 7143:7150 <> nil_pseq
+R7155:7158 vehicle.tensor <> PSeq constr
+R7167:7169 mathcomp.ssreflect.seq <> all def
+R7189:7192 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R7171:7176 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R7178:7180 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R7187:7187 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 7177:7177 <> x:4
+R7182:7185 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R7181:7181 vehicle.tensor <> x:4 var
+R7161:7163 Corelib.ssr.ssrbool <> isT def
+def 7206:7214 <> cons_pseq
+binder 7216:7216 <> p:5
+R7224:7227 vehicle.tensor <> pseq rec
+binder 7219:7220 <> ps:6
+R7235:7238 vehicle.tensor <> PSeq constr
+R7251:7253 mathcomp.ssreflect.seq <> all def
+R7278:7281 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R7275:7277 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R7274:7274 vehicle.tensor <> p:5 var
+R7282:7283 vehicle.tensor <> ps:6 var
+R7255:7260 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R7262:7264 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+R7271:7271 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'pred'_x_'|'_x_']' not
+binder 7261:7261 <> x:7
+R7266:7269 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R7265:7265 vehicle.tensor <> x:7 var
+R7241:7244 mathcomp.ssreflect.eqtype <> valP thm
+R7246:7247 vehicle.tensor <> ps:6 var
+sec 7298:7306 <> TensorDef
+var  7319:7319 TensorDef R
+var  7330:7331 TensorDef us
+var  7333:7334 TensorDef ds
+R7338:7341 vehicle.tensor <> pseq rec
+ind 7354:7362 <> tensor_of
+constr 7376:7381 <> Tensor
+R7386:7388 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R7390:7392 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R7410:7411 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R7429:7429 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R7389:7389 vehicle.tensor <> TensorDef.R var
+R7393:7399 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R7401:7404 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R7407:7408 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R7405:7406 vehicle.tensor <> TensorDef.us var
+binder 7400:7400 <> u:13
+binder 7400:7400 <> u:14
+binder 7400:7400 <> u:15
+R7409:7409 vehicle.tensor <> u:13 var
+R7412:7418 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R7420:7423 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R7426:7427 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R7424:7425 vehicle.tensor <> TensorDef.ds var
+binder 7419:7419 <> d:16
+binder 7419:7419 <> d:17
+binder 7419:7419 <> d:18
+R7428:7428 vehicle.tensor <> d:16 var
+def 7444:7447 <> tval
+binder 7449:7449 <> t:19
+R7471:7471 vehicle.tensor <> t:19 var
+R7459:7464 vehicle.tensor <> Tensor constr
+R7508:7518 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'isNew'_'for'_x_']' not
+R7523:7523 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'isNew'_'for'_x_']' not
+R7519:7522 vehicle.tensor <> tval def
+def 7480:7524 <> HB_unnamed_factory_3
+def 7480:7524 <> tensor_tensor_of__canonical__eqtype_SubType
+R7531:7539 vehicle.tensor TensorDef <> sec
+prf 7549:7558 <> tensor_key
+R7562:7565 Corelib.Init.Datatypes <> unit ind
+binder 7620:7620 <> R:21
+R7631:7634 vehicle.tensor <> pseq rec
+binder 7623:7624 <> us:22
+binder 7626:7627 <> ds:23
+R7642:7645 Corelib.Init.Datatypes <> unit ind
+binder 7638:7638 <> k:24
+binder 7648:7648 <> M:25
+R7656:7661 vehicle.tensor <> Tensor constr
+R7663:7663 vehicle.tensor <> R:21 var
+R7665:7666 vehicle.tensor <> us:22 var
+R7668:7669 vehicle.tensor <> ds:23 var
+R7671:7671 vehicle.tensor <> M:25 var
+R7631:7634 vehicle.tensor <> pseq rec
+R7642:7645 Corelib.Init.Datatypes <> unit ind
+modtype 7588:7672 <> tensor_of_mx_Locked
+ax 7588:7672 tensor_of_mx_Locked body
+ax 7588:7672 tensor_of_mx_Locked unlock
+mod 7588:7672 <> tensor_of_mx
+def 7588:7672 tensor_of_mx body
+def 7588:7672 tensor_of_mx unlock
+abbrev 7588:7672 <> tensor_of_mx
+def 7588:7672 <> tensor_of_mx_unlock_subterm
+def 7684:7700 <> tensor_unlockable
+R7705:7714 Corelib.ssr.ssreflect <> Unlockable constr
+R7716:7734 vehicle.tensor <> unlock prfax
+R7777:7785 vehicle.tensor <> tensor_of variant
+not 7748:7748 <> :::'''T['_x_']_'_'('_x_','_x_')'
+R7844:7846 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7848:7850 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7853:7854 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7857:7857 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+not 7821:7821 <> :::'''T_'_'('_x_','_x_')'
+R7893:7895 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7897:7899 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7902:7903 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7908:7908 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7904:7907 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+not 7869:7869 <> :::'''nT['_x_']_'_'('_x_')'
+R7959:7961 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7963:7965 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7970:7971 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7974:7974 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R7966:7969 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+not 7935:7935 <> :::'''oT['_x_']_'_'('_x_')'
+R8020:8023 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R8025:8027 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R8030:8030 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+not 8001:8001 <> :::'''oT_'_'('_x_')'
+R8061:8064 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R8066:8068 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R8071:8071 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+not 8042:8042 <> :::'''nT_'_'('_x_')'
+sec 8084:8099 <> SubtypeInstances
+var  8112:8113 SubtypeInstances us
+var  8115:8116 SubtypeInstances ds
+R8120:8123 vehicle.tensor <> pseq rec
+R8157:8159 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R8161:8163 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R8166:8167 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R8170:8170 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R8164:8165 vehicle.tensor <> SubtypeInstances.us var
+R8168:8169 vehicle.tensor <> SubtypeInstances.ds var
+not 8142:8142 SubtypeInstances :::'''T['_x_']'
+R8204:8209 mathcomp.ssreflect.eqtype Equality.Exports eqType abbrev
+R8215:8227 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R8233:8239 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'Equality'_'of'_x_'by'_'<:'_']' not
+R8228:8230 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8232:8232 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8231:8231 vehicle.tensor <> R:33 var
+R8228:8230 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8232:8232 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8231:8231 vehicle.tensor <> R:33 var
+sec 8174:8240 SubtypeInstances.hb_instance_5 hb_instance_5
+var 8174:8240 SubtypeInstances.hb_instance_5 R
+def 8174:8240 <> HB_unnamed_factory_6
+def 8174:8240 <> eqtype_Equality__to__eqtype_hasDecEq
+def 8174:8240 <> HB_unnamed_mixin_8
+def 8174:8240 <> tensor_tensor_of__canonical__eqtype_Equality
+def 8174:8240 <> tensor_tensor_of__canonical__eqtype_SubEquality
+R8174:8240 vehicle.tensor SubtypeInstances <> sec
+R8272:8281 mathcomp.ssreflect.choice Choice.Exports choiceType abbrev
+R8287:8297 mathcomp.ssreflect.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R8303:8309 mathcomp.ssreflect.choice <> ::form_scope:'['_'Choice'_'of'_x_'by'_'<:'_']' not
+R8298:8300 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8302:8302 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8301:8301 vehicle.tensor <> R:34 var
+R8298:8300 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8302:8302 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8301:8301 vehicle.tensor <> R:34 var
+sec 8242:8310 SubtypeInstances.hb_instance_9 hb_instance_9
+var 8242:8310 SubtypeInstances.hb_instance_9 R
+def 8242:8310 <> HB_unnamed_factory_10
+def 8242:8310 <> choice_Choice__to__choice_hasChoice
+def 8242:8310 <> choice_Choice__to__eqtype_hasDecEq
+def 8242:8310 <> HB_unnamed_mixin_13
+def 8242:8310 <> tensor_tensor_of__canonical__choice_Choice
+def 8242:8310 <> tensor_tensor_of__canonical__choice_SubChoice
+R8242:8310 vehicle.tensor SubtypeInstances <> sec
+R8342:8350 mathcomp.ssreflect.choice Countable.Exports countType abbrev
+R8356:8369 mathcomp.ssreflect.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R8375:8381 mathcomp.ssreflect.choice <> ::form_scope:'['_'Countable'_'of'_x_'by'_'<:'_']' not
+R8370:8372 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8374:8374 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8373:8373 vehicle.tensor <> R:35 var
+R8370:8372 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8374:8374 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8373:8373 vehicle.tensor <> R:35 var
+sec 8312:8382 SubtypeInstances.hb_instance_14 hb_instance_14
+var 8312:8382 SubtypeInstances.hb_instance_14 R
+def 8312:8382 <> HB_unnamed_factory_15
+def 8312:8382 <> choice_Countable__to__choice_hasChoice
+def 8312:8382 <> choice_Countable__to__eqtype_hasDecEq
+def 8312:8382 <> choice_Countable__to__choice_Choice_isCountable
+def 8312:8382 <> HB_unnamed_mixin_19
+def 8312:8382 <> tensor_tensor_of__canonical__choice_Countable
+def 8312:8382 <> tensor_tensor_of__canonical__choice_SubCountable
+R8312:8382 vehicle.tensor SubtypeInstances <> sec
+R8414:8420 mathcomp.ssreflect.fintype Finite.Exports finType abbrev
+R8426:8436 mathcomp.ssreflect.fintype <> ::form_scope:'['_'Finite'_'of'_x_'by'_'<:'_']' not
+R8442:8448 mathcomp.ssreflect.fintype <> ::form_scope:'['_'Finite'_'of'_x_'by'_'<:'_']' not
+R8437:8439 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8441:8441 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8440:8440 vehicle.tensor <> R:36 var
+R8437:8439 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8441:8441 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8440:8440 vehicle.tensor <> R:36 var
+sec 8384:8449 SubtypeInstances.hb_instance_20 hb_instance_20
+var 8384:8449 SubtypeInstances.hb_instance_20 R
+def 8384:8449 <> HB_unnamed_factory_21
+def 8384:8449 <> fintype_Finite__to__choice_hasChoice
+def 8384:8449 <> fintype_Finite__to__choice_Choice_isCountable
+def 8384:8449 <> fintype_Finite__to__eqtype_hasDecEq
+def 8384:8449 <> fintype_Finite__to__fintype_isFinite
+def 8384:8449 <> HB_unnamed_mixin_26
+def 8384:8449 <> tensor_tensor_of__canonical__fintype_Finite
+def 8384:8449 <> tensor_tensor_of__canonical__fintype_SubFinite
+R8384:8449 vehicle.tensor SubtypeInstances <> sec
+prf 8458:8468 <> nmod_closed
+binder 8471:8471 <> m:37
+binder 8473:8473 <> n:38
+R8481:8488 mathcomp.algebra.ssralg GRing.Nmodule.Exports nmodType abbrev
+binder 8477:8477 <> R:39
+R8494:8504 mathcomp.algebra.ssralg GRing.ClosedExports addr_closed abbrev
+R8506:8508 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R8510:8512 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R8514:8515 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R8517:8517 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R8509:8509 vehicle.tensor <> R:39 var
+R8513:8513 vehicle.tensor <> n:38 var
+R8516:8516 vehicle.tensor <> m:37 var
+R8519:8523 Corelib.ssr.ssrbool <> predT def
+R8575:8582 mathcomp.algebra.ssralg GRing.Nmodule.Exports nmodType abbrev
+R8588:8621 mathcomp.algebra.ssralg GRing.SubChoice_isSubNmodule Build abbrev
+R8629:8631 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8633:8633 vehicle.tensor SubtypeInstances :::'''T['_x_']' not
+R8632:8632 vehicle.tensor <> R:40 var
+R8636:8646 vehicle.tensor <> nmod_closed thm
+R8648:8648 vehicle.tensor <> R:40 var
+sec 8545:8650 SubtypeInstances.hb_instance_27 hb_instance_27
+var 8545:8650 SubtypeInstances.hb_instance_27 R
+def 8545:8650 <> HB_unnamed_factory_28
+def 8545:8650 <> GRing_SubChoice_isSubNmodule__to__GRing_isSubNmodule
+def 8545:8650 <> GRing_SubChoice_isSubNmodule__to__GRing_isNmodule
+def 8545:8650 <> HB_unnamed_mixin_31
+def 8545:8650 <> tensor_tensor_of__canonical__GRing_Nmodule
+def 8545:8650 <> HB_unnamed_mixin_32
+def 8545:8650 <> tensor_tensor_of__canonical__GRing_SubNmodule
+R8545:8650 vehicle.tensor SubtypeInstances <> sec
+R9361:9376 vehicle.tensor SubtypeInstances <> sec
+sec 9389:9400 <> TensorPOrder
+R9411:9428 mathcomp.ssreflect.order Order.POrderTheory <> mod
+var  9465:9465 TensorPOrder o
+var  9484:9484 TensorPOrder R
+var  9503:9504 TensorPOrder us
+var  9506:9507 TensorPOrder ds
+R9469:9480 mathcomp.ssreflect.order Order disp_t rec
+R9488:9497 mathcomp.ssreflect.order Order.POrder.Exports porderType abbrev
+R9499:9499 vehicle.tensor <> o:41 var
+R9511:9514 vehicle.tensor <> pseq rec
+def 9530:9533 <> le_t
+R9542:9544 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9546:9548 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9551:9552 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9555:9555 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9545:9545 vehicle.tensor <> TensorPOrder.R var
+R9549:9550 vehicle.tensor <> TensorPOrder.us var
+R9553:9554 vehicle.tensor <> TensorPOrder.ds var
+binder 9536:9536 <> t:45
+binder 9538:9538 <> u:46
+R9563:9570 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+R9615:9615 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+binder 9571:9572 <> ij:47
+R9573:9574 mathcomp.ssreflect.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R9575:9575 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R9592:9597 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R9614:9614 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R9576:9591 mathcomp.ssreflect.eqtype <> :::'\val' not
+R9585:9586 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9583:9584 vehicle.tensor <> ij:47 var
+R9590:9591 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9588:9589 vehicle.tensor <> ij:47 var
+R9581:9581 vehicle.tensor <> t:45 var
+R9598:9613 mathcomp.ssreflect.eqtype <> :::'\val' not
+R9607:9608 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9605:9606 vehicle.tensor <> ij:47 var
+R9612:9613 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9610:9611 vehicle.tensor <> ij:47 var
+R9603:9603 vehicle.tensor <> u:46 var
+binder 9571:9572 <> ij:48
+binder 9571:9572 <> ij:49
+def 9630:9633 <> lt_t
+R9642:9644 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9646:9648 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9651:9652 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9655:9655 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R9645:9645 vehicle.tensor <> TensorPOrder.R var
+R9649:9650 vehicle.tensor <> TensorPOrder.us var
+R9653:9654 vehicle.tensor <> TensorPOrder.ds var
+binder 9636:9636 <> t:50
+binder 9638:9638 <> u:51
+R9661:9661 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9668:9672 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9663:9666 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R9662:9662 vehicle.tensor <> u:51 var
+R9667:9667 vehicle.tensor <> t:50 var
+R9673:9676 vehicle.tensor <> le_t def
+R9680:9680 vehicle.tensor <> u:51 var
+R9678:9678 vehicle.tensor <> t:50 var
+prf 9690:9697 <> lt_t_def
+binder 9708:9708 <> x:52
+binder 9710:9710 <> y:53
+R9721:9723 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9713:9716 vehicle.tensor <> lt_t def
+R9720:9720 vehicle.tensor <> y:53 var
+R9718:9718 vehicle.tensor <> x:52 var
+R9724:9724 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9731:9735 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9726:9729 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R9725:9725 vehicle.tensor <> y:53 var
+R9730:9730 vehicle.tensor <> x:52 var
+R9736:9739 vehicle.tensor <> le_t def
+R9743:9743 vehicle.tensor <> y:53 var
+R9741:9741 vehicle.tensor <> x:52 var
+prf 9772:9780 <> le_t_refl
+R9784:9792 Corelib.ssr.ssrbool <> reflexive def
+R9795:9798 vehicle.tensor <> le_t def
+R9829:9835 mathcomp.ssreflect.fintype <> forallP thm
+R9829:9835 mathcomp.ssreflect.fintype <> forallP thm
+prf 9850:9858 <> le_t_anti
+R9862:9874 Corelib.ssr.ssrbool <> antisymmetric def
+R9877:9880 vehicle.tensor <> le_t def
+R9903:9906 Corelib.ssr.ssrbool <> andP thm
+R9909:9915 mathcomp.ssreflect.fintype <> forallP thm
+R9926:9932 mathcomp.ssreflect.fintype <> forallP thm
+R9950:9956 mathcomp.ssreflect.eqtype <> val_inj thm
+R9958:9964 mathcomp.algebra.matrix <> matrixP thm
+R9980:9986 mathcomp.ssreflect.order Order.POrderTheory le_anti thm
+R9988:9991 Corelib.ssr.ssrbool <> andP thm
+R9950:9956 mathcomp.ssreflect.eqtype <> val_inj thm
+R9958:9964 mathcomp.algebra.matrix <> matrixP thm
+R9980:9986 mathcomp.ssreflect.order Order.POrderTheory le_anti thm
+R9988:9991 Corelib.ssr.ssrbool <> andP thm
+R10001:10004 Corelib.Init.Logic <> conj constr
+R10032:10032 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10034:10035 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10037:10037 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10015:10015 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10017:10018 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10020:10020 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10001:10004 Corelib.Init.Logic <> conj constr
+R10032:10032 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10034:10035 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10037:10037 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10015:10015 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10017:10018 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10020:10020 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+prf 10054:10063 <> le_t_trans
+R10067:10076 Corelib.ssr.ssrbool <> transitive def
+R10079:10082 vehicle.tensor <> le_t def
+R10107:10113 mathcomp.ssreflect.fintype <> forallP thm
+R10124:10130 mathcomp.ssreflect.fintype <> forallP thm
+R10147:10153 mathcomp.ssreflect.fintype <> forallP thm
+R10168:10175 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R10147:10153 mathcomp.ssreflect.fintype <> forallP thm
+R10168:10175 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R10212:10231 mathcomp.ssreflect.order Order.isPOrder Build abbrev
+R10235:10235 vehicle.tensor <> TensorPOrder.o var
+R10237:10239 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10241:10243 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10246:10247 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10250:10250 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10240:10240 vehicle.tensor <> TensorPOrder.R var
+R10244:10245 vehicle.tensor <> TensorPOrder.us var
+R10248:10249 vehicle.tensor <> TensorPOrder.ds var
+R10281:10290 vehicle.tensor <> le_t_trans thm
+R10271:10279 vehicle.tensor <> le_t_anti thm
+R10261:10269 vehicle.tensor <> le_t_refl thm
+R10252:10259 vehicle.tensor <> lt_t_def thm
+def 10184:10291 <> HB_unnamed_factory_33
+def 10184:10291 <> Order_isPOrder__to__Order_isDuallyPOrder
+def 10184:10291 <> HB_unnamed_mixin_35
+def 10184:10291 <> tensor_tensor_of__canonical__Order_POrder
+R10298:10309 vehicle.tensor TensorPOrder <> sec
+def 10325:10331 <> const_t
+binder 10334:10334 <> R:54
+binder 10336:10337 <> us:55
+binder 10339:10340 <> ds:56
+binder 10343:10343 <> v:57
+R10347:10349 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10351:10353 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10356:10357 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10360:10360 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10350:10350 vehicle.tensor <> R:54 var
+R10354:10355 vehicle.tensor <> us:55 var
+R10358:10359 vehicle.tensor <> ds:56 var
+R10367:10378 vehicle.tensor <> tensor_of_mx abbrev
+R10392:10399 mathcomp.algebra.matrix <> const_mx def
+R10401:10401 vehicle.tensor <> v:57 var
+R10380:10389 vehicle.tensor <> tensor_key thm
+sec 10415:10423 <> MapTensor
+var 10438:10439 MapTensor aT
+var 10441:10442 MapTensor rT
+var 10453:10453 MapTensor f
+R10459:10462 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10457:10458 vehicle.tensor <> aT:60 var
+R10463:10464 vehicle.tensor <> rT:61 var
+def 10480:10484 <> map_t
+binder 10486:10487 <> us:64
+binder 10489:10490 <> ds:65
+R10497:10499 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10502:10504 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10507:10508 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10511:10511 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10500:10501 vehicle.tensor <> MapTensor.aT var
+R10505:10506 vehicle.tensor <> us:64 var
+R10509:10510 vehicle.tensor <> ds:65 var
+binder 10493:10493 <> t:66
+R10519:10530 vehicle.tensor <> tensor_of_mx abbrev
+R10544:10549 mathcomp.algebra.matrix <> map_mx def
+R10554:10559 mathcomp.ssreflect.eqtype <> :::'\val' not
+R10559:10559 vehicle.tensor <> t:66 var
+R10551:10551 vehicle.tensor <> MapTensor.f var
+R10532:10541 vehicle.tensor <> tensor_key thm
+R10569:10577 vehicle.tensor MapTensor <> sec
+sec 10589:10598 <> Map2Tensor
+var  10611:10611 Map2Tensor R
+var  10613:10613 Map2Tensor S
+var  10615:10615 Map2Tensor T
+var  10626:10626 Map2Tensor f
+R10631:10634 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10630:10630 vehicle.tensor <> R:67 var
+R10636:10639 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R10635:10635 vehicle.tensor <> S:68 var
+R10640:10640 vehicle.tensor <> T:69 var
+def 10656:10661 <> map2_t
+binder 10663:10664 <> us:71
+binder 10666:10667 <> ds:72
+R10674:10676 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10678:10680 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10683:10684 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10687:10687 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10677:10677 vehicle.tensor <> Map2Tensor.R var
+R10681:10682 vehicle.tensor <> us:71 var
+R10685:10686 vehicle.tensor <> ds:72 var
+binder 10670:10670 <> t:73
+R10695:10697 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10699:10701 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10704:10705 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10708:10708 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R10698:10698 vehicle.tensor <> Map2Tensor.S var
+R10702:10703 vehicle.tensor <> us:71 var
+R10706:10707 vehicle.tensor <> ds:72 var
+binder 10691:10691 <> v:74
+R10716:10727 vehicle.tensor <> tensor_of_mx abbrev
+R10741:10747 mathcomp.algebra.matrix <> map2_mx def
+R10761:10766 mathcomp.ssreflect.eqtype <> :::'\val' not
+R10766:10766 vehicle.tensor <> v:74 var
+R10752:10757 mathcomp.ssreflect.eqtype <> :::'\val' not
+R10757:10757 vehicle.tensor <> t:73 var
+R10749:10749 vehicle.tensor <> Map2Tensor.f var
+R10729:10738 vehicle.tensor <> tensor_key thm
+R10776:10785 vehicle.tensor Map2Tensor <> sec
+sec 10798:10807 <> TensorLaws
+var  10820:10820 TensorLaws T
+var  10831:10832 TensorLaws us
+var  10834:10835 TensorLaws ds
+var  10846:10848 TensorLaws idm
+R10839:10842 vehicle.tensor <> pseq rec
+R10852:10852 vehicle.tensor <> T:75 var
+prf 10863:10869 <> map2_tA
+R10878:10887 mathcomp.ssreflect.bigop Monoid law abbrev
+R10889:10891 vehicle.tensor <> TensorLaws.idm var
+binder 10872:10874 <> opm:79
+R10898:10908 Corelib.ssr.ssrfun <> associative def
+R10912:10917 vehicle.tensor <> map2_t def
+R10925:10927 vehicle.tensor <> opm:79 var
+R10929:10930 vehicle.tensor <> TensorLaws.us var
+R10932:10933 vehicle.tensor <> TensorLaws.ds var
+R10955:10960 vehicle.tensor <> map2_t def
+R10962:10967 Corelib.ssr.ssreflect <> unlock thm
+R10984:10989 Corelib.ssr.ssrfun <> congr1 def
+R10991:10998 mathcomp.algebra.matrix <> map2_mxA thm
+R10955:10960 vehicle.tensor <> map2_t def
+R10955:10960 vehicle.tensor <> map2_t def
+R10962:10967 Corelib.ssr.ssreflect <> unlock thm
+R10962:10967 Corelib.ssr.ssreflect <> unlock thm
+R10984:10989 Corelib.ssr.ssrfun <> congr1 def
+R10991:10998 mathcomp.algebra.matrix <> map2_mxA thm
+prf 11013:11019 <> map2_1t
+R11028:11037 mathcomp.ssreflect.bigop Monoid law abbrev
+R11039:11041 vehicle.tensor <> TensorLaws.idm var
+binder 11022:11024 <> opm:80
+R11048:11054 Corelib.ssr.ssrfun <> left_id def
+R11072:11077 vehicle.tensor <> map2_t def
+R11085:11087 vehicle.tensor <> opm:80 var
+R11089:11090 vehicle.tensor <> TensorLaws.us var
+R11092:11093 vehicle.tensor <> TensorLaws.ds var
+R11057:11063 vehicle.tensor <> const_t def
+R11065:11067 vehicle.tensor <> TensorLaws.idm var
+R11116:11121 vehicle.tensor <> map2_t def
+R11123:11129 vehicle.tensor <> const_t def
+R11131:11136 Corelib.ssr.ssreflect <> unlock thm
+R11153:11158 Corelib.ssr.ssrfun <> congr1 def
+R11160:11167 mathcomp.algebra.matrix <> map2_1mx thm
+R11116:11121 vehicle.tensor <> map2_t def
+R11116:11121 vehicle.tensor <> map2_t def
+R11123:11129 vehicle.tensor <> const_t def
+R11123:11129 vehicle.tensor <> const_t def
+R11131:11136 Corelib.ssr.ssreflect <> unlock thm
+R11131:11136 Corelib.ssr.ssreflect <> unlock thm
+R11153:11158 Corelib.ssr.ssrfun <> congr1 def
+R11160:11167 mathcomp.algebra.matrix <> map2_1mx thm
+prf 11182:11188 <> map2_t1
+R11197:11206 mathcomp.ssreflect.bigop Monoid law abbrev
+R11208:11210 vehicle.tensor <> TensorLaws.idm var
+binder 11191:11193 <> opm:81
+R11217:11224 Corelib.ssr.ssrfun <> right_id def
+R11242:11247 vehicle.tensor <> map2_t def
+R11255:11257 vehicle.tensor <> opm:81 var
+R11259:11260 vehicle.tensor <> TensorLaws.us var
+R11262:11263 vehicle.tensor <> TensorLaws.ds var
+R11227:11233 vehicle.tensor <> const_t def
+R11235:11237 vehicle.tensor <> TensorLaws.idm var
+R11286:11291 vehicle.tensor <> map2_t def
+R11293:11299 vehicle.tensor <> const_t def
+R11301:11306 Corelib.ssr.ssreflect <> unlock thm
+R11323:11328 Corelib.ssr.ssrfun <> congr1 def
+R11330:11337 mathcomp.algebra.matrix <> map2_mx1 thm
+R11286:11291 vehicle.tensor <> map2_t def
+R11286:11291 vehicle.tensor <> map2_t def
+R11293:11299 vehicle.tensor <> const_t def
+R11293:11299 vehicle.tensor <> const_t def
+R11301:11306 Corelib.ssr.ssreflect <> unlock thm
+R11301:11306 Corelib.ssr.ssreflect <> unlock thm
+R11323:11328 Corelib.ssr.ssrfun <> congr1 def
+R11330:11337 mathcomp.algebra.matrix <> map2_mx1 thm
+R11378:11387 mathcomp.ssreflect.bigop Monoid law abbrev
+R11389:11391 vehicle.tensor <> TensorLaws.idm var
+R11399:11416 mathcomp.ssreflect.bigop Monoid.isLaw Build abbrev
+R11418:11421 vehicle.tensor <> :::'''T_'_'('_x_','_x_')' not
+R11424:11425 vehicle.tensor <> :::'''T_'_'('_x_','_x_')' not
+R11428:11428 vehicle.tensor <> :::'''T_'_'('_x_','_x_')' not
+R11422:11423 vehicle.tensor <> TensorLaws.us var
+R11426:11427 vehicle.tensor <> TensorLaws.ds var
+R11431:11437 vehicle.tensor <> const_t def
+R11439:11441 vehicle.tensor <> TensorLaws.idm var
+R11446:11451 vehicle.tensor <> map2_t def
+R11459:11461 vehicle.tensor <> opm:82 var
+R11488:11494 vehicle.tensor <> map2_t1 thm
+R11480:11486 vehicle.tensor <> map2_1t thm
+R11472:11478 vehicle.tensor <> map2_tA thm
+sec 11346:11495 TensorLaws.hb_instance_36 hb_instance_36
+var 11346:11495 TensorLaws.hb_instance_36 opm
+def 11346:11495 <> HB_unnamed_factory_37
+def 11346:11495 <> Monoid_isLaw__to__Monoid_isMonoidLaw
+def 11346:11495 <> Monoid_isLaw__to__SemiGroup_isLaw
+def 11346:11495 <> HB_unnamed_mixin_40
+def 11346:11495 <> tensor_map2_t__canonical__SemiGroup_Law
+def 11346:11495 <> HB_unnamed_mixin_41
+def 11346:11495 <> tensor_map2_t__canonical__Monoid_Law
+R11346:11495 vehicle.tensor TensorLaws <> sec
+prf 11504:11510 <> map2_tC
+R11519:11532 mathcomp.ssreflect.bigop Monoid com_law abbrev
+R11534:11536 vehicle.tensor <> TensorLaws.idm var
+binder 11513:11515 <> opm:83
+R11543:11553 Corelib.ssr.ssrfun <> commutative def
+R11557:11562 vehicle.tensor <> map2_t def
+R11570:11572 vehicle.tensor <> opm:83 var
+R11574:11575 vehicle.tensor <> TensorLaws.us var
+R11577:11578 vehicle.tensor <> TensorLaws.ds var
+R11601:11606 vehicle.tensor <> map2_t def
+R11608:11613 Corelib.ssr.ssreflect <> unlock thm
+R11628:11633 Corelib.ssr.ssrfun <> congr1 def
+R11635:11642 mathcomp.algebra.matrix <> map2_mxC thm
+R11601:11606 vehicle.tensor <> map2_t def
+R11601:11606 vehicle.tensor <> map2_t def
+R11608:11613 Corelib.ssr.ssreflect <> unlock thm
+R11608:11613 Corelib.ssr.ssreflect <> unlock thm
+R11628:11633 Corelib.ssr.ssrfun <> congr1 def
+R11635:11642 mathcomp.algebra.matrix <> map2_mxC thm
+R11683:11696 mathcomp.ssreflect.bigop Monoid com_law abbrev
+R11698:11700 vehicle.tensor <> TensorLaws.idm var
+R11708:11739 mathcomp.ssreflect.bigop SemiGroup.isCommutativeLaw Build abbrev
+R11743:11746 vehicle.tensor <> :::'''T_'_'('_x_','_x_')' not
+R11749:11750 vehicle.tensor <> :::'''T_'_'('_x_','_x_')' not
+R11753:11753 vehicle.tensor <> :::'''T_'_'('_x_','_x_')' not
+R11747:11748 vehicle.tensor <> TensorLaws.us var
+R11751:11752 vehicle.tensor <> TensorLaws.ds var
+R11757:11762 vehicle.tensor <> map2_t def
+R11770:11772 vehicle.tensor <> opm:84 var
+R11779:11785 vehicle.tensor <> map2_tC thm
+sec 11651:11786 TensorLaws.hb_instance_42 hb_instance_42
+var 11651:11786 TensorLaws.hb_instance_42 opm
+def 11651:11786 <> HB_unnamed_factory_43
+def 11651:11786 <> tensor_map2_t__canonical__SemiGroup_ComLaw
+def 11651:11786 <> tensor_map2_t__canonical__Monoid_ComLaw
+R11651:11786 vehicle.tensor TensorLaws <> sec
+R11793:11802 vehicle.tensor TensorLaws <> sec
+sec 11816:11825 <> TensorRing
+R11859:11870 mathcomp.algebra.ssralg GRing.Theory <> mod
+var  11883:11884 TensorRing us
+var  11886:11887 TensorRing ds
+R11891:11894 vehicle.tensor <> pseq rec
+R11928:11930 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R11932:11934 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R11937:11938 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R11941:11941 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R11935:11936 vehicle.tensor <> TensorRing.us var
+R11939:11940 vehicle.tensor <> TensorRing.ds var
+not 11913:11913 TensorRing :::'''T['_x_']'
+sec 11992:12004 TensorRing TensorZmodule
+var  12017:12017 TensorRing.TensorZmodule R
+R12021:12028 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType abbrev
+def 12044:12047 <> oppt
+R12054:12056 vehicle.tensor TensorRing :::'''T['_x_']' not
+R12058:12058 vehicle.tensor TensorRing :::'''T['_x_']' not
+R12057:12057 vehicle.tensor <> TensorRing.TensorZmodule.R var
+binder 12050:12050 <> t:88
+R12064:12075 vehicle.tensor <> tensor_of_mx abbrev
+R12089:12090 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R12091:12096 mathcomp.ssreflect.eqtype <> :::'\val' not
+R12096:12096 vehicle.tensor <> t:88 var
+R12077:12086 vehicle.tensor <> tensor_key thm
+prf 12107:12111 <> addNt
+R12115:12126 Corelib.ssr.ssrfun <> left_inverse def
+R12135:12137 mathcomp.algebra.ssralg <> ::function_scope:'+%R' not
+R12130:12133 vehicle.tensor <> oppt def
+R12156:12159 vehicle.tensor <> oppt def
+R12161:12166 Corelib.ssr.ssreflect <> unlock thm
+R12179:12185 mathcomp.ssreflect.eqtype <> val_inj thm
+R12187:12193 mathcomp.algebra.matrix <> matrixP thm
+R12156:12159 vehicle.tensor <> oppt def
+R12156:12159 vehicle.tensor <> oppt def
+R12161:12166 Corelib.ssr.ssreflect <> unlock thm
+R12161:12166 Corelib.ssr.ssreflect <> unlock thm
+R12179:12185 mathcomp.ssreflect.eqtype <> val_inj thm
+R12187:12193 mathcomp.algebra.matrix <> matrixP thm
+R12214:12222 mathcomp.algebra.ssralg GRing opp def
+R12226:12234 mathcomp.algebra.ssralg GRing add def
+R12238:12243 mathcomp.algebra.matrix <> addNmx thm
+R12214:12222 mathcomp.algebra.ssralg GRing opp def
+R12214:12222 mathcomp.algebra.ssralg GRing opp def
+R12226:12234 mathcomp.algebra.ssralg GRing add def
+R12226:12234 mathcomp.algebra.ssralg GRing add def
+R12238:12243 mathcomp.algebra.matrix <> addNmx thm
+R12238:12243 mathcomp.algebra.matrix <> addNmx thm
+R12280:12308 mathcomp.algebra.ssralg GRing.Nmodule_isZmodule Build abbrev
+R12310:12312 vehicle.tensor TensorRing :::'''T['_x_']' not
+R12314:12314 vehicle.tensor TensorRing :::'''T['_x_']' not
+R12313:12313 vehicle.tensor <> TensorRing.TensorZmodule.R var
+R12316:12320 vehicle.tensor <> addNt thm
+def 12252:12321 <> HB_unnamed_factory_45
+def 12252:12321 <> tensor_tensor_of__canonical__GRing_Zmodule
+R12328:12340 vehicle.tensor TensorRing.TensorZmodule <> sec
+sec 12352:12365 TensorRing TensorSemiRing
+var  12378:12378 TensorRing.TensorSemiRing R
+R12382:12395 mathcomp.algebra.ssralg GRing.PzSemiRing.Exports pzSemiRingType abbrev
+def 12411:12417 <> tensor1
+R12423:12429 vehicle.tensor <> const_t def
+R12433:12434 vehicle.tensor <> TensorRing.us var
+R12436:12437 vehicle.tensor <> TensorRing.ds var
+R12440:12448 mathcomp.algebra.ssralg GRing one def
+R12450:12450 vehicle.tensor <> TensorRing.TensorSemiRing.R var
+def 12466:12469 <> mult
+R12475:12480 vehicle.tensor <> map2_t def
+R12482:12482 vehicle.tensor <> TensorRing.TensorSemiRing.R var
+R12484:12484 vehicle.tensor <> TensorRing.TensorSemiRing.R var
+R12486:12486 vehicle.tensor <> TensorRing.TensorSemiRing.R var
+R12488:12490 mathcomp.algebra.ssralg <> ::function_scope:'*%R' not
+R12492:12493 vehicle.tensor <> TensorRing.us var
+R12495:12496 vehicle.tensor <> TensorRing.ds var
+def 12511:12516 <> multDl
+R12520:12536 Corelib.ssr.ssrfun <> left_distributive def
+R12543:12545 mathcomp.algebra.ssralg <> ::function_scope:'+%R' not
+R12538:12541 vehicle.tensor <> mult def
+R12567:12570 vehicle.tensor <> mult def
+R12572:12577 vehicle.tensor <> map2_t def
+R12579:12584 Corelib.ssr.ssreflect <> unlock thm
+R12601:12606 Corelib.ssr.ssrfun <> congr1 def
+R12608:12616 mathcomp.algebra.matrix <> map2_mxDl thm
+R12567:12570 vehicle.tensor <> mult def
+R12567:12570 vehicle.tensor <> mult def
+R12572:12577 vehicle.tensor <> map2_t def
+R12572:12577 vehicle.tensor <> map2_t def
+R12579:12584 Corelib.ssr.ssreflect <> unlock thm
+R12579:12584 Corelib.ssr.ssreflect <> unlock thm
+R12601:12606 Corelib.ssr.ssrfun <> congr1 def
+R12608:12616 mathcomp.algebra.matrix <> map2_mxDl thm
+prf 12630:12635 <> multDr
+R12639:12656 Corelib.ssr.ssrfun <> right_distributive def
+R12663:12665 mathcomp.algebra.ssralg <> ::function_scope:'+%R' not
+R12658:12661 vehicle.tensor <> mult def
+R12687:12690 vehicle.tensor <> mult def
+R12692:12697 vehicle.tensor <> map2_t def
+R12699:12704 Corelib.ssr.ssreflect <> unlock thm
+R12721:12726 Corelib.ssr.ssrfun <> congr1 def
+R12728:12736 mathcomp.algebra.matrix <> map2_mxDr thm
+R12687:12690 vehicle.tensor <> mult def
+R12687:12690 vehicle.tensor <> mult def
+R12692:12697 vehicle.tensor <> map2_t def
+R12692:12697 vehicle.tensor <> map2_t def
+R12699:12704 Corelib.ssr.ssreflect <> unlock thm
+R12699:12704 Corelib.ssr.ssreflect <> unlock thm
+R12721:12726 Corelib.ssr.ssrfun <> congr1 def
+R12728:12736 mathcomp.algebra.matrix <> map2_mxDr thm
+def 12755:12759 <> mul0t
+R12763:12771 Corelib.ssr.ssrfun <> left_zero def
+R12777:12780 vehicle.tensor <> mult def
+R12802:12805 vehicle.tensor <> mult def
+R12807:12812 vehicle.tensor <> map2_t def
+R12814:12819 Corelib.ssr.ssreflect <> unlock thm
+R12832:12837 Corelib.ssr.ssrfun <> congr1 def
+R12839:12846 mathcomp.algebra.matrix <> map2_0mx thm
+R12802:12805 vehicle.tensor <> mult def
+R12802:12805 vehicle.tensor <> mult def
+R12807:12812 vehicle.tensor <> map2_t def
+R12807:12812 vehicle.tensor <> map2_t def
+R12814:12819 Corelib.ssr.ssreflect <> unlock thm
+R12814:12819 Corelib.ssr.ssreflect <> unlock thm
+R12832:12837 Corelib.ssr.ssrfun <> congr1 def
+R12839:12846 mathcomp.algebra.matrix <> map2_0mx thm
+prf 12860:12864 <> mult0
+R12868:12877 Corelib.ssr.ssrfun <> right_zero def
+R12883:12886 vehicle.tensor <> mult def
+R12908:12911 vehicle.tensor <> mult def
+R12913:12918 vehicle.tensor <> map2_t def
+R12920:12925 Corelib.ssr.ssreflect <> unlock thm
+R12938:12943 Corelib.ssr.ssrfun <> congr1 def
+R12945:12952 mathcomp.algebra.matrix <> map2_mx0 thm
+R12908:12911 vehicle.tensor <> mult def
+R12908:12911 vehicle.tensor <> mult def
+R12913:12918 vehicle.tensor <> map2_t def
+R12913:12918 vehicle.tensor <> map2_t def
+R12920:12925 Corelib.ssr.ssreflect <> unlock thm
+R12920:12925 Corelib.ssr.ssreflect <> unlock thm
+R12938:12943 Corelib.ssr.ssrfun <> congr1 def
+R12945:12952 mathcomp.algebra.matrix <> map2_mx0 thm
+R12989:13020 mathcomp.algebra.ssralg GRing.Nmodule_isPzSemiRing Build abbrev
+R13024:13026 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13028:13028 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13027:13027 vehicle.tensor <> TensorRing.TensorSemiRing.R var
+R13074:13078 vehicle.tensor <> mult0 thm
+R13068:13072 vehicle.tensor <> mul0t def
+R13061:13066 vehicle.tensor <> multDr thm
+R13054:13059 vehicle.tensor <> multDl def
+R13046:13052 vehicle.tensor <> map2_t1 thm
+R13038:13044 vehicle.tensor <> map2_1t thm
+R13030:13036 vehicle.tensor <> map2_tA thm
+def 12961:13079 <> HB_unnamed_factory_47
+def 12961:13079 <> tensor_tensor_of__canonical__GRing_PzSemiRing
+R13086:13099 vehicle.tensor TensorRing.TensorSemiRing <> sec
+R13133:13142 mathcomp.algebra.ssralg GRing.PzRing.Exports pzRingType abbrev
+R13148:13175 mathcomp.algebra.ssralg GRing.Zmodule_isPzRing Build abbrev
+R13179:13181 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13183:13183 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13182:13182 vehicle.tensor <> R:90 var
+R13216:13221 vehicle.tensor <> multDr thm
+R13209:13214 vehicle.tensor <> multDl def
+R13201:13207 vehicle.tensor <> map2_t1 thm
+R13193:13199 vehicle.tensor <> map2_1t thm
+R13185:13191 vehicle.tensor <> map2_tA thm
+sec 13103:13222 TensorRing.hb_instance_49 hb_instance_49
+var 13103:13222 TensorRing.hb_instance_49 R
+def 13103:13222 <> HB_unnamed_factory_50
+def 13103:13222 <> GRing_Zmodule_isPzRing__to__GRing_Nmodule_isPzSemiRing
+def 13103:13222 <> tensor_tensor_of__canonical__GRing_PzRing
+R13103:13222 vehicle.tensor TensorRing <> sec
+R13255:13267 mathcomp.algebra.ssralg GRing.ComPzRing.Exports comPzRingType abbrev
+R13275:13310 mathcomp.algebra.ssralg GRing.PzRing_hasCommutativeMul Build abbrev
+R13312:13314 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13316:13316 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13315:13315 vehicle.tensor <> R:91 var
+R13318:13324 vehicle.tensor <> map2_tC thm
+sec 13225:13325 TensorRing.hb_instance_52 hb_instance_52
+var 13225:13325 TensorRing.hb_instance_52 R
+def 13225:13325 <> HB_unnamed_factory_53
+def 13225:13325 <> GRing_PzRing_hasCommutativeMul__to__GRing_PzSemiRing_hasCommutativeMul
+def 13225:13325 <> HB_unnamed_mixin_55
+def 13225:13325 <> tensor_tensor_of__canonical__GRing_ComPzSemiRing
+def 13225:13325 <> tensor_tensor_of__canonical__GRing_ComPzRing
+R13225:13325 vehicle.tensor TensorRing <> sec
+prf 13334:13342 <> onet_neq0
+R13349:13362 mathcomp.algebra.ssralg GRing.NzSemiRing.Exports nzSemiRingType abbrev
+binder 13345:13345 <> R:92
+R13370:13373 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x_':>'_x not
+R13377:13380 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x_':>'_x not
+R13381:13383 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13385:13385 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13384:13384 vehicle.tensor <> R:92 var
+R13381:13383 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13385:13385 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13384:13384 vehicle.tensor <> R:92 var
+R13404:13412 mathcomp.algebra.ssralg GRing one def
+R13414:13423 mathcomp.algebra.ssralg GRing zero def
+R13427:13433 vehicle.tensor <> const_t def
+R13435:13440 Corelib.ssr.ssreflect <> unlock thm
+R13404:13412 mathcomp.algebra.ssralg GRing one def
+R13404:13412 mathcomp.algebra.ssralg GRing one def
+R13414:13423 mathcomp.algebra.ssralg GRing zero def
+R13414:13423 mathcomp.algebra.ssralg GRing zero def
+R13427:13433 vehicle.tensor <> const_t def
+R13427:13433 vehicle.tensor <> const_t def
+R13435:13440 Corelib.ssr.ssreflect <> unlock thm
+R13435:13440 Corelib.ssr.ssreflect <> unlock thm
+R13449:13451 mathcomp.ssreflect.eqtype <> eqP def
+R13466:13472 mathcomp.algebra.matrix <> matrixP thm
+R13449:13451 mathcomp.ssreflect.eqtype <> eqP def
+R13466:13472 mathcomp.algebra.matrix <> matrixP thm
+R13508:13511 vehicle.tensor <> pseq rec
+binder 13503:13504 <> xs:93
+R13531:13534 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R13514:13520 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13522:13525 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13528:13529 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13526:13527 vehicle.tensor <> xs:93 var
+binder 13521:13521 <> e:94
+binder 13521:13521 <> e:95
+binder 13521:13521 <> e:96
+R13530:13530 vehicle.tensor <> e:94 var
+R13559:13575 mathcomp.ssreflect.bigop <> prod_nat_seq_neq0 thm
+R13559:13575 mathcomp.ssreflect.bigop <> prod_nat_seq_neq0 thm
+R13559:13575 mathcomp.ssreflect.bigop <> prod_nat_seq_neq0 thm
+R13594:13600 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13602:13605 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13607:13608 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+binder 13601:13601 <> u:97
+binder 13601:13601 <> u:98
+binder 13601:13601 <> u:99
+R13609:13609 vehicle.tensor <> u:97 var
+R13628:13629 vehicle.tensor <> TensorRing.us var
+R13628:13629 vehicle.tensor <> TensorRing.us var
+R13628:13629 vehicle.tensor <> TensorRing.us var
+R13594:13600 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13602:13605 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13607:13608 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+binder 13601:13601 <> u:100
+binder 13601:13601 <> u:101
+binder 13601:13601 <> u:102
+R13609:13609 vehicle.tensor <> u:100 var
+R13594:13600 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13602:13605 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13607:13608 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+binder 13601:13601 <> u:103
+binder 13601:13601 <> u:104
+binder 13601:13601 <> u:105
+R13609:13609 vehicle.tensor <> u:103 var
+R13648:13651 mathcomp.ssreflect.fintype <> ord0 def
+R13662:13668 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13670:13673 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13675:13676 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+binder 13669:13669 <> d:106
+binder 13669:13669 <> d:107
+binder 13669:13669 <> d:108
+R13677:13677 vehicle.tensor <> d:106 var
+R13696:13697 vehicle.tensor <> TensorRing.ds var
+R13696:13697 vehicle.tensor <> TensorRing.ds var
+R13696:13697 vehicle.tensor <> TensorRing.ds var
+R13662:13668 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13670:13673 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13675:13676 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+binder 13669:13669 <> d:109
+binder 13669:13669 <> d:110
+binder 13669:13669 <> d:111
+R13677:13677 vehicle.tensor <> d:109 var
+R13662:13668 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13670:13673 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R13675:13676 mathcomp.algebra.ssralg <> ::ring_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+binder 13669:13669 <> d:112
+binder 13669:13669 <> d:113
+binder 13669:13669 <> d:114
+R13677:13677 vehicle.tensor <> d:112 var
+R13716:13719 mathcomp.ssreflect.fintype <> ord0 def
+R13735:13737 mathcomp.algebra.matrix <> mxE thm
+R13746:13748 mathcomp.ssreflect.eqtype <> eqP def
+R13750:13758 mathcomp.algebra.ssralg GRing.Theory oner_neq0 def
+R13735:13737 mathcomp.algebra.matrix <> mxE thm
+R13735:13737 mathcomp.algebra.matrix <> mxE thm
+R13735:13737 mathcomp.algebra.matrix <> mxE thm
+R13735:13737 mathcomp.algebra.matrix <> mxE thm
+R13746:13748 mathcomp.ssreflect.eqtype <> eqP def
+R13750:13758 mathcomp.algebra.ssralg GRing.Theory oner_neq0 def
+R13797:13810 mathcomp.algebra.ssralg GRing.NzSemiRing.Exports nzSemiRingType abbrev
+R13818:13849 mathcomp.algebra.ssralg GRing.PzSemiRing_isNonZero Build abbrev
+R13853:13855 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13857:13857 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13856:13856 vehicle.tensor <> R:115 var
+R13859:13867 vehicle.tensor <> onet_neq0 thm
+sec 13767:13868 TensorRing.hb_instance_56 hb_instance_56
+var 13767:13868 TensorRing.hb_instance_56 R
+def 13767:13868 <> HB_unnamed_factory_57
+def 13767:13868 <> tensor_tensor_of__canonical__GRing_NzSemiRing
+R13767:13868 vehicle.tensor TensorRing <> sec
+R13901:13910 mathcomp.algebra.ssralg GRing.NzRing.Exports nzRingType abbrev
+R13916:13943 mathcomp.algebra.ssralg GRing.Zmodule_isNzRing Build abbrev
+R13947:13949 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13951:13951 vehicle.tensor TensorRing :::'''T['_x_']' not
+R13950:13950 vehicle.tensor <> R:116 var
+R13991:13999 vehicle.tensor <> onet_neq0 thm
+R13984:13989 vehicle.tensor <> multDr thm
+R13977:13982 vehicle.tensor <> multDl def
+R13969:13975 vehicle.tensor <> map2_t1 thm
+R13961:13967 vehicle.tensor <> map2_1t thm
+R13953:13959 vehicle.tensor <> map2_tA thm
+sec 13871:14000 TensorRing.hb_instance_59 hb_instance_59
+var 13871:14000 TensorRing.hb_instance_59 R
+def 13871:14000 <> HB_unnamed_factory_60
+def 13871:14000 <> GRing_Zmodule_isNzRing__to__GRing_PzSemiRing_isNonZero
+def 13871:14000 <> GRing_Zmodule_isNzRing__to__GRing_Nmodule_isPzSemiRing
+def 13871:14000 <> tensor_tensor_of__canonical__GRing_NzRing
+R13871:14000 vehicle.tensor TensorRing <> sec
+R14033:14045 mathcomp.algebra.ssralg GRing.ComNzRing.Exports comNzRingType abbrev
+R14051:14081 mathcomp.algebra.ssralg GRing.Zmodule_isComNzRing Build abbrev
+R14085:14087 vehicle.tensor TensorRing :::'''T['_x_']' not
+R14089:14089 vehicle.tensor TensorRing :::'''T['_x_']' not
+R14088:14088 vehicle.tensor <> R:117 var
+R14122:14130 vehicle.tensor <> onet_neq0 thm
+R14115:14120 vehicle.tensor <> multDl def
+R14107:14113 vehicle.tensor <> map2_1t thm
+R14099:14105 vehicle.tensor <> map2_tC thm
+R14091:14097 vehicle.tensor <> map2_tA thm
+sec 14003:14131 TensorRing.hb_instance_63 hb_instance_63
+var 14003:14131 TensorRing.hb_instance_63 R
+def 14003:14131 <> HB_unnamed_factory_64
+def 14003:14131 <> GRing_Zmodule_isComNzRing__to__GRing_PzSemiRing_hasCommutativeMul
+def 14003:14131 <> GRing_Zmodule_isComNzRing__to__GRing_Nmodule_isPzSemiRing
+def 14003:14131 <> GRing_Zmodule_isComNzRing__to__GRing_PzSemiRing_isNonZero
+def 14003:14131 <> tensor_tensor_of__canonical__GRing_ComNzSemiRing
+def 14003:14131 <> tensor_tensor_of__canonical__GRing_ComNzRing
+R14003:14131 vehicle.tensor TensorRing <> sec
+def 14145:14149 <> unitt
+R14156:14167 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 14152:14152 <> R:118
+R14175:14177 vehicle.tensor TensorRing :::'''T['_x_']' not
+R14179:14179 vehicle.tensor TensorRing :::'''T['_x_']' not
+R14178:14178 vehicle.tensor <> R:118 var
+binder 14171:14171 <> t:119
+R14187:14194 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+R14234:14234 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_x_']' not
+binder 14195:14196 <> ij:120
+R14197:14198 mathcomp.ssreflect.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R14199:14199 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R14216:14223 Corelib.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R14200:14215 mathcomp.ssreflect.eqtype <> :::'\val' not
+R14209:14210 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R14207:14208 vehicle.tensor <> ij:120 var
+R14214:14215 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R14212:14213 vehicle.tensor <> ij:120 var
+R14205:14205 vehicle.tensor <> t:119 var
+R14224:14233 mathcomp.algebra.ssralg GRing unit def
+binder 14195:14196 <> ij:121
+binder 14195:14196 <> ij:122
+def 14249:14252 <> invt
+R14259:14270 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 14255:14255 <> R:123
+R14278:14280 vehicle.tensor TensorRing :::'''T['_x_']' not
+R14282:14282 vehicle.tensor TensorRing :::'''T['_x_']' not
+R14281:14281 vehicle.tensor <> R:123 var
+binder 14274:14274 <> t:124
+R14290:14292 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R14304:14309 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R14344:14349 Corelib.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R14294:14298 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R14293:14293 vehicle.tensor <> t:124 var
+R14299:14303 vehicle.tensor <> unitt def
+R14310:14315 vehicle.tensor <> Tensor constr
+R14318:14323 mathcomp.algebra.matrix <> map_mx def
+R14336:14341 mathcomp.ssreflect.eqtype <> :::'\val' not
+R14341:14341 vehicle.tensor <> t:124 var
+R14325:14333 mathcomp.algebra.ssralg GRing inv def
+R14350:14350 vehicle.tensor <> t:124 var
+def 14365:14369 <> mulVt
+R14376:14387 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 14372:14372 <> R:125
+R14392:14395 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R14404:14405 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R14431:14431 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R14397:14401 vehicle.tensor <> unitt def
+R14403:14403 vehicle.tensor <> R:125 var
+R14406:14417 Corelib.ssr.ssrfun <> left_inverse def
+R14428:14430 mathcomp.algebra.ssralg <> ::function_scope:'*%R' not
+R14423:14426 vehicle.tensor <> invt def
+R14464:14470 mathcomp.ssreflect.eqtype <> val_inj thm
+R14472:14478 mathcomp.algebra.matrix <> matrixP thm
+R14464:14470 mathcomp.ssreflect.eqtype <> val_inj thm
+R14472:14478 mathcomp.algebra.matrix <> matrixP thm
+R14496:14499 vehicle.tensor <> invt def
+R14508:14516 mathcomp.algebra.ssralg GRing mul def
+R14518:14526 mathcomp.algebra.ssralg GRing one def
+R14530:14535 vehicle.tensor <> map2_t def
+R14537:14543 vehicle.tensor <> const_t def
+R14496:14499 vehicle.tensor <> invt def
+R14496:14499 vehicle.tensor <> invt def
+R14508:14516 mathcomp.algebra.ssralg GRing mul def
+R14508:14516 mathcomp.algebra.ssralg GRing mul def
+R14518:14526 mathcomp.algebra.ssralg GRing one def
+R14518:14526 mathcomp.algebra.ssralg GRing one def
+R14530:14535 vehicle.tensor <> map2_t def
+R14530:14535 vehicle.tensor <> map2_t def
+R14537:14543 vehicle.tensor <> const_t def
+R14537:14543 vehicle.tensor <> const_t def
+R14554:14572 vehicle.tensor <> unlock prfax
+R14575:14577 mathcomp.algebra.matrix <> mxE thm
+R14579:14583 mathcomp.algebra.ssralg GRing.Theory mulVr def
+R14554:14572 vehicle.tensor <> unlock prfax
+R14554:14572 vehicle.tensor <> unlock prfax
+R14575:14577 mathcomp.algebra.matrix <> mxE thm
+R14575:14577 mathcomp.algebra.matrix <> mxE thm
+R14575:14577 mathcomp.algebra.matrix <> mxE thm
+R14575:14577 mathcomp.algebra.matrix <> mxE thm
+R14575:14577 mathcomp.algebra.matrix <> mxE thm
+R14579:14583 mathcomp.algebra.ssralg GRing.Theory mulVr def
+R14579:14583 mathcomp.algebra.ssralg GRing.Theory mulVr def
+R14614:14618 vehicle.tensor <> unitt def
+R14614:14618 vehicle.tensor <> unitt def
+R14614:14618 vehicle.tensor <> unitt def
+R14623:14629 mathcomp.ssreflect.fintype <> forallP thm
+R14635:14635 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14637:14638 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14640:14640 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 14661:14665 <> divtt
+R14672:14683 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 14668:14668 <> R:126
+R14688:14691 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R14700:14701 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R14728:14728 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R14693:14697 vehicle.tensor <> unitt def
+R14699:14699 vehicle.tensor <> R:126 var
+R14702:14714 Corelib.ssr.ssrfun <> right_inverse def
+R14725:14727 mathcomp.algebra.ssralg <> ::function_scope:'*%R' not
+R14720:14723 vehicle.tensor <> invt def
+R14761:14767 mathcomp.ssreflect.eqtype <> val_inj thm
+R14769:14775 mathcomp.algebra.matrix <> matrixP thm
+R14761:14767 mathcomp.ssreflect.eqtype <> val_inj thm
+R14769:14775 mathcomp.algebra.matrix <> matrixP thm
+R14795:14798 vehicle.tensor <> invt def
+R14808:14816 mathcomp.algebra.ssralg GRing mul def
+R14818:14826 mathcomp.algebra.ssralg GRing one def
+R14830:14835 vehicle.tensor <> map2_t def
+R14837:14843 vehicle.tensor <> const_t def
+R14795:14798 vehicle.tensor <> invt def
+R14795:14798 vehicle.tensor <> invt def
+R14808:14816 mathcomp.algebra.ssralg GRing mul def
+R14808:14816 mathcomp.algebra.ssralg GRing mul def
+R14818:14826 mathcomp.algebra.ssralg GRing one def
+R14818:14826 mathcomp.algebra.ssralg GRing one def
+R14830:14835 vehicle.tensor <> map2_t def
+R14830:14835 vehicle.tensor <> map2_t def
+R14837:14843 vehicle.tensor <> const_t def
+R14837:14843 vehicle.tensor <> const_t def
+R14854:14872 vehicle.tensor <> unlock prfax
+R14875:14877 mathcomp.algebra.matrix <> mxE thm
+R14879:14883 mathcomp.algebra.ssralg GRing.Theory divrr def
+R14854:14872 vehicle.tensor <> unlock prfax
+R14854:14872 vehicle.tensor <> unlock prfax
+R14875:14877 mathcomp.algebra.matrix <> mxE thm
+R14875:14877 mathcomp.algebra.matrix <> mxE thm
+R14875:14877 mathcomp.algebra.matrix <> mxE thm
+R14875:14877 mathcomp.algebra.matrix <> mxE thm
+R14875:14877 mathcomp.algebra.matrix <> mxE thm
+R14879:14883 mathcomp.algebra.ssralg GRing.Theory divrr def
+R14879:14883 mathcomp.algebra.ssralg GRing.Theory divrr def
+R14914:14918 vehicle.tensor <> unitt def
+R14914:14918 vehicle.tensor <> unitt def
+R14914:14918 vehicle.tensor <> unitt def
+R14923:14929 mathcomp.ssreflect.fintype <> forallP thm
+R14935:14935 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14937:14938 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14940:14940 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 14961:14966 <> unittP
+R14973:14984 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 14969:14969 <> R:127
+binder 14998:14998 <> x:128
+binder 15000:15000 <> y:129
+R15027:15030 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15014:15017 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15008:15010 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15004:15006 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15003:15003 vehicle.tensor <> y:129 var
+R15007:15007 vehicle.tensor <> x:128 var
+R15023:15025 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15019:15021 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15018:15018 vehicle.tensor <> x:128 var
+R15022:15022 vehicle.tensor <> y:129 var
+R15032:15036 vehicle.tensor <> unitt def
+R15038:15038 vehicle.tensor <> R:127 var
+R15040:15040 vehicle.tensor <> x:128 var
+R15085:15089 mathcomp.ssreflect.eqtype <> eq_op def
+R15063:15065 mathcomp.ssreflect.eqtype <> eqP def
+R15070:15072 mathcomp.ssreflect.eqtype <> eqP def
+R15085:15089 mathcomp.ssreflect.eqtype <> eq_op def
+R15085:15089 mathcomp.ssreflect.eqtype <> eq_op def
+R15096:15098 mathcomp.ssreflect.eqtype <> eqP def
+R15100:15106 mathcomp.algebra.matrix <> matrixP thm
+R15113:15115 mathcomp.ssreflect.eqtype <> eqP def
+R15117:15123 mathcomp.algebra.matrix <> matrixP thm
+R15136:15142 mathcomp.ssreflect.fintype <> forallP thm
+R15156:15161 mathcomp.algebra.ssralg GRing.Theory unitrP def
+R15172:15187 mathcomp.ssreflect.eqtype <> :::'\val' not
+R15181:15182 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15186:15187 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15136:15142 mathcomp.ssreflect.fintype <> forallP thm
+R15156:15161 mathcomp.algebra.ssralg GRing.Theory unitrP def
+R15172:15187 mathcomp.ssreflect.eqtype <> :::'\val' not
+R15181:15182 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15186:15187 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15198:15201 Corelib.Init.Logic <> conj constr
+R15226:15227 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15231:15232 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15210:15211 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15215:15216 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15198:15201 Corelib.Init.Logic <> conj constr
+R15226:15227 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15231:15232 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15210:15211 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15215:15216 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15198:15201 Corelib.Init.Logic <> conj constr
+R15226:15227 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15231:15232 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15210:15211 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R15215:15216 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R15251:15259 mathcomp.algebra.ssralg GRing mul def
+R15266:15274 mathcomp.algebra.ssralg GRing one def
+R15278:15283 vehicle.tensor <> map2_t def
+R15285:15291 vehicle.tensor <> const_t def
+R15251:15259 mathcomp.algebra.ssralg GRing mul def
+R15251:15259 mathcomp.algebra.ssralg GRing mul def
+R15266:15274 mathcomp.algebra.ssralg GRing one def
+R15266:15274 mathcomp.algebra.ssralg GRing one def
+R15278:15283 vehicle.tensor <> map2_t def
+R15278:15283 vehicle.tensor <> map2_t def
+R15285:15291 vehicle.tensor <> const_t def
+R15285:15291 vehicle.tensor <> const_t def
+R15305:15323 vehicle.tensor <> unlock prfax
+R15326:15328 mathcomp.algebra.matrix <> mxE thm
+R15305:15323 vehicle.tensor <> unlock prfax
+R15305:15323 vehicle.tensor <> unlock prfax
+R15326:15328 mathcomp.algebra.matrix <> mxE thm
+R15326:15328 mathcomp.algebra.matrix <> mxE thm
+R15326:15328 mathcomp.algebra.matrix <> mxE thm
+R15326:15328 mathcomp.algebra.matrix <> mxE thm
+R15326:15328 mathcomp.algebra.matrix <> mxE thm
+def 15348:15355 <> invt_out
+R15362:15373 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 15358:15358 <> R:130
+R15378:15381 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R15398:15399 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R15410:15410 Corelib.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R15382:15388 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R15397:15397 mathcomp.ssreflect.ssrbool <> ::function_scope:'['_'predC'_x_']' not
+R15390:15394 vehicle.tensor <> unitt def
+R15396:15396 vehicle.tensor <> R:130 var
+R15404:15407 mathcomp.ssreflect.ssrfun <> ::type_scope:x_'=1'_x not
+R15400:15403 vehicle.tensor <> invt def
+R15408:15409 Corelib.ssr.ssrfun <> id abbrev
+R15461:15464 vehicle.tensor <> invt def
+R15433:15438 Corelib.ssr.ssrbool <> negbTE thm
+R15461:15464 vehicle.tensor <> invt def
+R15461:15464 vehicle.tensor <> invt def
+R15514:15525 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+R15533:15564 mathcomp.algebra.ssralg GRing.NzRing_hasMulInverse Build abbrev
+R15566:15568 vehicle.tensor TensorRing :::'''T['_x_']' not
+R15570:15570 vehicle.tensor TensorRing :::'''T['_x_']' not
+R15569:15569 vehicle.tensor <> R:131 var
+R15591:15598 vehicle.tensor <> invt_out def
+R15584:15589 vehicle.tensor <> unittP def
+R15578:15582 vehicle.tensor <> divtt def
+R15572:15576 vehicle.tensor <> mulVt def
+sec 15484:15599 TensorRing.hb_instance_68 hb_instance_68
+var 15484:15599 TensorRing.hb_instance_68 R
+def 15484:15599 <> HB_unnamed_factory_69
+def 15484:15599 <> tensor_tensor_of__canonical__GRing_UnitRing
+R15484:15599 vehicle.tensor TensorRing <> sec
+R15606:15615 vehicle.tensor TensorRing <> sec
+sec 15628:15636 <> NilTensor
+var  15649:15649 NilTensor R
+prf 15667:15674 <> prod_nil
+R15679:15681 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15682:15688 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R15690:15693 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R15698:15699 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R15694:15697 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+binder 15689:15689 <> e:133
+binder 15689:15689 <> e:134
+binder 15689:15689 <> e:135
+R15700:15700 vehicle.tensor <> e:133 var
+R15721:15727 mathcomp.ssreflect.bigop <> big_nil thm
+R15721:15727 mathcomp.ssreflect.bigop <> big_nil thm
+R15721:15727 mathcomp.ssreflect.bigop <> big_nil thm
+prf 15742:15753 <> ord_prod_nil
+R15757:15768 Corelib.ssr.ssrfun <> all_equal_to def
+R15771:15778 mathcomp.ssreflect.fintype <> cast_ord def
+R15789:15792 mathcomp.ssreflect.fintype <> ord0 def
+R15780:15787 vehicle.tensor <> prod_nil thm
+R15832:15838 mathcomp.ssreflect.eqtype <> val_inj thm
+R15832:15838 mathcomp.ssreflect.eqtype <> val_inj thm
+R15832:15838 mathcomp.ssreflect.eqtype <> val_inj thm
+R15871:15878 vehicle.tensor <> prod_nil thm
+R15871:15878 vehicle.tensor <> prod_nil thm
+R15871:15878 vehicle.tensor <> prod_nil thm
+def 15898:15907 <> tensor_nil
+R15914:15916 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R15918:15920 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R15925:15926 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R15931:15931 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R15917:15917 vehicle.tensor <> NilTensor.R var
+R15921:15924 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R15927:15930 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+binder 15910:15910 <> t:136
+R15936:15936 vehicle.tensor <> NilTensor.R var
+R15943:15998 mathcomp.ssreflect.eqtype <> :::'\val' not
+R15951:15958 mathcomp.ssreflect.fintype <> cast_ord def
+R15969:15972 mathcomp.ssreflect.fintype <> ord0 def
+R15960:15967 vehicle.tensor <> prod_nil thm
+R15976:15983 mathcomp.ssreflect.fintype <> cast_ord def
+R15994:15997 mathcomp.ssreflect.fintype <> ord0 def
+R15985:15992 vehicle.tensor <> prod_nil thm
+R15948:15948 vehicle.tensor <> t:136 var
+def 16013:16020 <> const_tK
+R16024:16029 Corelib.ssr.ssrfun <> cancel def
+R16039:16048 vehicle.tensor <> tensor_nil def
+R16031:16037 vehicle.tensor <> const_t def
+R16070:16076 vehicle.tensor <> const_t def
+R16078:16083 Corelib.ssr.ssreflect <> unlock thm
+R16086:16095 vehicle.tensor <> tensor_nil def
+R16110:16112 mathcomp.algebra.matrix <> mxE thm
+R16070:16076 vehicle.tensor <> const_t def
+R16070:16076 vehicle.tensor <> const_t def
+R16078:16083 Corelib.ssr.ssreflect <> unlock thm
+R16078:16083 Corelib.ssr.ssreflect <> unlock thm
+R16086:16095 vehicle.tensor <> tensor_nil def
+R16086:16095 vehicle.tensor <> tensor_nil def
+R16110:16112 mathcomp.algebra.matrix <> mxE thm
+R16110:16112 mathcomp.algebra.matrix <> mxE thm
+def 16132:16142 <> tensor_nilK
+R16146:16151 Corelib.ssr.ssrfun <> cancel def
+R16164:16170 vehicle.tensor <> const_t def
+R16153:16162 vehicle.tensor <> tensor_nil def
+R16189:16195 vehicle.tensor <> const_t def
+R16197:16202 Corelib.ssr.ssreflect <> unlock thm
+R16215:16221 mathcomp.ssreflect.eqtype <> val_inj thm
+R16223:16229 mathcomp.algebra.matrix <> matrixP thm
+R16189:16195 vehicle.tensor <> const_t def
+R16189:16195 vehicle.tensor <> const_t def
+R16197:16202 Corelib.ssr.ssreflect <> unlock thm
+R16197:16202 Corelib.ssr.ssreflect <> unlock thm
+R16215:16221 mathcomp.ssreflect.eqtype <> val_inj thm
+R16223:16229 mathcomp.algebra.matrix <> matrixP thm
+R16249:16251 mathcomp.algebra.matrix <> mxE thm
+R16254:16265 vehicle.tensor <> ord_prod_nil thm
+R16249:16251 mathcomp.algebra.matrix <> mxE thm
+R16249:16251 mathcomp.algebra.matrix <> mxE thm
+R16254:16265 vehicle.tensor <> ord_prod_nil thm
+R16254:16265 vehicle.tensor <> ord_prod_nil thm
+R16254:16265 vehicle.tensor <> ord_prod_nil thm
+R16254:16265 vehicle.tensor <> ord_prod_nil thm
+R16278:16286 vehicle.tensor NilTensor <> sec
+R16314:16323 vehicle.tensor <> tensor_nil def
+not 16300:16300 <> :::x_'.[::]'
+sec 16339:16353 <> NilTensorTheory
+prf 16363:16376 <> tensor_nil_eqP
+binder 16379:16379 <> R:137
+binder 16389:16389 <> t:138
+binder 16391:16391 <> u:139
+R16415:16419 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R16401:16403 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16410:16413 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R16414:16414 vehicle.tensor <> R:137 var
+R16396:16400 vehicle.tensor <> :::x_'.[::]' not
+R16395:16395 vehicle.tensor <> t:138 var
+R16405:16409 vehicle.tensor <> :::x_'.[::]' not
+R16404:16404 vehicle.tensor <> u:139 var
+R16421:16423 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16420:16420 vehicle.tensor <> t:138 var
+R16424:16424 vehicle.tensor <> u:139 var
+R16461:16467 mathcomp.ssreflect.eqtype <> val_inj thm
+R16469:16475 mathcomp.algebra.matrix <> matrixP thm
+R16493:16504 vehicle.tensor <> ord_prod_nil thm
+R16461:16467 mathcomp.ssreflect.eqtype <> val_inj thm
+R16469:16475 mathcomp.algebra.matrix <> matrixP thm
+R16493:16504 vehicle.tensor <> ord_prod_nil thm
+R16493:16504 vehicle.tensor <> ord_prod_nil thm
+R16493:16504 vehicle.tensor <> ord_prod_nil thm
+R16493:16504 vehicle.tensor <> ord_prod_nil thm
+R16544:16561 mathcomp.ssreflect.order Order.POrderTheory <> mod
+prf 16571:16584 <> tensor_nil_leP
+R16591:16602 mathcomp.ssreflect.order Order disp_t rec
+binder 16587:16587 <> d:140
+R16610:16619 mathcomp.ssreflect.order Order.POrder.Exports porderType abbrev
+R16621:16621 vehicle.tensor <> d:140 var
+binder 16606:16606 <> R:141
+binder 16624:16624 <> t:142
+binder 16626:16626 <> u:143
+R16653:16657 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R16638:16641 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x_':>'_x not
+R16648:16651 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x_':>'_x not
+R16652:16652 vehicle.tensor <> R:141 var
+R16633:16637 vehicle.tensor <> :::x_'.[::]' not
+R16632:16632 vehicle.tensor <> t:142 var
+R16652:16652 vehicle.tensor <> R:141 var
+R16643:16647 vehicle.tensor <> :::x_'.[::]' not
+R16642:16642 vehicle.tensor <> u:143 var
+R16659:16662 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<='_x not
+R16658:16658 vehicle.tensor <> t:142 var
+R16663:16663 vehicle.tensor <> u:143 var
+R16685:16691 mathcomp.ssreflect.fintype <> forallP thm
+R16696:16696 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16719:16720 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16743:16743 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16697:16704 mathcomp.ssreflect.fintype <> cast_ord def
+R16715:16718 mathcomp.ssreflect.fintype <> ord0 def
+R16706:16713 vehicle.tensor <> prod_nil thm
+R16721:16728 mathcomp.ssreflect.fintype <> cast_ord def
+R16739:16742 mathcomp.ssreflect.fintype <> ord0 def
+R16730:16737 vehicle.tensor <> prod_nil thm
+R16759:16765 mathcomp.ssreflect.fintype <> forallP thm
+R16788:16799 vehicle.tensor <> ord_prod_nil thm
+R16759:16765 mathcomp.ssreflect.fintype <> forallP thm
+R16788:16799 vehicle.tensor <> ord_prod_nil thm
+R16788:16799 vehicle.tensor <> ord_prod_nil thm
+R16788:16799 vehicle.tensor <> ord_prod_nil thm
+R16788:16799 vehicle.tensor <> ord_prod_nil thm
+prf 16814:16827 <> tensor_nil_ltP
+R16834:16845 mathcomp.ssreflect.order Order disp_t rec
+binder 16830:16830 <> d:144
+R16853:16862 mathcomp.ssreflect.order Order.POrder.Exports porderType abbrev
+R16864:16864 vehicle.tensor <> d:144 var
+binder 16849:16849 <> R:145
+binder 16867:16867 <> t:146
+binder 16869:16869 <> u:147
+R16895:16899 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R16881:16883 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<'_x_':>'_x not
+R16890:16893 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<'_x_':>'_x not
+R16894:16894 vehicle.tensor <> R:145 var
+R16876:16880 vehicle.tensor <> :::x_'.[::]' not
+R16875:16875 vehicle.tensor <> t:146 var
+R16894:16894 vehicle.tensor <> R:145 var
+R16885:16889 vehicle.tensor <> :::x_'.[::]' not
+R16884:16884 vehicle.tensor <> u:147 var
+R16901:16903 mathcomp.ssreflect.order Order.POSyntax ::order_scope:x_'<'_x not
+R16900:16900 vehicle.tensor <> t:146 var
+R16904:16904 vehicle.tensor <> u:147 var
+R16923:16928 mathcomp.ssreflect.order Order.POrderTheory lt_def thm
+R16969:16972 Corelib.ssr.ssrbool <> andP thm
+R16923:16928 mathcomp.ssreflect.order Order.POrderTheory lt_def thm
+R16923:16928 mathcomp.ssreflect.order Order.POrderTheory lt_def thm
+R16923:16928 mathcomp.ssreflect.order Order.POrderTheory lt_def thm
+R16923:16928 mathcomp.ssreflect.order Order.POrderTheory lt_def thm
+R16940:16943 Corelib.ssr.ssrbool <> andP thm
+R16940:16943 Corelib.ssr.ssrbool <> andP thm
+R16969:16972 Corelib.ssr.ssrbool <> andP thm
+R16969:16972 Corelib.ssr.ssrbool <> andP thm
+R16997:17006 mathcomp.ssreflect.eqtype <> contra_neq thm
+R17022:17035 vehicle.tensor <> tensor_nil_eqP thm
+R16997:17006 mathcomp.ssreflect.eqtype <> contra_neq thm
+R17022:17035 vehicle.tensor <> tensor_nil_eqP thm
+R17056:17069 vehicle.tensor <> tensor_nil_leP thm
+R17056:17069 vehicle.tensor <> tensor_nil_leP thm
+R17083:17092 mathcomp.ssreflect.eqtype <> contra_neq thm
+R17108:17121 vehicle.tensor <> tensor_nil_eqP thm
+R17083:17092 mathcomp.ssreflect.eqtype <> contra_neq thm
+R17108:17121 vehicle.tensor <> tensor_nil_eqP thm
+R17138:17151 vehicle.tensor <> tensor_nil_leP thm
+R17138:17151 vehicle.tensor <> tensor_nil_leP thm
+R17215:17226 mathcomp.algebra.ssralg GRing.Theory <> mod
+prf 17236:17246 <> tensor_nilD
+R17253:17260 mathcomp.algebra.ssralg GRing.Nmodule.Exports nmodType abbrev
+binder 17249:17249 <> R:148
+binder 17263:17263 <> t:149
+binder 17265:17265 <> u:150
+R17283:17285 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17301:17304 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17305:17305 vehicle.tensor <> R:148 var
+R17271:17271 vehicle.tensor <> :::x_'.[::]' not
+R17277:17282 vehicle.tensor <> :::x_'.[::]' not
+R17273:17275 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R17272:17272 vehicle.tensor <> t:149 var
+R17276:17276 vehicle.tensor <> u:150 var
+R17292:17294 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R17287:17291 vehicle.tensor <> :::x_'.[::]' not
+R17286:17286 vehicle.tensor <> t:149 var
+R17296:17300 vehicle.tensor <> :::x_'.[::]' not
+R17295:17295 vehicle.tensor <> u:150 var
+R17327:17336 vehicle.tensor <> tensor_nil def
+R17338:17340 mathcomp.algebra.matrix <> mxE thm
+R17327:17336 vehicle.tensor <> tensor_nil def
+R17327:17336 vehicle.tensor <> tensor_nil def
+R17338:17340 mathcomp.algebra.matrix <> mxE thm
+R17338:17340 mathcomp.algebra.matrix <> mxE thm
+prf 17355:17365 <> tensor_nilN
+R17372:17379 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType abbrev
+binder 17368:17368 <> R:151
+binder 17382:17382 <> t:152
+R17398:17400 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17409:17412 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17413:17413 vehicle.tensor <> R:151 var
+R17388:17388 vehicle.tensor <> :::x_'.[::]' not
+R17392:17397 vehicle.tensor <> :::x_'.[::]' not
+R17389:17390 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R17391:17391 vehicle.tensor <> t:152 var
+R17401:17402 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R17404:17408 vehicle.tensor <> :::x_'.[::]' not
+R17403:17403 vehicle.tensor <> t:152 var
+R17438:17446 mathcomp.algebra.ssralg GRing opp def
+R17450:17453 vehicle.tensor <> oppt def
+R17455:17460 Corelib.ssr.ssreflect <> unlock thm
+R17463:17472 vehicle.tensor <> tensor_nil def
+R17474:17476 mathcomp.algebra.matrix <> mxE thm
+R17438:17446 mathcomp.algebra.ssralg GRing opp def
+R17438:17446 mathcomp.algebra.ssralg GRing opp def
+R17450:17453 vehicle.tensor <> oppt def
+R17450:17453 vehicle.tensor <> oppt def
+R17455:17460 Corelib.ssr.ssreflect <> unlock thm
+R17455:17460 Corelib.ssr.ssreflect <> unlock thm
+R17463:17472 vehicle.tensor <> tensor_nil def
+R17463:17472 vehicle.tensor <> tensor_nil def
+R17474:17476 mathcomp.algebra.matrix <> mxE thm
+R17474:17476 mathcomp.algebra.matrix <> mxE thm
+prf 17491:17501 <> tensor_nilM
+R17508:17521 mathcomp.algebra.ssralg GRing.PzSemiRing.Exports pzSemiRingType abbrev
+binder 17504:17504 <> R:153
+binder 17524:17524 <> t:154
+binder 17526:17526 <> u:155
+R17544:17546 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17562:17565 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17566:17566 vehicle.tensor <> R:153 var
+R17532:17532 vehicle.tensor <> :::x_'.[::]' not
+R17538:17543 vehicle.tensor <> :::x_'.[::]' not
+R17534:17536 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17533:17533 vehicle.tensor <> t:154 var
+R17537:17537 vehicle.tensor <> u:155 var
+R17553:17555 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17548:17552 vehicle.tensor <> :::x_'.[::]' not
+R17547:17547 vehicle.tensor <> t:154 var
+R17557:17561 vehicle.tensor <> :::x_'.[::]' not
+R17556:17556 vehicle.tensor <> u:155 var
+R17591:17599 mathcomp.algebra.ssralg GRing mul def
+R17603:17608 vehicle.tensor <> map2_t def
+R17610:17615 Corelib.ssr.ssreflect <> unlock thm
+R17618:17627 vehicle.tensor <> tensor_nil def
+R17629:17631 mathcomp.algebra.matrix <> mxE thm
+R17591:17599 mathcomp.algebra.ssralg GRing mul def
+R17591:17599 mathcomp.algebra.ssralg GRing mul def
+R17603:17608 vehicle.tensor <> map2_t def
+R17603:17608 vehicle.tensor <> map2_t def
+R17610:17615 Corelib.ssr.ssreflect <> unlock thm
+R17610:17615 Corelib.ssr.ssreflect <> unlock thm
+R17618:17627 vehicle.tensor <> tensor_nil def
+R17618:17627 vehicle.tensor <> tensor_nil def
+R17629:17631 mathcomp.algebra.matrix <> mxE thm
+R17629:17631 mathcomp.algebra.matrix <> mxE thm
+def 17651:17666 <> tensor_nilr_spec
+R17673:17682 mathcomp.algebra.ssralg GRing.PzRing.Exports pzRingType abbrev
+binder 17669:17669 <> R:156
+R17690:17690 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17705:17706 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17721:17722 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17737:17737 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17692:17702 vehicle.tensor <> tensor_nilM thm
+R17704:17704 vehicle.tensor <> R:156 var
+R17708:17718 vehicle.tensor <> tensor_nilN thm
+R17720:17720 vehicle.tensor <> R:156 var
+R17724:17734 vehicle.tensor <> tensor_nilD thm
+R17736:17736 vehicle.tensor <> R:156 var
+prf 17747:17757 <> tensor_nilV
+R17764:17775 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 17760:17760 <> R:157
+binder 17778:17778 <> t:158
+R17795:17797 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17807:17810 Corelib.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R17811:17811 vehicle.tensor <> R:157 var
+R17784:17784 vehicle.tensor <> :::x_'.[::]' not
+R17789:17794 vehicle.tensor <> :::x_'.[::]' not
+R17786:17788 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R17785:17785 vehicle.tensor <> t:158 var
+R17804:17806 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R17799:17803 vehicle.tensor <> :::x_'.[::]' not
+R17798:17798 vehicle.tensor <> t:158 var
+R17833:17841 mathcomp.algebra.ssralg GRing inv def
+R17845:17848 vehicle.tensor <> invt def
+R17833:17841 mathcomp.algebra.ssralg GRing inv def
+R17833:17841 mathcomp.algebra.ssralg GRing inv def
+R17845:17848 vehicle.tensor <> invt def
+R17845:17848 vehicle.tensor <> invt def
+R17866:17870 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17893:17902 vehicle.tensor <> tensor_nil def
+R17904:17906 mathcomp.algebra.matrix <> mxE thm
+R17866:17870 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17866:17870 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R17893:17902 vehicle.tensor <> tensor_nil def
+R17893:17902 vehicle.tensor <> tensor_nil def
+R17904:17906 mathcomp.algebra.matrix <> mxE thm
+R17904:17906 mathcomp.algebra.matrix <> mxE thm
+R17915:17918 Corelib.ssr.ssrfun <> esym def
+R17920:17927 mathcomp.algebra.ssralg GRing.Theory invr_out def
+R17929:17932 Corelib.ssr.ssrbool <> negP thm
+R17915:17918 Corelib.ssr.ssrfun <> esym def
+R17920:17927 mathcomp.algebra.ssralg GRing.Theory invr_out def
+R17929:17932 Corelib.ssr.ssrbool <> negP thm
+R17955:17959 Corelib.ssr.ssrbool <> negbT thm
+R17962:17968 mathcomp.ssreflect.fintype <> forallP thm
+R17993:18004 vehicle.tensor <> ord_prod_nil thm
+R17993:18004 vehicle.tensor <> ord_prod_nil thm
+R17993:18004 vehicle.tensor <> ord_prod_nil thm
+R17993:18004 vehicle.tensor <> ord_prod_nil thm
+R17993:18004 vehicle.tensor <> ord_prod_nil thm
+R18017:18031 vehicle.tensor NilTensorTheory <> sec
+sec 18044:18060 <> ConstTensorTheory
+var  18073:18074 ConstTensorTheory us
+var  18076:18077 ConstTensorTheory ds
+R18081:18084 vehicle.tensor <> pseq rec
+R18119:18130 mathcomp.algebra.ssralg GRing.Theory <> mod
+prf 18140:18147 <> const_tD
+R18154:18161 mathcomp.algebra.ssralg GRing.Nmodule.Exports nmodType abbrev
+binder 18150:18150 <> R:161
+binder 18164:18164 <> x:162
+binder 18166:18166 <> y:163
+R18196:18198 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18173:18179 vehicle.tensor <> const_t def
+R18181:18181 vehicle.tensor <> R:161 var
+R18183:18184 vehicle.tensor <> ConstTensorTheory.us var
+R18186:18187 vehicle.tensor <> ConstTensorTheory.ds var
+R18191:18193 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R18190:18190 vehicle.tensor <> x:162 var
+R18194:18194 vehicle.tensor <> y:163 var
+R18208:18210 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R18199:18205 vehicle.tensor <> const_t def
+R18207:18207 vehicle.tensor <> x:162 var
+R18211:18217 vehicle.tensor <> const_t def
+R18219:18219 vehicle.tensor <> y:163 var
+R18241:18247 vehicle.tensor <> const_t def
+R18249:18254 Corelib.ssr.ssreflect <> unlock thm
+R18263:18269 mathcomp.ssreflect.eqtype <> val_inj thm
+R18271:18277 mathcomp.algebra.matrix <> matrixP thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+R18241:18247 vehicle.tensor <> const_t def
+R18241:18247 vehicle.tensor <> const_t def
+R18249:18254 Corelib.ssr.ssreflect <> unlock thm
+R18249:18254 Corelib.ssr.ssreflect <> unlock thm
+R18263:18269 mathcomp.ssreflect.eqtype <> val_inj thm
+R18271:18277 mathcomp.algebra.matrix <> matrixP thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+R18295:18297 mathcomp.algebra.matrix <> mxE thm
+prf 18312:18319 <> const_tN
+R18326:18333 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType abbrev
+binder 18322:18322 <> R:164
+binder 18336:18336 <> x:165
+R18364:18366 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18343:18349 vehicle.tensor <> const_t def
+R18351:18351 vehicle.tensor <> R:164 var
+R18353:18354 vehicle.tensor <> ConstTensorTheory.us var
+R18356:18357 vehicle.tensor <> ConstTensorTheory.ds var
+R18360:18361 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R18362:18362 vehicle.tensor <> x:165 var
+R18367:18368 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R18369:18375 vehicle.tensor <> const_t def
+R18377:18377 vehicle.tensor <> x:165 var
+R18399:18407 mathcomp.algebra.ssralg GRing opp def
+R18411:18414 vehicle.tensor <> oppt def
+R18416:18422 vehicle.tensor <> const_t def
+R18424:18429 Corelib.ssr.ssreflect <> unlock thm
+R18399:18407 mathcomp.algebra.ssralg GRing opp def
+R18399:18407 mathcomp.algebra.ssralg GRing opp def
+R18411:18414 vehicle.tensor <> oppt def
+R18411:18414 vehicle.tensor <> oppt def
+R18416:18422 vehicle.tensor <> const_t def
+R18416:18422 vehicle.tensor <> const_t def
+R18424:18429 Corelib.ssr.ssreflect <> unlock thm
+R18424:18429 Corelib.ssr.ssreflect <> unlock thm
+R18441:18447 mathcomp.ssreflect.eqtype <> val_inj thm
+R18449:18455 mathcomp.algebra.matrix <> matrixP thm
+R18473:18475 mathcomp.algebra.matrix <> mxE thm
+R18441:18447 mathcomp.ssreflect.eqtype <> val_inj thm
+R18449:18455 mathcomp.algebra.matrix <> matrixP thm
+R18473:18475 mathcomp.algebra.matrix <> mxE thm
+R18473:18475 mathcomp.algebra.matrix <> mxE thm
+R18473:18475 mathcomp.algebra.matrix <> mxE thm
+R18473:18475 mathcomp.algebra.matrix <> mxE thm
+R18473:18475 mathcomp.algebra.matrix <> mxE thm
+prf 18490:18497 <> const_tM
+R18504:18517 mathcomp.algebra.ssralg GRing.PzSemiRing.Exports pzSemiRingType abbrev
+binder 18500:18500 <> R:166
+binder 18520:18520 <> x:167
+binder 18522:18522 <> y:168
+R18552:18554 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18529:18535 vehicle.tensor <> const_t def
+R18537:18537 vehicle.tensor <> R:166 var
+R18539:18540 vehicle.tensor <> ConstTensorTheory.us var
+R18542:18543 vehicle.tensor <> ConstTensorTheory.ds var
+R18547:18549 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18546:18546 vehicle.tensor <> x:167 var
+R18550:18550 vehicle.tensor <> y:168 var
+R18564:18566 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18555:18561 vehicle.tensor <> const_t def
+R18563:18563 vehicle.tensor <> x:167 var
+R18567:18573 vehicle.tensor <> const_t def
+R18575:18575 vehicle.tensor <> y:168 var
+R18597:18605 mathcomp.algebra.ssralg GRing mul def
+R18609:18612 vehicle.tensor <> mult def
+R18614:18620 vehicle.tensor <> const_t def
+R18622:18627 vehicle.tensor <> map2_t def
+R18629:18634 Corelib.ssr.ssreflect <> unlock thm
+R18597:18605 mathcomp.algebra.ssralg GRing mul def
+R18597:18605 mathcomp.algebra.ssralg GRing mul def
+R18609:18612 vehicle.tensor <> mult def
+R18609:18612 vehicle.tensor <> mult def
+R18614:18620 vehicle.tensor <> const_t def
+R18614:18620 vehicle.tensor <> const_t def
+R18622:18627 vehicle.tensor <> map2_t def
+R18622:18627 vehicle.tensor <> map2_t def
+R18629:18634 Corelib.ssr.ssreflect <> unlock thm
+R18629:18634 Corelib.ssr.ssreflect <> unlock thm
+R18646:18652 mathcomp.ssreflect.eqtype <> val_inj thm
+R18654:18660 mathcomp.algebra.matrix <> matrixP thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+R18646:18652 mathcomp.ssreflect.eqtype <> val_inj thm
+R18654:18660 mathcomp.algebra.matrix <> matrixP thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+R18678:18680 mathcomp.algebra.matrix <> mxE thm
+def 18700:18712 <> const_tr_spec
+R18719:18728 mathcomp.algebra.ssralg GRing.PzRing.Exports pzRingType abbrev
+binder 18715:18715 <> R:169
+R18736:18736 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18748:18749 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18761:18762 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18774:18774 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18738:18745 vehicle.tensor <> const_tM thm
+R18747:18747 vehicle.tensor <> R:169 var
+R18751:18758 vehicle.tensor <> const_tN thm
+R18760:18760 vehicle.tensor <> R:169 var
+R18764:18771 vehicle.tensor <> const_tD thm
+R18773:18773 vehicle.tensor <> R:169 var
+prf 18784:18791 <> const_tV
+R18798:18809 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType abbrev
+binder 18794:18794 <> R:170
+binder 18812:18812 <> x:171
+R18839:18841 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18819:18825 vehicle.tensor <> const_t def
+R18827:18827 vehicle.tensor <> R:170 var
+R18829:18830 vehicle.tensor <> ConstTensorTheory.us var
+R18832:18833 vehicle.tensor <> ConstTensorTheory.ds var
+R18836:18838 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R18835:18835 vehicle.tensor <> x:171 var
+R18842:18842 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R18852:18855 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R18843:18849 vehicle.tensor <> const_t def
+R18851:18851 vehicle.tensor <> x:171 var
+R18874:18880 vehicle.tensor <> const_t def
+R18882:18887 Corelib.ssr.ssreflect <> unlock thm
+R18874:18880 vehicle.tensor <> const_t def
+R18874:18880 vehicle.tensor <> const_t def
+R18882:18887 Corelib.ssr.ssreflect <> unlock thm
+R18882:18887 Corelib.ssr.ssreflect <> unlock thm
+R18896:18902 mathcomp.ssreflect.eqtype <> val_inj thm
+R18904:18910 mathcomp.algebra.matrix <> matrixP thm
+R18896:18902 mathcomp.ssreflect.eqtype <> val_inj thm
+R18904:18910 mathcomp.algebra.matrix <> matrixP thm
+R18931:18939 mathcomp.algebra.ssralg GRing inv def
+R18943:18946 vehicle.tensor <> invt def
+R18931:18939 mathcomp.algebra.ssralg GRing inv def
+R18931:18939 mathcomp.algebra.ssralg GRing inv def
+R18943:18946 vehicle.tensor <> invt def
+R18943:18946 vehicle.tensor <> invt def
+R18971:18975 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18963:18968 vehicle.tensor <> Tensor constr
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18971:18975 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18963:18968 vehicle.tensor <> Tensor constr
+R18971:18975 Corelib.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R18963:18968 vehicle.tensor <> Tensor constr
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R18989:18991 mathcomp.algebra.matrix <> mxE thm
+R19004:19011 mathcomp.algebra.ssralg GRing.Theory invr_out def
+R19013:19016 Corelib.ssr.ssrbool <> negP thm
+R19004:19011 mathcomp.algebra.ssralg GRing.Theory invr_out def
+R19013:19016 Corelib.ssr.ssrbool <> negP thm
+R19039:19043 Corelib.ssr.ssrbool <> negbT thm
+R19046:19052 mathcomp.ssreflect.fintype <> forallP thm
+R19076:19078 mathcomp.algebra.matrix <> mxE thm
+R19076:19078 mathcomp.algebra.matrix <> mxE thm
+R19076:19078 mathcomp.algebra.matrix <> mxE thm
+R19091:19107 vehicle.tensor ConstTensorTheory <> sec
+sec 19120:19130 <> IndexTensor
+sec 19142:19155 IndexTensor IndexTensorBij
+var  19168:19168 IndexTensor.IndexTensorBij x
+var  19178:19179 IndexTensor.IndexTensorBij xs
+R19172:19174 Corelib.Init.Datatypes <> nat ind
+R19183:19185 mathcomp.ssreflect.seq <> seq abbrev
+R19187:19189 Corelib.Init.Datatypes <> nat ind
+prf 19200:19212 <> tensormx_cast
+R19249:19251 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19216:19217 mathcomp.ssreflect.fintype <> ::nat_scope:'#|'_x_'|' not
+R19248:19248 mathcomp.ssreflect.fintype <> ::nat_scope:'#|'_x_'|' not
+R19218:19219 Corelib.ssr.ssrbool <> ::type_scope:'{'_':'_x_'}' not
+R19247:19247 Corelib.ssr.ssrbool <> ::type_scope:'{'_':'_x_'}' not
+R19224:19226 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19220:19222 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19223:19223 vehicle.tensor <> IndexTensor.IndexTensorBij.x var
+R19227:19229 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19230:19236 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19238:19241 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19244:19245 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19242:19243 vehicle.tensor <> IndexTensor.IndexTensorBij.xs var
+binder 19237:19237 <> e:174
+binder 19237:19237 <> e:175
+binder 19237:19237 <> e:176
+R19246:19246 vehicle.tensor <> e:174 var
+R19252:19258 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19260:19263 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19271:19272 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19265:19268 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R19264:19264 vehicle.tensor <> IndexTensor.IndexTensorBij.x var
+R19269:19270 vehicle.tensor <> IndexTensor.IndexTensorBij.xs var
+binder 19259:19259 <> e:177
+binder 19259:19259 <> e:178
+binder 19259:19259 <> e:179
+R19273:19273 vehicle.tensor <> e:177 var
+R19294:19302 mathcomp.ssreflect.fintype <> card_prod thm
+R19305:19312 mathcomp.ssreflect.fintype <> card_ord thm
+R19314:19321 mathcomp.ssreflect.bigop <> big_cons thm
+R19294:19302 mathcomp.ssreflect.fintype <> card_prod thm
+R19294:19302 mathcomp.ssreflect.fintype <> card_prod thm
+R19305:19312 mathcomp.ssreflect.fintype <> card_ord thm
+R19305:19312 mathcomp.ssreflect.fintype <> card_ord thm
+R19305:19312 mathcomp.ssreflect.fintype <> card_ord thm
+R19305:19312 mathcomp.ssreflect.fintype <> card_ord thm
+R19314:19321 mathcomp.ssreflect.bigop <> big_cons thm
+R19314:19321 mathcomp.ssreflect.bigop <> big_cons thm
+def 19341:19354 <> tensormx_index
+R19366:19368 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19362:19364 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19365:19365 vehicle.tensor <> IndexTensor.IndexTensorBij.x var
+R19369:19371 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19372:19378 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19380:19383 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19386:19387 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19384:19385 vehicle.tensor <> IndexTensor.IndexTensorBij.xs var
+binder 19379:19379 <> e:180
+binder 19379:19379 <> e:181
+binder 19379:19379 <> e:182
+R19388:19388 vehicle.tensor <> e:180 var
+binder 19357:19358 <> ij:183
+R19395:19397 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19398:19404 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19406:19409 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19417:19418 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19411:19414 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R19410:19410 vehicle.tensor <> IndexTensor.IndexTensorBij.x var
+R19415:19416 vehicle.tensor <> IndexTensor.IndexTensorBij.xs var
+binder 19405:19405 <> e:184
+binder 19405:19405 <> e:185
+binder 19405:19405 <> e:186
+R19419:19419 vehicle.tensor <> e:184 var
+R19426:19433 mathcomp.ssreflect.fintype <> cast_ord def
+R19450:19458 mathcomp.ssreflect.fintype <> enum_rank def
+R19460:19461 vehicle.tensor <> ij:183 var
+R19435:19447 vehicle.tensor <> tensormx_cast thm
+def 19477:19492 <> tensormx_unindex
+R19499:19501 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19502:19508 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19510:19513 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19521:19522 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19515:19518 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R19514:19514 vehicle.tensor <> IndexTensor.IndexTensorBij.x var
+R19519:19520 vehicle.tensor <> IndexTensor.IndexTensorBij.xs var
+binder 19509:19509 <> e:187
+binder 19509:19509 <> e:188
+binder 19509:19509 <> e:189
+R19523:19523 vehicle.tensor <> e:187 var
+binder 19495:19495 <> i:190
+R19534:19536 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19530:19532 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19533:19533 vehicle.tensor <> IndexTensor.IndexTensorBij.x var
+R19537:19539 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19540:19546 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19548:19551 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19554:19555 mathcomp.ssreflect.bigop <> ::nat_scope:'\prod_'_'('_x_'<-'_x_')'_x not
+R19552:19553 vehicle.tensor <> IndexTensor.IndexTensorBij.xs var
+binder 19547:19547 <> e:191
+binder 19547:19547 <> e:192
+binder 19547:19547 <> e:193
+R19556:19556 vehicle.tensor <> e:191 var
+R19563:19570 mathcomp.ssreflect.fintype <> enum_val def
+R19573:19580 mathcomp.ssreflect.fintype <> cast_ord def
+R19603:19603 vehicle.tensor <> i:190 var
+R19583:19586 Corelib.ssr.ssrfun <> esym def
+R19588:19600 vehicle.tensor <> tensormx_cast thm
+prf 19614:19628 <> tensormx_indexK
+R19632:19637 Corelib.ssr.ssrfun <> cancel def
+R19654:19669 vehicle.tensor <> tensormx_unindex def
+R19639:19652 vehicle.tensor <> tensormx_index def
+R19702:19717 vehicle.tensor <> tensormx_unindex def
+R19719:19727 mathcomp.ssreflect.fintype <> cast_ordK thm
+R19729:19738 mathcomp.ssreflect.fintype <> enum_rankK thm
+R19702:19717 vehicle.tensor <> tensormx_unindex def
+R19702:19717 vehicle.tensor <> tensormx_unindex def
+R19719:19727 mathcomp.ssreflect.fintype <> cast_ordK thm
+R19719:19727 mathcomp.ssreflect.fintype <> cast_ordK thm
+R19729:19738 mathcomp.ssreflect.fintype <> enum_rankK thm
+R19729:19738 mathcomp.ssreflect.fintype <> enum_rankK thm
+prf 19753:19769 <> tensormx_unindexK
+R19773:19778 Corelib.ssr.ssrfun <> cancel def
+R19797:19810 vehicle.tensor <> tensormx_index def
+R19780:19795 vehicle.tensor <> tensormx_unindex def
+R19842:19855 vehicle.tensor <> tensormx_index def
+R19857:19865 mathcomp.ssreflect.fintype <> enum_valK thm
+R19867:19876 mathcomp.ssreflect.fintype <> cast_ordKV thm
+R19842:19855 vehicle.tensor <> tensormx_index def
+R19842:19855 vehicle.tensor <> tensormx_index def
+R19857:19865 mathcomp.ssreflect.fintype <> enum_valK thm
+R19857:19865 mathcomp.ssreflect.fintype <> enum_valK thm
+R19867:19876 mathcomp.ssreflect.fintype <> cast_ordKV thm
+R19867:19876 mathcomp.ssreflect.fintype <> cast_ordKV thm
+R19889:19902 vehicle.tensor IndexTensor.IndexTensorBij <> sec
+var  19915:19915 IndexTensor R
+var  19926:19926 IndexTensor u
+var  19928:19928 IndexTensor d
+var  19938:19939 IndexTensor us
+var  19941:19942 IndexTensor ds
+R19932:19934 Corelib.Init.Datatypes <> nat ind
+R19946:19949 vehicle.tensor <> pseq rec
+def 19989:19994 <> nindex
+R20001:20003 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20005:20007 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20018:20019 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20022:20022 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20004:20004 vehicle.tensor <> IndexTensor.R var
+R20012:20015 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R20009:20011 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20008:20008 vehicle.tensor <> IndexTensor.u var
+R20016:20017 vehicle.tensor <> IndexTensor.us var
+R20020:20021 vehicle.tensor <> IndexTensor.ds var
+binder 19997:19997 <> t:199
+R20030:20032 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R20034:20036 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20033:20033 vehicle.tensor <> IndexTensor.u var
+binder 20026:20026 <> i:200
+R20041:20043 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20045:20047 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20050:20051 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20054:20054 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20044:20044 vehicle.tensor <> IndexTensor.R var
+R20048:20049 vehicle.tensor <> IndexTensor.us var
+R20052:20053 vehicle.tensor <> IndexTensor.ds var
+R20061:20072 vehicle.tensor <> tensor_of_mx abbrev
+R20086:20094 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20097:20098 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20100:20101 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+binder 20095:20096 <> i':201
+binder 20099:20099 <> j:202
+R20103:20108 mathcomp.ssreflect.eqtype <> :::'\val' not
+R20108:20108 vehicle.tensor <> t:199 var
+R20112:20125 vehicle.tensor <> tensormx_index def
+R20127:20127 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20129:20130 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20133:20133 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20128:20128 vehicle.tensor <> i:200 var
+R20131:20132 vehicle.tensor <> i':201 var
+R20136:20136 vehicle.tensor <> j:202 var
+R20074:20083 vehicle.tensor <> tensor_key thm
+def 20152:20157 <> oindex
+R20164:20166 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20168:20170 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20173:20174 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20185:20185 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20167:20167 vehicle.tensor <> IndexTensor.R var
+R20171:20172 vehicle.tensor <> IndexTensor.us var
+R20179:20182 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R20176:20178 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20175:20175 vehicle.tensor <> IndexTensor.d var
+R20183:20184 vehicle.tensor <> IndexTensor.ds var
+binder 20160:20160 <> t:203
+R20193:20195 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R20197:20199 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20196:20196 vehicle.tensor <> IndexTensor.d var
+binder 20189:20189 <> j:204
+R20204:20206 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20208:20210 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20213:20214 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20217:20217 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20207:20207 vehicle.tensor <> IndexTensor.R var
+R20211:20212 vehicle.tensor <> IndexTensor.us var
+R20215:20216 vehicle.tensor <> IndexTensor.ds var
+R20224:20235 vehicle.tensor <> tensor_of_mx abbrev
+R20249:20257 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20259:20260 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20263:20264 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+binder 20258:20258 <> i:205
+binder 20261:20262 <> j':206
+R20266:20271 mathcomp.ssreflect.eqtype <> :::'\val' not
+R20271:20271 vehicle.tensor <> t:203 var
+R20274:20274 vehicle.tensor <> i:205 var
+R20277:20290 vehicle.tensor <> tensormx_index def
+R20292:20292 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20294:20295 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20298:20298 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20293:20293 vehicle.tensor <> j:204 var
+R20296:20297 vehicle.tensor <> j':206 var
+R20237:20246 vehicle.tensor <> tensor_key thm
+def 20315:20320 <> nstack
+R20334:20337 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20327:20329 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R20331:20333 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20330:20330 vehicle.tensor <> IndexTensor.u var
+R20338:20340 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20342:20344 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20347:20348 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20351:20351 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20341:20341 vehicle.tensor <> IndexTensor.R var
+R20345:20346 vehicle.tensor <> IndexTensor.us var
+R20349:20350 vehicle.tensor <> IndexTensor.ds var
+binder 20323:20323 <> f:207
+R20356:20358 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20360:20362 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20373:20374 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20377:20377 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20359:20359 vehicle.tensor <> IndexTensor.R var
+R20367:20370 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R20364:20366 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20363:20363 vehicle.tensor <> IndexTensor.u var
+R20371:20372 vehicle.tensor <> IndexTensor.us var
+R20375:20376 vehicle.tensor <> IndexTensor.ds var
+R20384:20395 vehicle.tensor <> tensor_of_mx abbrev
+R20414:20422 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20424:20425 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20427:20428 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+binder 20423:20423 <> i:208
+binder 20426:20426 <> j:209
+R20429:20484 mathcomp.ssreflect.eqtype <> :::'\val' not
+R20461:20461 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R20480:20482 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R20462:20477 vehicle.tensor <> tensormx_unindex def
+R20479:20479 vehicle.tensor <> i:208 var
+R20484:20484 vehicle.tensor <> j:209 var
+R20435:20435 vehicle.tensor <> f:207 var
+R20437:20437 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R20456:20458 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R20438:20453 vehicle.tensor <> tensormx_unindex def
+R20455:20455 vehicle.tensor <> i:208 var
+R20397:20406 vehicle.tensor <> tensor_key thm
+def 20500:20505 <> ostack
+R20519:20522 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20512:20514 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R20516:20518 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20515:20515 vehicle.tensor <> IndexTensor.d var
+R20523:20525 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20527:20529 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20532:20533 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20536:20536 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20526:20526 vehicle.tensor <> IndexTensor.R var
+R20530:20531 vehicle.tensor <> IndexTensor.us var
+R20534:20535 vehicle.tensor <> IndexTensor.ds var
+binder 20508:20508 <> f:210
+R20541:20543 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20545:20547 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20550:20551 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20562:20562 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R20544:20544 vehicle.tensor <> IndexTensor.R var
+R20548:20549 vehicle.tensor <> IndexTensor.us var
+R20556:20559 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R20553:20555 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R20552:20552 vehicle.tensor <> IndexTensor.d var
+R20560:20561 vehicle.tensor <> IndexTensor.ds var
+R20569:20580 vehicle.tensor <> tensor_of_mx abbrev
+R20599:20607 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20609:20610 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R20612:20613 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+binder 20608:20608 <> i:211
+binder 20611:20611 <> j:212
+R20614:20669 mathcomp.ssreflect.eqtype <> :::'\val' not
+R20646:20646 vehicle.tensor <> i:211 var
+R20648:20648 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R20667:20669 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R20649:20664 vehicle.tensor <> tensormx_unindex def
+R20666:20666 vehicle.tensor <> j:212 var
+R20620:20620 vehicle.tensor <> f:210 var
+R20622:20622 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R20641:20643 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R20623:20638 vehicle.tensor <> tensormx_unindex def
+R20640:20640 vehicle.tensor <> j:212 var
+R20582:20591 vehicle.tensor <> tensor_key thm
+R20678:20688 vehicle.tensor IndexTensor <> sec
+R20715:20720 vehicle.tensor <> nindex def
+not 20702:20702 <> :::x_'^^'_x
+R20750:20755 vehicle.tensor <> oindex def
+not 20737:20737 <> :::x_'`_'_x
+R20786:20786 vehicle.tensor <> :::x_'.[::]' not
+R20791:20796 vehicle.tensor <> :::x_'.[::]' not
+R20788:20789 vehicle.tensor <> :::x_'^^'_x not
+not 20772:20772 <> :::x_'^^='_x
+R20823:20823 vehicle.tensor <> :::x_'.[::]' not
+R20828:20833 vehicle.tensor <> :::x_'.[::]' not
+R20825:20826 vehicle.tensor <> :::x_'`_'_x not
+not 20809:20809 <> :::x_'`_='_x
+R20876:20881 vehicle.tensor <> nstack def
+R20892:20894 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+binder 20888:20888 <> i:213
+not 20847:20847 <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x
+R20960:20965 vehicle.tensor <> ostack def
+R20976:20978 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+binder 20972:20972 <> i:214
+not 20931:20931 <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x
+R21036:21045 vehicle.tensor <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x not
+R21047:21049 vehicle.tensor <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x not
+R21051:21052 vehicle.tensor <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x not
+binder 21046:21046 <> i:215
+not 21015:21015 <> :::'\tensor'_'^^'_x_x
+R21087:21096 vehicle.tensor <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x not
+R21098:21100 vehicle.tensor <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x not
+R21102:21103 vehicle.tensor <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x not
+binder 21097:21097 <> i:216
+not 21066:21066 <> :::'\tensor'_'`_'_x_x
+R21149:21158 vehicle.tensor <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x not
+R21160:21162 vehicle.tensor <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x not
+R21164:21165 vehicle.tensor <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_x not
+binder 21159:21159 <> i:217
+R21166:21172 vehicle.tensor <> const_t def
+not 21117:21117 <> :::'\tensor'_'^^'_'('_x_'<'_x_')'_'=>'_x
+R21236:21245 vehicle.tensor <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x not
+R21247:21249 vehicle.tensor <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x not
+R21251:21252 vehicle.tensor <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_x not
+binder 21246:21246 <> i:218
+R21253:21259 vehicle.tensor <> const_t def
+not 21204:21204 <> :::'\tensor'_'`_'_'('_x_'<'_x_')'_'=>'_x
+R21315:21323 vehicle.tensor <> :::'\tensor'_'^^'_x_x not
+R21325:21325 vehicle.tensor <> :::'\tensor'_'^^'_x_x not
+binder 21324:21324 <> i:219
+binder 21324:21324 <> i:220
+R21326:21332 vehicle.tensor <> const_t def
+not 21291:21291 <> :::'\tensor'_'^^'_x_'=>'_x
+R21371:21379 vehicle.tensor <> :::'\tensor'_'`_'_x_x not
+R21381:21381 vehicle.tensor <> :::'\tensor'_'`_'_x_x not
+binder 21380:21380 <> i:221
+binder 21380:21380 <> i:222
+R21382:21388 vehicle.tensor <> const_t def
+not 21347:21347 <> :::'\tensor'_'`_'_x_'=>'_x
+sec 21404:21420 <> TensorIndexTheory
+var  21433:21433 TensorIndexTheory R
+prf 21451:21458 <> ntensorP
+binder 21461:21461 <> u:224
+R21473:21476 vehicle.tensor <> pseq rec
+binder 21465:21466 <> us:225
+binder 21468:21469 <> ds:226
+R21486:21488 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21490:21492 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21503:21504 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21507:21507 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21489:21489 vehicle.tensor <> TensorIndexTheory.R var
+R21497:21500 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R21494:21496 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R21493:21493 vehicle.tensor <> u:224 var
+R21501:21502 vehicle.tensor <> us:225 var
+R21505:21506 vehicle.tensor <> ds:226 var
+binder 21480:21480 <> t:227
+binder 21482:21482 <> v:228
+R21519:21523 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R21515:21517 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21514:21514 vehicle.tensor <> t:227 var
+R21518:21518 vehicle.tensor <> v:228 var
+binder 21531:21531 <> i:229
+R21538:21540 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21535:21536 vehicle.tensor <> :::x_'^^'_x not
+R21534:21534 vehicle.tensor <> t:227 var
+R21537:21537 vehicle.tensor <> i:229 var
+R21542:21543 vehicle.tensor <> :::x_'^^'_x not
+R21541:21541 vehicle.tensor <> v:228 var
+R21544:21544 vehicle.tensor <> i:229 var
+R21563:21568 vehicle.tensor <> nindex def
+R21570:21575 Corelib.ssr.ssreflect <> unlock thm
+R21563:21568 vehicle.tensor <> nindex def
+R21563:21568 vehicle.tensor <> nindex def
+R21570:21575 Corelib.ssr.ssreflect <> unlock thm
+R21570:21575 Corelib.ssr.ssreflect <> unlock thm
+R21605:21611 mathcomp.ssreflect.eqtype <> val_inj thm
+R21613:21619 mathcomp.algebra.matrix <> matrixP thm
+R21605:21611 mathcomp.ssreflect.eqtype <> val_inj thm
+R21613:21619 mathcomp.algebra.matrix <> matrixP thm
+R21640:21640 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21659:21661 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21641:21656 vehicle.tensor <> tensormx_unindex def
+R21640:21640 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21659:21661 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21641:21656 vehicle.tensor <> tensormx_unindex def
+R21640:21640 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21659:21661 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21641:21656 vehicle.tensor <> tensormx_unindex def
+R21668:21674 mathcomp.algebra.matrix <> matrixP thm
+R21681:21681 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R21700:21702 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R21682:21697 vehicle.tensor <> tensormx_unindex def
+R21720:21722 mathcomp.algebra.matrix <> mxE thm
+R21725:21742 Corelib.Init.Datatypes <> surjective_pairing thm
+R21744:21760 vehicle.tensor <> tensormx_unindexK thm
+R21720:21722 mathcomp.algebra.matrix <> mxE thm
+R21720:21722 mathcomp.algebra.matrix <> mxE thm
+R21720:21722 mathcomp.algebra.matrix <> mxE thm
+R21720:21722 mathcomp.algebra.matrix <> mxE thm
+R21725:21742 Corelib.Init.Datatypes <> surjective_pairing thm
+R21725:21742 Corelib.Init.Datatypes <> surjective_pairing thm
+R21744:21760 vehicle.tensor <> tensormx_unindexK thm
+R21744:21760 vehicle.tensor <> tensormx_unindexK thm
+prf 21775:21782 <> otensorP
+binder 21785:21785 <> d:230
+R21797:21800 vehicle.tensor <> pseq rec
+binder 21789:21790 <> us:231
+binder 21792:21793 <> ds:232
+R21810:21812 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21814:21816 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21819:21820 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21831:21831 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R21813:21813 vehicle.tensor <> TensorIndexTheory.R var
+R21817:21818 vehicle.tensor <> us:231 var
+R21825:21828 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R21822:21824 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R21821:21821 vehicle.tensor <> d:230 var
+R21829:21830 vehicle.tensor <> ds:232 var
+binder 21804:21804 <> t:233
+binder 21806:21806 <> v:234
+R21843:21847 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R21839:21841 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21838:21838 vehicle.tensor <> t:233 var
+R21842:21842 vehicle.tensor <> v:234 var
+binder 21855:21855 <> i:235
+R21862:21864 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21859:21860 vehicle.tensor <> :::x_'`_'_x not
+R21858:21858 vehicle.tensor <> t:233 var
+R21861:21861 vehicle.tensor <> i:235 var
+R21866:21867 vehicle.tensor <> :::x_'`_'_x not
+R21865:21865 vehicle.tensor <> v:234 var
+R21868:21868 vehicle.tensor <> i:235 var
+R21887:21892 vehicle.tensor <> oindex def
+R21894:21899 Corelib.ssr.ssreflect <> unlock thm
+R21887:21892 vehicle.tensor <> oindex def
+R21887:21892 vehicle.tensor <> oindex def
+R21894:21899 Corelib.ssr.ssreflect <> unlock thm
+R21894:21899 Corelib.ssr.ssreflect <> unlock thm
+R21929:21935 mathcomp.ssreflect.eqtype <> val_inj thm
+R21937:21943 mathcomp.algebra.matrix <> matrixP thm
+R21929:21935 mathcomp.ssreflect.eqtype <> val_inj thm
+R21937:21943 mathcomp.algebra.matrix <> matrixP thm
+R21964:21964 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21983:21985 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21965:21980 vehicle.tensor <> tensormx_unindex def
+R21964:21964 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21983:21985 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21965:21980 vehicle.tensor <> tensormx_unindex def
+R21964:21964 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21983:21985 Corelib.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R21965:21980 vehicle.tensor <> tensormx_unindex def
+R21992:21998 mathcomp.algebra.matrix <> matrixP thm
+R22007:22007 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R22026:22028 Corelib.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R22008:22023 vehicle.tensor <> tensormx_unindex def
+R22044:22046 mathcomp.algebra.matrix <> mxE thm
+R22049:22066 Corelib.Init.Datatypes <> surjective_pairing thm
+R22068:22084 vehicle.tensor <> tensormx_unindexK thm
+R22044:22046 mathcomp.algebra.matrix <> mxE thm
+R22044:22046 mathcomp.algebra.matrix <> mxE thm
+R22044:22046 mathcomp.algebra.matrix <> mxE thm
+R22044:22046 mathcomp.algebra.matrix <> mxE thm
+R22049:22066 Corelib.Init.Datatypes <> surjective_pairing thm
+R22049:22066 Corelib.Init.Datatypes <> surjective_pairing thm
+R22068:22084 vehicle.tensor <> tensormx_unindexK thm
+R22068:22084 vehicle.tensor <> tensormx_unindexK thm
+prf 22099:22109 <> ntensor_eqP
+binder 22112:22112 <> u:236
+R22122:22125 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R22127:22129 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R22139:22139 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R22126:22126 vehicle.tensor <> TensorIndexTheory.R var
+R22130:22133 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R22138:22138 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R22135:22137 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R22134:22134 vehicle.tensor <> u:236 var
+binder 22116:22116 <> t:237
+binder 22118:22118 <> v:238
+R22151:22155 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R22147:22149 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22146:22146 vehicle.tensor <> t:237 var
+R22150:22150 vehicle.tensor <> v:238 var
+binder 22163:22163 <> i:239
+R22171:22173 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22167:22169 vehicle.tensor <> :::x_'^^='_x not
+R22166:22166 vehicle.tensor <> t:237 var
+R22170:22170 vehicle.tensor <> i:239 var
+R22175:22177 vehicle.tensor <> :::x_'^^='_x not
+R22174:22174 vehicle.tensor <> v:238 var
+R22178:22178 vehicle.tensor <> i:239 var
+R22215:22222 vehicle.tensor <> ntensorP thm
+R22215:22222 vehicle.tensor <> ntensorP thm
+R22250:22263 vehicle.tensor <> tensor_nil_eqP thm
+prf 22278:22288 <> otensor_eqP
+binder 22291:22291 <> d:240
+R22301:22304 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R22306:22308 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R22318:22318 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R22305:22305 vehicle.tensor <> TensorIndexTheory.R var
+R22309:22312 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R22317:22317 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R22314:22316 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R22313:22313 vehicle.tensor <> d:240 var
+binder 22295:22295 <> t:241
+binder 22297:22297 <> v:242
+R22330:22334 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R22326:22328 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22325:22325 vehicle.tensor <> t:241 var
+R22329:22329 vehicle.tensor <> v:242 var
+binder 22342:22342 <> i:243
+R22350:22352 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22346:22348 vehicle.tensor <> :::x_'`_='_x not
+R22345:22345 vehicle.tensor <> t:241 var
+R22349:22349 vehicle.tensor <> i:243 var
+R22354:22356 vehicle.tensor <> :::x_'`_='_x not
+R22353:22353 vehicle.tensor <> v:242 var
+R22357:22357 vehicle.tensor <> i:243 var
+R22394:22401 vehicle.tensor <> otensorP thm
+R22394:22401 vehicle.tensor <> otensorP thm
+R22429:22442 vehicle.tensor <> tensor_nil_eqP thm
+prf 22457:22463 <> nstackE
+binder 22466:22466 <> u:244
+binder 22468:22469 <> us:245
+binder 22471:22472 <> ds:246
+R22487:22490 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22480:22482 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R22484:22486 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R22483:22483 vehicle.tensor <> u:244 var
+R22491:22493 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22495:22497 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22500:22501 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22504:22504 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22494:22494 vehicle.tensor <> TensorIndexTheory.R var
+R22498:22499 vehicle.tensor <> us:245 var
+R22502:22503 vehicle.tensor <> ds:246 var
+binder 22476:22476 <> f:247
+binder 22507:22507 <> i:248
+R22524:22526 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22511:22511 vehicle.tensor <> :::x_'^^'_x not
+R22520:22522 vehicle.tensor <> :::x_'^^'_x not
+R22512:22517 vehicle.tensor <> nstack def
+R22519:22519 vehicle.tensor <> f:247 var
+R22523:22523 vehicle.tensor <> i:248 var
+R22527:22527 vehicle.tensor <> f:247 var
+R22529:22529 vehicle.tensor <> i:248 var
+R22548:22553 vehicle.tensor <> nstack def
+R22555:22560 vehicle.tensor <> nindex def
+R22562:22567 Corelib.ssr.ssreflect <> unlock thm
+R22548:22553 vehicle.tensor <> nstack def
+R22548:22553 vehicle.tensor <> nstack def
+R22555:22560 vehicle.tensor <> nindex def
+R22555:22560 vehicle.tensor <> nindex def
+R22562:22567 Corelib.ssr.ssreflect <> unlock thm
+R22562:22567 Corelib.ssr.ssreflect <> unlock thm
+R22579:22585 mathcomp.ssreflect.eqtype <> val_inj thm
+R22587:22593 mathcomp.algebra.matrix <> matrixP thm
+R22612:22614 mathcomp.algebra.matrix <> mxE thm
+R22616:22630 vehicle.tensor <> tensormx_indexK thm
+R22579:22585 mathcomp.ssreflect.eqtype <> val_inj thm
+R22587:22593 mathcomp.algebra.matrix <> matrixP thm
+R22612:22614 mathcomp.algebra.matrix <> mxE thm
+R22612:22614 mathcomp.algebra.matrix <> mxE thm
+R22612:22614 mathcomp.algebra.matrix <> mxE thm
+R22612:22614 mathcomp.algebra.matrix <> mxE thm
+R22616:22630 vehicle.tensor <> tensormx_indexK thm
+R22616:22630 vehicle.tensor <> tensormx_indexK thm
+prf 22645:22651 <> ostackE
+binder 22654:22655 <> us:249
+binder 22657:22657 <> d:250
+binder 22659:22660 <> ds:251
+R22675:22678 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22668:22670 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R22672:22674 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R22671:22671 vehicle.tensor <> d:250 var
+R22679:22681 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22683:22685 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22688:22689 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22692:22692 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R22682:22682 vehicle.tensor <> TensorIndexTheory.R var
+R22686:22687 vehicle.tensor <> us:249 var
+R22690:22691 vehicle.tensor <> ds:251 var
+binder 22664:22664 <> f:252
+binder 22695:22695 <> i:253
+R22712:22714 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22699:22699 vehicle.tensor <> :::x_'`_'_x not
+R22708:22710 vehicle.tensor <> :::x_'`_'_x not
+R22700:22705 vehicle.tensor <> ostack def
+R22707:22707 vehicle.tensor <> f:252 var
+R22711:22711 vehicle.tensor <> i:253 var
+R22715:22715 vehicle.tensor <> f:252 var
+R22717:22717 vehicle.tensor <> i:253 var
+R22736:22741 vehicle.tensor <> ostack def
+R22743:22748 vehicle.tensor <> oindex def
+R22750:22755 Corelib.ssr.ssreflect <> unlock thm
+R22736:22741 vehicle.tensor <> ostack def
+R22736:22741 vehicle.tensor <> ostack def
+R22743:22748 vehicle.tensor <> oindex def
+R22743:22748 vehicle.tensor <> oindex def
+R22750:22755 Corelib.ssr.ssreflect <> unlock thm
+R22750:22755 Corelib.ssr.ssreflect <> unlock thm
+R22767:22773 mathcomp.ssreflect.eqtype <> val_inj thm
+R22775:22781 mathcomp.algebra.matrix <> matrixP thm
+R22800:22802 mathcomp.algebra.matrix <> mxE thm
+R22804:22818 vehicle.tensor <> tensormx_indexK thm
+R22767:22773 mathcomp.ssreflect.eqtype <> val_inj thm
+R22775:22781 mathcomp.algebra.matrix <> matrixP thm
+R22800:22802 mathcomp.algebra.matrix <> mxE thm
+R22800:22802 mathcomp.algebra.matrix <> mxE thm
+R22800:22802 mathcomp.algebra.matrix <> mxE thm
+R22800:22802 mathcomp.algebra.matrix <> mxE thm
+R22804:22818 vehicle.tensor <> tensormx_indexK thm
+R22804:22818 vehicle.tensor <> tensormx_indexK thm
+prf 22833:22842 <> nstack_eqE
+binder 22845:22845 <> u:254
+R22860:22863 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22853:22855 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R22857:22859 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R22856:22856 vehicle.tensor <> u:254 var
+R22864:22864 vehicle.tensor <> TensorIndexTheory.R var
+binder 22849:22849 <> f:255
+binder 22867:22867 <> i:256
+R22896:22898 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22871:22871 vehicle.tensor <> :::x_'^^='_x not
+R22891:22894 vehicle.tensor <> :::x_'^^='_x not
+R22872:22880 vehicle.tensor <> :::'\tensor'_'^^'_x_'=>'_x not
+R22883:22886 vehicle.tensor <> :::'\tensor'_'^^'_x_'=>'_x not
+binder 22881:22882 <> i0:257
+binder 22881:22882 <> i0:258
+R22887:22887 vehicle.tensor <> f:255 var
+R22889:22890 vehicle.tensor <> i0:257 var
+R22895:22895 vehicle.tensor <> i:256 var
+R22899:22899 vehicle.tensor <> f:255 var
+R22901:22901 vehicle.tensor <> i:256 var
+R22922:22928 vehicle.tensor <> nstackE thm
+R22930:22937 vehicle.tensor <> const_tK def
+R22922:22928 vehicle.tensor <> nstackE thm
+R22922:22928 vehicle.tensor <> nstackE thm
+R22930:22937 vehicle.tensor <> const_tK def
+R22930:22937 vehicle.tensor <> const_tK def
+prf 22952:22961 <> ostack_eqE
+binder 22964:22964 <> d:259
+R22979:22982 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22972:22974 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R22976:22978 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R22975:22975 vehicle.tensor <> d:259 var
+R22983:22983 vehicle.tensor <> TensorIndexTheory.R var
+binder 22968:22968 <> f:260
+binder 22986:22986 <> i:261
+R23015:23017 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22990:22990 vehicle.tensor <> :::x_'`_='_x not
+R23010:23013 vehicle.tensor <> :::x_'`_='_x not
+R22991:22999 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+R23002:23005 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+binder 23000:23001 <> i0:262
+binder 23000:23001 <> i0:263
+R23006:23006 vehicle.tensor <> f:260 var
+R23008:23009 vehicle.tensor <> i0:262 var
+R23014:23014 vehicle.tensor <> i:261 var
+R23018:23018 vehicle.tensor <> f:260 var
+R23020:23020 vehicle.tensor <> i:261 var
+R23041:23047 vehicle.tensor <> ostackE thm
+R23049:23056 vehicle.tensor <> const_tK def
+R23041:23047 vehicle.tensor <> ostackE thm
+R23041:23047 vehicle.tensor <> ostackE thm
+R23049:23056 vehicle.tensor <> const_tK def
+R23049:23056 vehicle.tensor <> const_tK def
+R23069:23085 vehicle.tensor TensorIndexTheory <> sec
+sec 23098:23108 <> TensorTuple
+var  23121:23121 TensorTuple R
+var  23132:23132 TensorTuple x
+var  23142:23143 TensorTuple us
+var  23145:23146 TensorTuple ds
+R23136:23138 Corelib.Init.Datatypes <> nat ind
+R23150:23153 vehicle.tensor <> pseq rec
+def 23169:23184 <> ntensor_of_tuple
+R23195:23203 mathcomp.ssreflect.tuple <> ::type_scope:x_'.-tuple' not
+R23192:23194 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23191:23191 vehicle.tensor <> TensorTuple.x var
+R23203:23203 vehicle.tensor <> TensorTuple.R var
+binder 23187:23187 <> t:268
+R23208:23211 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R23213:23215 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R23225:23225 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R23212:23212 vehicle.tensor <> TensorTuple.R var
+R23216:23219 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23224:23224 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23221:23223 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23220:23220 vehicle.tensor <> TensorTuple.x var
+R23232:23240 vehicle.tensor <> :::'\tensor'_'^^'_x_'=>'_x not
+R23242:23246 vehicle.tensor <> :::'\tensor'_'^^'_x_'=>'_x not
+R23255:23255 vehicle.tensor <> :::'\tensor'_'^^'_x_'=>'_x not
+binder 23241:23241 <> i:269
+binder 23241:23241 <> i:270
+R23247:23250 mathcomp.ssreflect.tuple <> tnth def
+R23254:23254 vehicle.tensor <> i:269 var
+R23252:23252 vehicle.tensor <> t:268 var
+def 23270:23285 <> otensor_of_tuple
+R23296:23304 mathcomp.ssreflect.tuple <> ::type_scope:x_'.-tuple' not
+R23293:23295 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23292:23292 vehicle.tensor <> TensorTuple.x var
+R23304:23304 vehicle.tensor <> TensorTuple.R var
+binder 23288:23288 <> t:271
+R23309:23312 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R23314:23316 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R23326:23326 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R23313:23313 vehicle.tensor <> TensorTuple.R var
+R23317:23320 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23325:23325 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23322:23324 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23321:23321 vehicle.tensor <> TensorTuple.x var
+R23333:23341 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+R23343:23347 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+R23356:23356 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+binder 23342:23342 <> i:272
+binder 23342:23342 <> i:273
+R23348:23351 mathcomp.ssreflect.tuple <> tnth def
+R23355:23355 vehicle.tensor <> i:272 var
+R23353:23353 vehicle.tensor <> t:271 var
+def 23371:23386 <> tuple_of_ntensor
+R23393:23396 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R23398:23400 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R23410:23410 vehicle.tensor <> :::'''nT['_x_']_'_'('_x_')' not
+R23397:23397 vehicle.tensor <> TensorTuple.R var
+R23401:23404 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23409:23409 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23406:23408 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23405:23405 vehicle.tensor <> TensorTuple.x var
+binder 23389:23389 <> t:274
+R23418:23424 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23430:23432 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23434:23436 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23441:23441 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23438:23440 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23437:23437 vehicle.tensor <> TensorTuple.x var
+binder 23433:23433 <> i:275
+R23426:23428 vehicle.tensor <> :::x_'^^='_x not
+R23425:23425 vehicle.tensor <> t:274 var
+R23429:23429 vehicle.tensor <> i:275 var
+def 23456:23471 <> tuple_of_otensor
+R23478:23481 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R23483:23485 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R23495:23495 vehicle.tensor <> :::'''oT['_x_']_'_'('_x_')' not
+R23482:23482 vehicle.tensor <> TensorTuple.R var
+R23486:23489 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23494:23494 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R23491:23493 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23490:23490 vehicle.tensor <> TensorTuple.x var
+binder 23474:23474 <> t:276
+R23503:23509 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23515:23517 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23519:23521 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23526:23526 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R23523:23525 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R23522:23522 vehicle.tensor <> TensorTuple.x var
+binder 23518:23518 <> i:277
+R23511:23513 vehicle.tensor <> :::x_'`_='_x not
+R23510:23510 vehicle.tensor <> t:276 var
+R23514:23514 vehicle.tensor <> i:277 var
+prf 23536:23552 <> ntensor_of_tupleE
+binder 23554:23554 <> t:278
+binder 23556:23556 <> i:279
+R23584:23586 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23560:23560 vehicle.tensor <> :::x_'^^='_x not
+R23579:23582 vehicle.tensor <> :::x_'^^='_x not
+R23561:23576 vehicle.tensor <> ntensor_of_tuple def
+R23578:23578 vehicle.tensor <> t:278 var
+R23583:23583 vehicle.tensor <> i:279 var
+R23587:23590 mathcomp.ssreflect.tuple <> tnth def
+R23594:23594 vehicle.tensor <> i:279 var
+R23592:23592 vehicle.tensor <> t:278 var
+R23611:23620 vehicle.tensor <> nstack_eqE thm
+R23611:23620 vehicle.tensor <> nstack_eqE thm
+prf 23635:23651 <> otensor_of_tupleE
+binder 23653:23653 <> t:280
+binder 23655:23655 <> i:281
+R23683:23685 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23659:23659 vehicle.tensor <> :::x_'`_='_x not
+R23678:23681 vehicle.tensor <> :::x_'`_='_x not
+R23660:23675 vehicle.tensor <> otensor_of_tuple def
+R23677:23677 vehicle.tensor <> t:280 var
+R23682:23682 vehicle.tensor <> i:281 var
+R23686:23689 mathcomp.ssreflect.tuple <> tnth def
+R23693:23693 vehicle.tensor <> i:281 var
+R23691:23691 vehicle.tensor <> t:280 var
+R23710:23719 vehicle.tensor <> ostack_eqE thm
+R23710:23719 vehicle.tensor <> ostack_eqE thm
+prf 23734:23750 <> ntensor_of_tupleK
+R23754:23759 Corelib.ssr.ssrfun <> cancel def
+R23778:23793 vehicle.tensor <> tuple_of_ntensor def
+R23761:23776 vehicle.tensor <> ntensor_of_tuple def
+R23822:23833 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R23848:23859 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R23861:23870 vehicle.tensor <> nstack_eqE thm
+R23822:23833 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R23848:23859 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R23848:23859 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R23861:23870 vehicle.tensor <> nstack_eqE thm
+R23861:23870 vehicle.tensor <> nstack_eqE thm
+prf 23885:23901 <> tuple_of_ntensorK
+R23905:23910 Corelib.ssr.ssrfun <> cancel def
+R23929:23944 vehicle.tensor <> ntensor_of_tuple def
+R23912:23927 vehicle.tensor <> tuple_of_ntensor def
+R23973:23983 vehicle.tensor <> ntensor_eqP thm
+R23998:24004 vehicle.tensor <> nstackE thm
+R24006:24013 vehicle.tensor <> const_tK def
+R24015:24026 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R23973:23983 vehicle.tensor <> ntensor_eqP thm
+R23998:24004 vehicle.tensor <> nstackE thm
+R23998:24004 vehicle.tensor <> nstackE thm
+R24006:24013 vehicle.tensor <> const_tK def
+R24006:24013 vehicle.tensor <> const_tK def
+R24015:24026 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24015:24026 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+prf 24041:24057 <> otensor_of_tupleK
+R24061:24066 Corelib.ssr.ssrfun <> cancel def
+R24085:24100 vehicle.tensor <> tuple_of_otensor def
+R24068:24083 vehicle.tensor <> otensor_of_tuple def
+R24129:24140 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R24155:24166 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24168:24177 vehicle.tensor <> ostack_eqE thm
+R24129:24140 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R24155:24166 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24155:24166 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24168:24177 vehicle.tensor <> ostack_eqE thm
+R24168:24177 vehicle.tensor <> ostack_eqE thm
+prf 24192:24208 <> tuple_of_otensorK
+R24212:24217 Corelib.ssr.ssrfun <> cancel def
+R24236:24251 vehicle.tensor <> otensor_of_tuple def
+R24219:24234 vehicle.tensor <> tuple_of_otensor def
+R24280:24290 vehicle.tensor <> otensor_eqP thm
+R24305:24311 vehicle.tensor <> ostackE thm
+R24313:24320 vehicle.tensor <> const_tK def
+R24322:24333 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24280:24290 vehicle.tensor <> otensor_eqP thm
+R24305:24311 vehicle.tensor <> ostackE thm
+R24305:24311 vehicle.tensor <> ostackE thm
+R24313:24320 vehicle.tensor <> const_tK def
+R24313:24320 vehicle.tensor <> const_tK def
+R24322:24333 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24322:24333 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+def 24353:24364 <> nstack_tuple
+R24375:24396 mathcomp.ssreflect.tuple <> ::type_scope:x_'.-tuple' not
+R24372:24374 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R24371:24371 vehicle.tensor <> TensorTuple.x var
+R24383:24385 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24387:24389 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24392:24393 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24396:24396 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24386:24386 vehicle.tensor <> TensorTuple.R var
+R24390:24391 vehicle.tensor <> TensorTuple.us var
+R24394:24395 vehicle.tensor <> TensorTuple.ds var
+binder 24367:24367 <> t:282
+R24404:24412 vehicle.tensor <> :::'\tensor'_'^^'_x_x not
+R24414:24414 vehicle.tensor <> :::'\tensor'_'^^'_x_x not
+binder 24413:24413 <> i:283
+binder 24413:24413 <> i:284
+R24415:24418 mathcomp.ssreflect.tuple <> tnth def
+R24422:24422 vehicle.tensor <> i:283 var
+R24420:24420 vehicle.tensor <> t:282 var
+def 24437:24448 <> ostack_tuple
+R24459:24480 mathcomp.ssreflect.tuple <> ::type_scope:x_'.-tuple' not
+R24456:24458 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R24455:24455 vehicle.tensor <> TensorTuple.x var
+R24467:24469 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24471:24473 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24476:24477 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24480:24480 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24470:24470 vehicle.tensor <> TensorTuple.R var
+R24474:24475 vehicle.tensor <> TensorTuple.us var
+R24478:24479 vehicle.tensor <> TensorTuple.ds var
+binder 24451:24451 <> t:285
+R24488:24496 vehicle.tensor <> :::'\tensor'_'`_'_x_x not
+R24498:24498 vehicle.tensor <> :::'\tensor'_'`_'_x_x not
+binder 24497:24497 <> i:286
+binder 24497:24497 <> i:287
+R24499:24502 mathcomp.ssreflect.tuple <> tnth def
+R24506:24506 vehicle.tensor <> i:286 var
+R24504:24504 vehicle.tensor <> t:285 var
+def 24521:24534 <> nunstack_tuple
+R24541:24543 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24545:24547 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24558:24559 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24562:24562 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24544:24544 vehicle.tensor <> TensorTuple.R var
+R24552:24555 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R24549:24551 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R24548:24548 vehicle.tensor <> TensorTuple.x var
+R24556:24557 vehicle.tensor <> TensorTuple.us var
+R24560:24561 vehicle.tensor <> TensorTuple.ds var
+binder 24537:24537 <> t:288
+R24570:24576 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24581:24583 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24585:24587 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24592:24592 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24589:24591 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R24588:24588 vehicle.tensor <> TensorTuple.x var
+binder 24584:24584 <> i:289
+R24578:24579 vehicle.tensor <> :::x_'^^'_x not
+R24577:24577 vehicle.tensor <> t:288 var
+R24580:24580 vehicle.tensor <> i:289 var
+def 24607:24620 <> ounstack_tuple
+R24627:24629 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24631:24633 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24636:24637 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24648:24648 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R24630:24630 vehicle.tensor <> TensorTuple.R var
+R24634:24635 vehicle.tensor <> TensorTuple.us var
+R24642:24645 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R24639:24641 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R24638:24638 vehicle.tensor <> TensorTuple.x var
+R24646:24647 vehicle.tensor <> TensorTuple.ds var
+binder 24623:24623 <> t:290
+R24656:24662 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24667:24669 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24671:24673 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24678:24678 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_x_'|'_x_'<'_x_']' not
+R24675:24677 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R24674:24674 vehicle.tensor <> TensorTuple.x var
+binder 24670:24670 <> i:291
+R24664:24665 vehicle.tensor <> :::x_'`_'_x not
+R24663:24663 vehicle.tensor <> t:290 var
+R24666:24666 vehicle.tensor <> i:291 var
+prf 24688:24700 <> nstack_tupleE
+binder 24702:24702 <> t:292
+binder 24704:24704 <> i:293
+R24727:24729 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24708:24708 vehicle.tensor <> :::x_'^^'_x not
+R24723:24725 vehicle.tensor <> :::x_'^^'_x not
+R24709:24720 vehicle.tensor <> nstack_tuple def
+R24722:24722 vehicle.tensor <> t:292 var
+R24726:24726 vehicle.tensor <> i:293 var
+R24730:24733 mathcomp.ssreflect.tuple <> tnth def
+R24737:24737 vehicle.tensor <> i:293 var
+R24735:24735 vehicle.tensor <> t:292 var
+R24754:24760 vehicle.tensor <> nstackE thm
+R24754:24760 vehicle.tensor <> nstackE thm
+prf 24775:24787 <> ostack_tupleE
+binder 24789:24789 <> t:294
+binder 24791:24791 <> i:295
+R24814:24816 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24795:24795 vehicle.tensor <> :::x_'`_'_x not
+R24810:24812 vehicle.tensor <> :::x_'`_'_x not
+R24796:24807 vehicle.tensor <> ostack_tuple def
+R24809:24809 vehicle.tensor <> t:294 var
+R24813:24813 vehicle.tensor <> i:295 var
+R24817:24820 mathcomp.ssreflect.tuple <> tnth def
+R24824:24824 vehicle.tensor <> i:295 var
+R24822:24822 vehicle.tensor <> t:294 var
+R24841:24847 vehicle.tensor <> ostackE thm
+R24841:24847 vehicle.tensor <> ostackE thm
+prf 24862:24874 <> nstack_tupleK
+R24878:24883 Corelib.ssr.ssrfun <> cancel def
+R24898:24911 vehicle.tensor <> nunstack_tuple def
+R24885:24896 vehicle.tensor <> nstack_tuple def
+R24940:24951 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R24966:24977 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24979:24985 vehicle.tensor <> nstackE thm
+R24940:24951 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R24966:24977 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24966:24977 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R24979:24985 vehicle.tensor <> nstackE thm
+R24979:24985 vehicle.tensor <> nstackE thm
+prf 25000:25014 <> nunstack_tupleK
+R25018:25023 Corelib.ssr.ssrfun <> cancel def
+R25040:25051 vehicle.tensor <> nstack_tuple def
+R25025:25038 vehicle.tensor <> nunstack_tuple def
+R25080:25087 vehicle.tensor <> ntensorP thm
+R25102:25108 vehicle.tensor <> nstackE thm
+R25110:25121 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25080:25087 vehicle.tensor <> ntensorP thm
+R25102:25108 vehicle.tensor <> nstackE thm
+R25102:25108 vehicle.tensor <> nstackE thm
+R25110:25121 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25110:25121 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+prf 25136:25148 <> ostack_tupleK
+R25152:25157 Corelib.ssr.ssrfun <> cancel def
+R25172:25185 vehicle.tensor <> ounstack_tuple def
+R25159:25170 vehicle.tensor <> ostack_tuple def
+R25214:25225 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R25240:25251 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25253:25259 vehicle.tensor <> ostackE thm
+R25214:25225 mathcomp.ssreflect.tuple <> eq_from_tnth thm
+R25240:25251 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25240:25251 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25253:25259 vehicle.tensor <> ostackE thm
+R25253:25259 vehicle.tensor <> ostackE thm
+prf 25274:25288 <> ounstack_tupleK
+R25292:25297 Corelib.ssr.ssrfun <> cancel def
+R25314:25325 vehicle.tensor <> ostack_tuple def
+R25299:25312 vehicle.tensor <> ounstack_tuple def
+R25354:25361 vehicle.tensor <> otensorP thm
+R25376:25382 vehicle.tensor <> ostackE thm
+R25384:25395 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25354:25361 vehicle.tensor <> otensorP thm
+R25376:25382 vehicle.tensor <> ostackE thm
+R25376:25382 vehicle.tensor <> ostackE thm
+R25384:25395 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25384:25395 mathcomp.ssreflect.tuple <> tnth_mktuple thm
+R25408:25418 vehicle.tensor TensorTuple <> sec
+R25468:25479 vehicle.tensor <> nstack_tuple def
+R25481:25490 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25509:25509 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25492:25495 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R25499:25502 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25505:25505 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+not 25432:25432 <> :::'['_'tensor'_'^^'_x_';'_'..'_';'_x_']'
+R25559:25574 vehicle.tensor <> ntensor_of_tuple def
+R25576:25585 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25604:25604 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25587:25590 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R25594:25597 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25600:25600 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+not 25522:25522 <> :::'['_'tensor'_'^^='_x_';'_'..'_';'_x_']'
+R25653:25664 vehicle.tensor <> ostack_tuple def
+R25666:25675 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25694:25694 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25677:25680 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R25684:25687 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25690:25690 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+not 25617:25617 <> :::'['_'tensor'_'`_'_x_';'_'..'_';'_x_']'
+R25744:25759 vehicle.tensor <> otensor_of_tuple def
+R25761:25770 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25789:25789 mathcomp.ssreflect.tuple <> ::form_scope:'['_'tuple'_'of'_x_']' not
+R25772:25775 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R25779:25782 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25785:25785 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+not 25707:25707 <> :::'['_'tensor'_'`_='_x_';'_'..'_';'_x_']'
+sec 25803:25814 <> TensorMatrix
+var  25827:25827 TensorMatrix R
+var  25838:25838 TensorMatrix n
+var  25840:25840 TensorMatrix m
+R25844:25846 Corelib.Init.Datatypes <> nat ind
+def 25862:25877 <> tensor_of_matrix
+R25884:25887 mathcomp.algebra.matrix <> ::type_scope:'''M_'_'('_x_','_x_')' not
+R25889:25890 mathcomp.algebra.matrix <> ::type_scope:'''M_'_'('_x_','_x_')' not
+R25892:25892 mathcomp.algebra.matrix <> ::type_scope:'''M_'_'('_x_','_x_')' not
+binder 25880:25880 <> M:299
+R25897:25899 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R25901:25903 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R25913:25914 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R25924:25924 vehicle.tensor <> :::'''T['_x_']_'_'('_x_','_x_')' not
+R25900:25900 vehicle.tensor <> TensorMatrix.R var
+R25904:25907 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25912:25912 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25909:25911 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R25908:25908 vehicle.tensor <> TensorMatrix.n var
+R25915:25918 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25923:25923 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R25920:25922 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R25919:25919 vehicle.tensor <> TensorMatrix.m var
+R25931:25939 vehicle.tensor <> :::'\tensor'_'^^'_x_x not
+R25941:25941 vehicle.tensor <> :::'\tensor'_'^^'_x_x not
+binder 25940:25940 <> i:300
+binder 25940:25940 <> i:301
+R25942:25950 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+R25952:25955 vehicle.tensor <> :::'\tensor'_'`_'_x_'=>'_x not
+binder 25951:25951 <> j:302
+binder 25951:25951 <> j:303
+R25956:25956 vehicle.tensor <> M:299 var
+R25958:25958 vehicle.tensor <> i:300 var
+R25960:25960 vehicle.tensor <> j:302 var
+def 25975:25990 <> matrix_of_tensor
+binder 25992:25992 <> t:304
+R25996:25998 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R26000:26002 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R26007:26008 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R26013:26013 mathcomp.algebra.matrix <> ::type_scope:'''M['_x_']_'_'('_x_','_x_')' not
+R25999:25999 vehicle.tensor <> TensorMatrix.R var
+R26004:26006 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R26003:26003 vehicle.tensor <> TensorMatrix.n var
+R26010:26012 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R26009:26009 vehicle.tensor <> TensorMatrix.m var
+R26020:26028 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R26030:26031 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+R26033:26034 mathcomp.algebra.matrix <> ::ring_scope:'\matrix_'_'('_x_','_x_')'_x not
+binder 26029:26029 <> i:305
+binder 26032:26032 <> j:306
+R26039:26041 vehicle.tensor <> :::x_'`_='_x not
+R26036:26037 vehicle.tensor <> :::x_'^^'_x not
+R26035:26035 vehicle.tensor <> t:304 var
+R26038:26038 vehicle.tensor <> i:305 var
+R26042:26042 vehicle.tensor <> j:306 var
+prf 26052:26068 <> tensor_of_matrixK
+R26072:26077 Corelib.ssr.ssrfun <> cancel def
+R26096:26111 vehicle.tensor <> matrix_of_tensor def
+R26079:26094 vehicle.tensor <> tensor_of_matrix def
+R26140:26146 mathcomp.algebra.matrix <> matrixP thm
+R26163:26165 mathcomp.algebra.matrix <> mxE thm
+R26167:26173 vehicle.tensor <> nstackE thm
+R26175:26184 vehicle.tensor <> ostack_eqE thm
+R26140:26146 mathcomp.algebra.matrix <> matrixP thm
+R26163:26165 mathcomp.algebra.matrix <> mxE thm
+R26163:26165 mathcomp.algebra.matrix <> mxE thm
+R26167:26173 vehicle.tensor <> nstackE thm
+R26167:26173 vehicle.tensor <> nstackE thm
+R26175:26184 vehicle.tensor <> ostack_eqE thm
+R26175:26184 vehicle.tensor <> ostack_eqE thm
+prf 26199:26215 <> matrix_of_tensorK
+R26219:26224 Corelib.ssr.ssrfun <> cancel def
+R26243:26258 vehicle.tensor <> tensor_of_matrix def
+R26226:26241 vehicle.tensor <> matrix_of_tensor def
+R26284:26291 vehicle.tensor <> ntensorP thm
+R26304:26314 vehicle.tensor <> otensor_eqP thm
+R26284:26291 vehicle.tensor <> ntensorP thm
+R26304:26314 vehicle.tensor <> otensor_eqP thm
+R26332:26338 vehicle.tensor <> nstackE thm
+R26340:26349 vehicle.tensor <> ostack_eqE thm
+R26351:26353 mathcomp.algebra.matrix <> mxE thm
+R26332:26338 vehicle.tensor <> nstackE thm
+R26332:26338 vehicle.tensor <> nstackE thm
+R26340:26349 vehicle.tensor <> ostack_eqE thm
+R26340:26349 vehicle.tensor <> ostack_eqE thm
+R26351:26353 mathcomp.algebra.matrix <> mxE thm
+R26351:26353 mathcomp.algebra.matrix <> mxE thm
+R26366:26377 vehicle.tensor TensorMatrix <> sec
