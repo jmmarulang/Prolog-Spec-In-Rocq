@@ -197,7 +197,7 @@ rewrite -ltrBrDr
   (_ : maxSensorError + maxSensorError + maxSensorError = 3 * maxSensorError);
     last by lra.
 apply controller_lem=>//.
-by rewrite Heqx /next_onRoad.
+by rewrite Heqx.
 Qed.
 
 Lemma safe_imp_nextState_safe :

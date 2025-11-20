@@ -1,4 +1,5 @@
 WindControllerSpec.v
 SafetyProof.v
-prologExample.v
+CrashProblogExample.v
+InsideVariantProblogExample.v
 -R . Top

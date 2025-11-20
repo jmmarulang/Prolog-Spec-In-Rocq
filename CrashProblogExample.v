@@ -26,6 +26,7 @@ Require Import SafetyProof.
 Notation R := WindControllerSpec.R.
 Notation state := SafetyProof.state.
 
+Section car_crash.
 (*
 We model the probability of a car colliding with an obstacle on finalState os. 
 To calculate probabilities, we model Problog using dependent types
@@ -41,11 +42,13 @@ state(A,T,S) :- T > 0, TT is T-1, state(A,TT,clear), trans(A,TT,clear,S).
 state(A,T,S) :- T > 0, TT is T-1, state(A,TT,coli), trans(A,TT,coli,S).
 *)
 
+Context {R : realType}.
+
 (*
 Collision state of the car.
 The car is either safe or has collided
 *)
-  Inductive CState : Type := 
+Inductive CState : Type := 
 | safe: CState 
 | coll: CState.
 
@@ -53,6 +56,7 @@ The car is either safe or has collided
 Probability of the car there being a collision at the start.
 We set this probability to 0
 *)
+
 Inductive Start : CState -> R -> Prop := 
 | start_s : Start safe (1)%R
 | start_c : Start coll (0)%R.
@@ -158,5 +162,6 @@ Proof.
   all:by apply IH=> ? ?; apply /o_valid /in_cons.
 Qed.
 
+End car_crash.
 
     
